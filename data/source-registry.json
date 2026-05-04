@@ -1,0 +1,209 @@
+{
+  "updated_at": "2026-05-04",
+  "purpose": "Regular update checklist and archive of source URLs used in Çocuk İstismarı Takip public data. When a source is used for a public record, keep the exact URL, title, publisher, date, source type, and related data file here.",
+  "archive_policy": [
+    "Prefer stable article, report, official statement, court-process, or rights-organization URLs over category pages.",
+    "Do not publish unsupported allegations as fact; maintain attributed wording for investigation, indictment, and trial records.",
+    "Do not enrich records with non-public child identities, private addresses, school names, family details, or exact locations.",
+    "Use province or district centroids when exact public venue placement is unnecessary for accountability.",
+    "Keep aggregate official statistics as context only; do not map aggregate counts as incident dots."
+  ],
+  "regular_update_sources": [
+    {
+      "name": "TÜİK - Türkiye'deki Çocuklar 2024",
+      "url": "https://www.tuik.gov.tr/media/announcements/Turkiye_Cocuk_2024TR.pdf",
+      "cadence": "annual/reference",
+      "use_for": [
+        "national child statistics context",
+        "child protection and justice indicators",
+        "aggregate context panel"
+      ],
+      "source_type": "official"
+    },
+    {
+      "name": "Adalet Bakanlığı - Adalet İstatistikleri 2025",
+      "url": "https://adlisicil.adalet.gov.tr/Resimler/SayfaDokuman/202604060901356772025Adalet%C4%B0statistikleriKitab%C4%B1.pdf",
+      "cadence": "annual/reference",
+      "use_for": [
+        "judicial statistics context",
+        "TCK 103 and related justice process baselines",
+        "aggregate context panel"
+      ],
+      "source_type": "official"
+    },
+    {
+      "name": "Adli Destek ve Mağdur Hizmetleri",
+      "url": "https://magdur.adalet.gov.tr/",
+      "cadence": "manual review",
+      "use_for": [
+        "victim services context",
+        "child justice support context",
+        "official service links"
+      ],
+      "source_type": "official"
+    },
+    {
+      "name": "Bianet - Çocuk / çocuk istismarı reporting",
+      "url": "https://bianet.org/",
+      "cadence": "weekly",
+      "use_for": [
+        "case reporting",
+        "trial and appeal follow-up",
+        "rights-based context"
+      ],
+      "source_type": "news"
+    },
+    {
+      "name": "UCİM",
+      "url": "https://www.ucim.org.tr/",
+      "cadence": "manual review",
+      "use_for": [
+        "rights organization context",
+        "case leads requiring corroboration",
+        "child abuse prevention and legal follow-up context"
+      ],
+      "source_type": "rights_org"
+    }
+  ],
+  "used_sources_archive": [
+    {
+      "data_file": "data/incidents.json",
+      "sources": [
+        "https://bianet.org/haber/meclis-teki-cocuk-istismari-sorusturmasinda-istenen-cezalar-belli-oldu-314931",
+        "https://bianet.org/haber/meclis-te-cocuk-istismari-davasinda-serbest-birakilanlar-yeniden-tutuklandi-316746",
+        "https://bianet.org/haber/igdirdaki-istismar-davasinda-cezalara-gelecegini-etkiler-indirimi-318771",
+        "https://bianet.org/haber/istismar-sonucu-olen-sila-bebek-davasinda-karar-anneye-27-yil-9-ay-hapis-304357",
+        "https://bianet.org/haber/cedes-kapsaminda-gittigi-okulda-12-yasindaki-cocugu-istismar-eden-muftu-beraat-etti-307177",
+        "https://bianet.org/haber/cocuk-istismari-davasinda-beraat-karari-dosya-yargitayda-311303",
+        "https://bianet.org/haber/yargitay-hiranur-vakfi-ndaki-cocuk-istismari-davasinda-mahkumiyeti-usulden-bozdu-308617",
+        "https://bianet.org/haber/intihar-demeyin-demisti-istismar-edilen-anne-ve-kizi-olu-bulundu-317311",
+        "https://bianet.org/haber/devlet-fatmanur-celik-ve-kizi-icin-yukumluluklerini-yerine-getirmedi-317333",
+        "https://bianet.org/haber/fatmanur-celik-ve-hifa-ikra-paylasimlari-sonrasi-gulben-ergen-e-sorusturma-318364",
+        "https://www.aydindenge.com.tr/kosk/25/03/2026/aydinda-cocuk-istismari-suphelisi-2-kisi-tutuklandi",
+        "https://www.haberler.com/guncel/ciraklara-darbe-ve-istismar-kalfa-ve-usta-tutuklandi-19688604-haberi/",
+        "https://gazianteptime.com.tr/haber/27573631/gaziantepte-taciz-iddiasi-aileleri-tedirgin-eden-olay",
+        "https://www.olaymedya.com/asayis/17419222/gaziantep-mervesehirde-sapik-alarmi-mahalleli-ayakta-o-anlar-kamerada",
+        "https://www.cumhuriyet.com.tr/turkiye/sanliurfa-da-okul-onunde-cocuk-istismari-cocuklari-para-vererek-kandirdi-2485105",
+        "https://www.odatv.com/guncel/sanliurfa-birecikte-10-ttl-ve-meyve-suyu-ile-cocuklari-taciz-eden-sahis-tutuklandi-120138639",
+        "https://www.samsungazetesi.com/samsunda-14-yasindaki-kiz-cocuguna-tirda-taciz-iddiasi",
+        "https://www.ensonhaber.com/3-sayfa/samsunda-14-yasindaki-kiza-tirda-cinsel-istismar-iddiasi-zanliya-tutuklama",
+        "https://www.cumhuriyet.com.tr/turkiye/kan-donduran-istismar-iddialari-yargiya-tasindi-6-yasindan-12-yasina-kadar-istismar-edildim-2486542",
+        "https://www.haberler.com/guncel/kaybolan-cocuk-7-yil-sonra-bulundu-19657298-haberi/",
+        "https://www.haberturk.com/bursa-haberleri/117015874-turk-babanin-alman-sevgilisinden-kacirdigi-cocuk-7-yil-boyunca-tutuldugu-harabe-evde",
+        "https://ilketv.com.tr/mersinde-16-yasindaki-cocuga-istismar-3-supheli-ses-kayitlarina-ragmen-serbest-birakildi/",
+        "https://www.ensonhaber.com/ic-haber/izmirde-hastanede-stajyer-ogrenciye-taciz-iddiasi-savcilik-harekete-gecti",
+        "https://www.iscihaber.net/izmir/tire-devlet-hastanesinde-taciz-iddiasi-teknisyen-gozaltina-alindi/216602",
+        "https://www.cumhuriyet.com.tr/turkiye/bilecik-te-cocuk-istismari-sorusturmasi-1-i-cocuk-3-kisi-yakalandi-2490765",
+        "https://www.aksiyon.com.tr/bilecik-yenipazar-da-cocuk-istismari-sorusturmasinda-2-supheli-tutuklandi-259464",
+        "https://www.iha.com.tr/giresun-haberleri/chpli-gorele-eski-belediye-baskani-hasbi-dedenin-taciz-davasinda-karar-416067811",
+        "https://www.dha.com.tr/politika/gorele-belediye-baskani-dede-gorevden-uzaklastirildi-2817380",
+        "https://www.dha.com.tr/yerel-haberler/giresun/belediye-baskaninin-yargilandigi-taciz-davasini-2846402",
+        "https://www.sozcu.com.tr/belediye-baskani-tutuklanmisti-taciz-edilen-cocuk-hayatini-kaybetti-p305901",
+        "https://www.yenisafak.com/gundem/ayni-cemde-yeni-skandal-4793579",
+        "https://www.iscihaber.net/gundem/guzeltepe-cemde-yeni-skandal-magdur-cocuk-sayisi-5e-yukseldi/203431",
+        "https://www.damgagazetesi.com/genel/silivride-ilkokulda-korkunc-olay-o-ogretmen-tutuklandi/8644",
+        "https://www.supersilivri.com/ilkokulda-korkunc-olay",
+        "https://www.sozcu.com.tr/kizilay-jet-hiziyla-aciklama-yapti-sube-baskaninin-telefonundan-cocuk-pornosu-cikti-p291708",
+        "https://www.haberfokus.com/pedofili-davasinda-sevgilisinin-kizi-detayi-haber-1162429",
+        "https://www.tgrthaber.com/3-sayfa/telefonundan-9-yasindaki-cocuga-ait-mustehcen-fotograf-cikti-sucu-yapay-zekaya-atti-3295577",
+        "https://www.aa.com.tr/tr/gundem/istanbulda-cocuklara-yonelik-cinsel-istismar-iceriklerini-temin-eden-49-zanli-yakalandi/3820117",
+        "https://www.haberturk.com/cinsel-istismar-iceriklerini-temin-eden-51-zanli-tutuklandi-3859810",
+        "https://haberglobal.com/yasam/kocaelide-24-ogrenciye-istismar-iddiasi-ogretmen-tutuklandi-506914",
+        "https://www.istiklal.com.tr/genel/tam-24-kiz-ogrenci-bir-bir-anlatti-kocaeli-dilovasindaki-taciz-skandalinda-1083924h",
+        "https://www.cagdaskocaeli.com.tr/amp/haber/27483250/dilovasindaki-taciz-olayina-iliskin-kadin-platformundan-aciklama-zincirin-her-halkasi-hesap-vermeli",
+        "https://www.iha.com.tr/zonguldak-haberleri/zonguldakta-cocuk-mustehcenligi-operasyonunda-1-tutuklama-374938674",
+        "https://www.hursozgazetesi.com/zonguldakta-cocuk-mustehcenligi-operasyonunda-1-tutuklama",
+        "https://bianet.org/haber/sac-orme-videosu-paylasan-16-yasindaki-cocuk-tutuklandi-316406",
+        "https://bianet.org/haber/sac-orme-videosu-paylastigi-icin-tutuklanan-cocuga-ciplak-arama-316632",
+        "https://bianet.org/haber/cocuga-yapilan-ciplak-arama-meclis-gundeminde-316675",
+        "https://www.izgazete.net/izmirde-sac-orme-videosuyla-tutuklanan-cocuga-ciplak-arama-ve-siddet",
+        "https://www.izgazete.net/izmirde-sac-orme-videosuyla-tutuklanan-16-yasindaki-ak-tahliye-edildi",
+        "https://cdn.tbmm.gov.tr/TbmmWeb/Tutanak/28/4/65/Ham/eca52a5e-e00a-4f45-aaa5-fe3e21eb5a51.pdf",
+        "https://www.antalyakorfez.com/manavgatta-bir-baba-oz-kizini-istismar-etti",
+        "https://www.haberturk.com/hatay-haberleri/116703304-hatayda-annenin-oldugu-baba-kizin-agir-yaralandigi-silahli-saldirida-taciz-davasi-detayi",
+        "https://www.sozcu.com.tr/konteyner-kentteki-kanli-saldirinin-nedeni-oldu-p295816",
+        "https://www.yenisafak.com/gundem/husumetlisine-kursun-yagdirdi-4799650",
+        "https://www.aydindenge.com.tr/soke/22/02/2026/aydinda-igrenc-olay-oz-kizini-hamile-birakan-baba-tutuklandi",
+        "https://www.mansetaydin.com/haber/27509247/aydinda-igrenc-olay",
+        "https://kocaeligundem.com/haber/27522477/tacizci-abi-serbest-birakilinca-sinir-krizi-gecirdi-magdur-i-n-c-adalet-istiyor",
+        "https://www.ensonhaber.com/kayseride-uvey-babanin-cocuga-siddeti-kamerada-h1514697",
+        "https://halktv.com.tr/gundem/kayseride-uvey-baba-dehsetinde-anne-ilk-kez-konustu-1011758h",
+        "https://www.haberturk.com/son-dakika-uvey-baba-siddetinde-anne-konustu-oglumun-sirti-simsiyahti-3865648",
+        "https://haber.sol.org.tr/haber/mesem-karanligi-isyerinde-tacize-ugramisti-cocuga-yapilanlari-ortbas-etmeye-calistilar-406920",
+        "https://ekmekvegul.net/gundem/mesemde-istismar-soru-onergesine-sozlesme-feshedildi-yaniti-emepli-sevda-karaca-bir-cocugun-hayati-pahasina-kurumlari-aklama-cabasi",
+        "https://www.iha.com.tr/bursa-haberleri/bursada-taciz-iddiasi-ortaligi-karistirdi-supheli-linc-edilmekten-son-anda-kurtarildi-385645607",
+        "https://www.haberler.com/yerel/yalova-da-baba-ve-14-aylik-kizi-darp-edildi-sorusturma-baslatildi-19592897-haberi/",
+        "https://www.haberturk.com/yalova-haberleri/116737471-ikra-bebegin-darbedildigi-iddia-edilen-kavganin-guvenlik-kamerasi-goruntuleri-ortaya-cikti",
+        "https://www.ekonomim.com/gundem/ikra-bebekle-babasinin-dovulmesiyle-ilgili-iddianame-hazirlandi-cocuk-skuteri-silah-sayildi-haberi-878568",
+        "https://www.haberturk.com/video/haber/izle/uskudarda-16-yasindaki-calisanini-darbeden-isletme-muduru-gozaltina-alindi/902179",
+        "https://www.gercekizmir.com/haber/16-yasinda-calisana-pastanede-iskence/187377",
+        "https://www.dha.com.tr/gundem/birini-bicaklamam-lazim-diyerek-evden-cikip-16-yasindaki-kiz-cocugunu-bicakladi-2816879",
+        "https://www.haberturk.com/annesini-kizini-ve-esini-oldurup-kendi-canina-kiydi-3860511",
+        "https://www.iha.com.tr/ankara-haberleri/ankarada-cinnet-geciren-koca-esini-kizini-ve-annesini-oldurdu-olaya-tanik-komsu-korku-dolu-anlari-anlatti-once-annesi-ile-cocugunu-arabada-vurmus-376361556",
+        "https://www.sozcu.com.tr/annesini-kizini-ve-esini-oldurup-intihar-etmisti-cezaevinden-11-gunlugune-izinli-cikmis-p292774",
+        "https://www.iha.com.tr/hatay-haberleri/hatayda-su-dolu-temelin-icine-dusen-2-kardes-cocuk-hayatini-kaybetti-376592525",
+        "https://www.haberturk.com/hatay-haberleri/40515106-hatayda-su-dolan-insaat-temeline-dusen-2-kardes-boguldu",
+        "https://www.haberturk.com/hatay-da-su-dolu-insaat-temeline-dusen-2-kardes-oldu-3860826",
+        "https://haber.sol.org.tr/haber/hatayda-bir-hafta-icinde-uc-cocuk-su-dolu-insaat-cukurunda-can-verdi-406495",
+        "https://www.haberturk.com/son-dakika-tekirdag-da-okulun-4-uncu-katindan-dusen-8-inci-sinif-ogrencisi-hayatini-kaybetti-3861016",
+        "https://www.birgun.net/haber/tekirdag-da-okulun-4-katindan-dusen-ogrenci-hayatini-kaybetti-692145",
+        "https://www.cerkezkoybakis.com/haber/27435606/yuksekten-dusen-kiz-ogrenci-hayatini-kaybetti",
+        "https://www.kapakligazetesi.com.tr/dorduncu-kattan-dusen-ogrenci-hayatini-kaybetti",
+        "https://www.tigrishaber.com/mardinde-3-yasindaki-cocuk-balkondan-dustu-146797h.htm",
+        "https://www.birgun.net/haber/mardin-de-ucuncu-kattan-dusen-cocuk-hayatini-kaybetti-692200",
+        "https://www.nefes.com.tr/yurek-yakan-olay-3-yasindaki-cocuk-balkondan-duserek-hayatini-kaybetti-103419",
+        "https://www.bolgegazetesivan.com/aci-olay-hakkarili-16-yasindaki-genc-kiz-balkondan-duserek-hayatini-kaybetti",
+        "https://www.hakkariilsesigazetesi.com/hakkarili-genc-kiz-balkondan-duserek-hayatini-kaybetti",
+        "https://hakkarianalizhaber.com/2026/02/12/hakkarili-genc-kiz-balkondan-duserek-hayatini-kaybetti/",
+        "https://www.iha.com.tr/hatay-haberleri/yagisli-havayla-birlikte-su-dolan-cukura-dusen-10-yasindaki-cocuk-hayatini-kaybetti-378762859",
+        "https://www.nefes.com.tr/oyun-oynarken-facia-su-dolan-cukura-dusen-10-yasindaki-cocuk-hayatini-kaybetti-103959",
+        "https://www.yenicaggazetesi.com/hatayda-aci-olay-su-dolu-cukura-dusen-10-yasindaki-cocuk-hayatini-kaybetti-1001269h.htm",
+        "https://www.haberturk.com/bolu-haberleri/116623549-boluda-lise-ogrencisi-evinde-olu-bulundu",
+        "https://www.cumhuriyet.com.tr/turkiye/16-yasindaki-lise-ogrencisi-evinde-olu-bulundu-2479177",
+        "https://www.yenicaggazetesi.com/boluda-16-yasindaki-lise-ogrencisi-evde-olu-bulundu-1001475h.htm",
+        "https://www.aksutvhaber.net/onikisubatta-17-yasindaki-genc-evde-olu-bulundu",
+        "https://www.yesilafsin.com/17-yasindaki-genc-evinde-olu-bulundu",
+        "https://www.marasbugun.com.tr/kahramanmarasta-17-yasindaki-genc-evinde-olu-bulundu",
+        "https://www.kahramantv.com/kahramanmarasta-17-yasindaki-genc-evinde-olu-bulundu",
+        "https://www.dha.com.tr/foto-galeri/hurda-otobusteki-yangin-kamerada-abdullah-oldu-3-gozalti-2820067",
+        "https://www.haberturk.com/son-dakika-hurda-otobuste-yangin-16-yasindaki-cocuk-hayatini-kaybetti-3862228",
+        "https://www.cumhuriyet.com.tr/turkiye/izmir-de-hurda-otobus-alev-alev-yandi-1-cocuk-oldu-3-cocuk-gozaltina-alindi-2479335",
+        "https://www.haber61.net/trabzon/trabzonda-sok-eden-haber-13-yasinda-canina-kiydi-h624403.html",
+        "https://www.yeniasir.com.tr/yasam/2026/02/17/trabzonda-supheli-olum-eymeni-sanal-oyun-mu-oldurdu",
+        "https://www.cumhuriyet.com.tr/turkiye/13-yasindaki-cocuk-odasina-olu-bulundu-dikkat-ceken-sanal-oyun-ayrintisi-2479585",
+        "https://www.hedefhalk.com/trabzon-da-sanal-oyun-iddiasi-13-yasindaki-eymen-olu-bulundu/1811174/",
+        "https://www.urfanatik.com/ramazanin-ilk-gununde-eyyubiye-osmanli-mesire-alaninda-feci-olay",
+        "https://www.urfasesver.com/haber/27493703/sanliurfada-17-yasindaki-genc-osmanli-mesire-alaninda-olu-bulundu",
+        "https://www.urfastar.com/urfada-aci-olay",
+        "https://www.dha.com.tr/gundem/okulda-rahatsizlanan-11-yasindaki-oyku-hayatini-kaybetti-2823271",
+        "https://www.iscihaber.net/mugla/muglada-okulda-fenelasan-11-yasindaki-oyku-hayatini-kaybetti/208335",
+        "https://www.gazeteilksayfa.com/11-yasindaki-cocuk-okulda-fenalasarak-hayatini-kaybetti-298979h.htm",
+        "https://www.dha.com.tr/gundem/15-yasindaki-amine-silahla-vurulmus-halde-bulundu-2825791",
+        "https://www.diyarbakirolay.com.tr/haber/diyarbakir-da-15-yasindaki-genc-kiz-evinde-olu-bulundu-187180.html",
+        "https://www.cumhuriyet.com.tr/turkiye/aydin-da-feci-olay-15-yasindaki-cocuk-olu-bulundu-2481805",
+        "https://www.tgrthaber.com/3-sayfa/aydinda-aci-olay-15-yasindaki-cocuk-odasinda-asili-bulundu-3284424",
+        "https://www.haberler.com/3-sayfa/15-yasindaki-cocuk-ailesi-tarafindan-olu-bulundu-19598903-haberi/",
+        "https://www.haberturk.com/manisada-17-yildir-kayip-olan-ebrunun-olduruldugu-ortaya-cikti-ablasi-eski-enistesi-ve-2-supheli-gozaltinda-3864606",
+        "https://www.birgun.net/haber/2009-da-kaybolan-ebru-nun-olduruldugu-ortaya-cikti-ablasi-ve-eski-enistesi-tutuklandi-696097",
+        "https://www.sondakika.com/guncel/haber-kayip-ebru-koyuncu-nun-cinayeti-ortaya-cikti-19603178/",
+        "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+        "https://bianet.org/haber/erkek-siddeti-mart-2026-318425"
+      ]
+    },
+    {
+      "data_file": "data/research-progress.json",
+      "sources": [
+        "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+        "https://bianet.org/haber/erkek-siddeti-mart-2026-318425"
+      ]
+    },
+    {
+      "data_file": "index.html context panel",
+      "sources": [
+        "https://www.tuik.gov.tr/media/announcements/Turkiye_Cocuk_2024TR.pdf",
+        "https://adlisicil.adalet.gov.tr/Resimler/SayfaDokuman/202604060901356772025Adalet%C4%B0statistikleriKitab%C4%B1.pdf",
+        "https://magdur.adalet.gov.tr/"
+      ]
+    }
+  ]
+}

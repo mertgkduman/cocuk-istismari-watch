@@ -1,0 +1,3486 @@
+{
+  "updated_at": "2026-05-04",
+  "description": "Reviewed starter records for Çocuk İstismarı Takip. Public records must keep at least one stable public source URL and avoid adding non-public child-identifying details.",
+  "records": [
+    {
+      "id": "tbmm-mesem-cocuk-istismari-davasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "trial",
+      "title": "TBMM lokantasında stajyer çocuklara istismar iddiası davası",
+      "summary": "Bianet'in aktardığına göre, MESEM kapsamında TBMM lokantasında staj yapan liseli öğrencilerin bazı personel tarafından istismar ve tacize uğradığı iddiasıyla beş sanıklı dava sürüyor. 9 Şubat 2026'daki ikinci duruşma sonrası tahliye edilen dört sanıktan üçü yeniden tutuklandı; bir sanık hakkında yakalama çalışması başlatıldığı bildirildi.",
+      "institution": "TBMM lokantası / MESEM stajı",
+      "legal_status": "Dava sürüyor; yeniden tutuklama ve firari sanık hakkında yakalama kararı bildirildi.",
+      "affected_child_count": null,
+      "reported_date": "2025-12-25",
+      "indictment_date": "2025-12-25",
+      "trial_date": "2026-02-09",
+      "last_verified_at": "2026-02-16",
+      "locations": [
+        {
+          "id": "tbmm-ankara",
+          "label": "TBMM / Ankara",
+          "province_key": "ANKARA",
+          "province": "Ankara",
+          "district": "Çankaya",
+          "lat": 39.92,
+          "lng": 32.85,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak TBMM ve Ankara bağlamını verir; mahremiyet ve güvenlik için il merkezi kullanıldı."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-11-20",
+          "status": "investigation",
+          "note": "Bianet'e göre idari soruşturma başlatıldı ve dört Meclis çalışanı tutuklandı."
+        },
+        {
+          "date": "2025-12-25",
+          "status": "indictment",
+          "note": "Bianet, iddianamenin kabul edildiğini ve beş sanık için hapis cezası talep edildiğini aktardı."
+        },
+        {
+          "date": "2026-02-16",
+          "status": "trial",
+          "note": "Tahliye edilen sanıklar hakkında yeniden tutuklama kararı ve bir firari sanık bilgisi kamuya yansıdı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Meclis'teki çocuk istismarı soruşturmasında istenen cezalar belli oldu",
+          "url": "https://bianet.org/haber/meclis-teki-cocuk-istismari-sorusturmasinda-istenen-cezalar-belli-oldu-314931",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2025-12-25"
+        },
+        {
+          "title": "Meclis'te çocuk istismarı davasında serbest bırakılanlar yeniden tutuklandı",
+          "url": "https://bianet.org/haber/meclis-te-cocuk-istismari-davasinda-serbest-birakilanlar-yeniden-tutuklandi-316746",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-02-16"
+        }
+      ]
+    },
+    {
+      "id": "igdir-cocuk-istismari-mahkumiyet-indirim-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "conviction",
+      "title": "Iğdır'da çocuk istismarı davasında mahkûmiyet ve indirim kararı",
+      "summary": "Bianet, Iğdır'da 14 yaşındaki bir çocuğun maruz kaldığı istismara ilişkin davada altı sanık hakkında karar verildiğini; sanıklara nitelikli cinsel istismar suçundan cezalar verildiğini ve çeşitli indirimler uygulandığını aktardı.",
+      "institution": "",
+      "legal_status": "Mahkûmiyet kararı ve indirimler bildirildi; dosyanın önceki aşamalarda istinafa taşındığı aktarıldı.",
+      "affected_child_count": 1,
+      "reported_date": "2026-04-16",
+      "event_date": "2023",
+      "decision_date": "2026-04-16",
+      "last_verified_at": "2026-04-16",
+      "locations": [
+        {
+          "id": "igdir-province",
+          "label": "Iğdır",
+          "province_key": "IGDIR",
+          "province": "Iğdır",
+          "district": "",
+          "lat": 39.89,
+          "lng": 44.05,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak il düzeyinde Iğdır'ı belirtir; özel konum eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2023",
+          "status": "investigation",
+          "note": "Kaynağa göre süreç çocuğun Iğdır Emniyet Müdürlüğü'ne yaptığı suç duyurusuyla başladı."
+        },
+        {
+          "date": "2024-02-21",
+          "status": "trial",
+          "note": "Sanıkların tahliye edildiği, itiraz üzerine yeniden tutuklandıkları aktarıldı."
+        },
+        {
+          "date": "2026-04-16",
+          "status": "conviction",
+          "note": "Mahkeme kararı ve ceza indirimleri kamuya yansıdı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iğdır'daki istismar davasında cezalara \"geleceğini etkiler\" indirimi",
+          "url": "https://bianet.org/haber/igdirdaki-istismar-davasinda-cezalara-gelecegini-etkiler-indirimi-318771",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-16"
+        }
+      ]
+    },
+    {
+      "id": "sila-bebek-tekirdag-istismar-davasi-karar-2025",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "conviction",
+      "title": "Tekirdağ'da Sıla bebek davasında mahkûmiyet kararları",
+      "summary": "Bianet'in haberine göre, Tekirdağ'da cinsel istismara uğraması ve darbedilmesi sonrası hayatını kaybeden Sıla bebeğe ilişkin davada anne Bakiye Yeniçeri ve suça sürüklenen çocuklar hakkında hapis cezaları verildi; bazı sanıklar beraat etti.",
+      "institution": "",
+      "legal_status": "Tekirdağ 2. Ağır Ceza Mahkemesi kararında mahkûmiyet ve beraat kararları bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2025-02-07",
+      "event_date": "2024-09-08",
+      "decision_date": "2025-02-07",
+      "last_verified_at": "2025-02-07",
+      "locations": [
+        {
+          "id": "tekirdag-malkara",
+          "label": "Malkara / Tekirdağ",
+          "province_key": "TEKIRDAG",
+          "province": "Tekirdağ",
+          "district": "Malkara",
+          "lat": 40.98,
+          "lng": 27.51,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak Malkara/Tekirdağ bağlamını verir; özel adres veya hastane dışı ayrıntı eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2024-09-08",
+          "status": "investigation",
+          "note": "Kaynağa göre çocuk hastaneye götürüldü ve cinsel istismar şüphesiyle polise bilgi verildi."
+        },
+        {
+          "date": "2024-10-07",
+          "status": "reported",
+          "note": "Bianet'e göre çocuk tedavi altında tutulduğu hastanede hayatını kaybetti."
+        },
+        {
+          "date": "2025-02-07",
+          "status": "conviction",
+          "note": "Mahkeme kararında hapis cezaları ve beraat kararları açıklandı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "İstismar sonucu ölen Sıla bebek davasında karar: Anneye 27 yıl 9 ay hapis",
+          "url": "https://bianet.org/haber/istismar-sonucu-olen-sila-bebek-davasinda-karar-anneye-27-yil-9-ay-hapis-304357",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2025-02-07"
+        }
+      ]
+    },
+    {
+      "id": "akccakale-cedes-muftu-beraat-2025",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "acquittal",
+      "title": "Akçakale'de ÇEDES kapsamında çocuk istismarı davasında beraat",
+      "summary": "Bianet, ÇEDES kapsamında gittiği okulda 12 yaşındaki bir öğrenciyi istismar ettiği iddia edilen Akçakale eski müftüsü H.B. hakkında beraat kararı verildiğini ve müşteki avukatının kararı istinafa taşıyacağını aktardı.",
+      "institution": "ÇEDES / okul ziyareti bağlamı",
+      "legal_status": "Urfa 10. Ağır Ceza Mahkemesi'nde beraat kararı bildirildi; istinafa taşıma beyanı aktarıldı.",
+      "affected_child_count": 1,
+      "reported_date": "2025-05-06",
+      "decision_date": "2025-05-06",
+      "last_verified_at": "2025-05-06",
+      "locations": [
+        {
+          "id": "akcakale-sanliurfa",
+          "label": "Akçakale / Şanlıurfa",
+          "province_key": "SANLIURFA",
+          "province": "Şanlıurfa",
+          "district": "Akçakale",
+          "lat": 37.16,
+          "lng": 38.79,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak Akçakale/Urfa bağlamını verir; okul veya özel konum eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-05-06",
+          "status": "acquittal",
+          "note": "Beraat kararı ve istinaf beyanı kamuya yansıdı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "ÇEDES kapsamında gittiği okulda 12 yaşındaki çocuğu istismar eden müftü beraat etti",
+          "url": "https://bianet.org/haber/cedes-kapsaminda-gittigi-okulda-12-yasindaki-cocugu-istismar-eden-muftu-beraat-etti-307177",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2025-05-06"
+        }
+      ]
+    },
+    {
+      "id": "istanbul-amca-istismar-beraat-yargitay-2025",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "acquittal",
+      "title": "İstanbul'da çocuk istismarı davasında beraat; dosya Yargıtay'da",
+      "summary": "Bianet, İstanbul'da iki kız çocuğuna ilişkin davada sanık amca hakkında beraat kararı verildiğini, istinafın kararı onadığını ve dosyanın Yargıtay aşamasında olduğunu aktardı. Haber çocukların yaşadığı yer ve isimlerin özellikle kullanılmadığını belirtiyor.",
+      "institution": "",
+      "legal_status": "Yerel mahkeme beraat kararı ve istinaf onaması bildirildi; dosyanın Yargıtay'da olduğu aktarıldı.",
+      "affected_child_count": 2,
+      "reported_date": "2025-09-09",
+      "decision_date": "2025-09-09",
+      "last_verified_at": "2025-10-28",
+      "locations": [
+        {
+          "id": "istanbul-province-privacy",
+          "label": "İstanbul",
+          "province_key": "ISTANBUL",
+          "province": "İstanbul",
+          "district": "",
+          "lat": 41.01,
+          "lng": 28.98,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak çocukların yaşadığı yer ve isimleri özellikle kullanmadığını belirtir; il merkezi dışında konum eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-09-09",
+          "status": "acquittal",
+          "note": "Beraat kararı ve istinaf onaması kamuya yansıdı."
+        },
+        {
+          "date": "2025-10-28",
+          "status": "trial",
+          "note": "Son güncellemede dosyanın Yargıtay'da olduğu aktarıldı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Çocuk istismarı davasında beraat kararı: Dosya Yargıtay'da",
+          "url": "https://bianet.org/haber/cocuk-istismari-davasinda-beraat-karari-dosya-yargitayda-311303",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2025-09-09"
+        }
+      ]
+    },
+    {
+      "id": "hiranur-vakfi-cocuk-istismari-yargitay-bozma-2025",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "trial",
+      "title": "Hiranur Vakfı dosyasında Yargıtay'ın usulden bozma kararı",
+      "summary": "Bianet'in haberine göre, Yargıtay 9. Ceza Dairesi Hiranur Vakfı bağlantılı çocuk istismarı dosyasında verilen mahkûmiyet kararlarını usul yönünden bozdu ve dosyanın İstanbul Bölge Adliye Mahkemesi'ne iletileceğini aktardı.",
+      "institution": "Hiranur Vakfı bağlantılı dosya",
+      "legal_status": "Yargıtay usulden bozma kararı sonrası dosyanın bölge adliye mahkemesine iletileceği bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2025-06-20",
+      "decision_date": "2025-06-20",
+      "last_verified_at": "2025-06-20",
+      "locations": [
+        {
+          "id": "hiranur-istanbul",
+          "label": "İstanbul",
+          "province_key": "ISTANBUL",
+          "province": "İstanbul",
+          "district": "",
+          "lat": 41.01,
+          "lng": 28.98,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak İstanbul yargı bağlamını verir; özel adres eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2023-11-10",
+          "status": "conviction",
+          "note": "Önceki mahkûmiyet kararlarına ilişkin gerekçeli karar kamuya yansımıştı."
+        },
+        {
+          "date": "2025-06-20",
+          "status": "trial",
+          "note": "Yargıtay'ın usulden bozma kararı sonrası dosyanın yeniden değerlendirmeye gideceği aktarıldı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yargıtay, Hiranur Vakfı'ndaki çocuk istismarı davasında mahkûmiyeti usulden bozdu",
+          "url": "https://bianet.org/haber/yargitay-hiranur-vakfi-ndaki-cocuk-istismari-davasinda-mahkumiyeti-usulden-bozdu-308617",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2025-06-20"
+        }
+      ]
+    },
+    {
+      "id": "fatmanur-celik-hifa-ikra-koruma-ihlalleri-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "trial",
+      "title": "Fatmanur Çelik ve Hifa İkra dosyasında koruma ihlalleri",
+      "summary": "Bianet'in aktardığına göre, çocuk yaştayken Kuran'a Hizmet Vakfı yöneticisi A.Ş. tarafından istismar edilen ve faille evlendirilen Fatmanur Çelik ile aynı failin yıllarca istismar ettiği sekiz yaşındaki kızı Hifa İkra Şengüler, Mart 2026'da ölü bulundu. İstanbul Barosu Çocuk Hakları Merkezi, süreç boyunca sistematik ihlaller yaşandığını ve koruma mekanizmalarının etkili çalışmadığını açıkladı.",
+      "institution": "Kuran'a Hizmet Vakfı bağlantılı dosya / çocuk koruma mekanizmaları",
+      "legal_status": "Kaynaklar, failin tutuksuz yargılandığı istismar davası ve ölüm sonrası soruşturma/kamu açıklamaları bağlamını aktarıyor.",
+      "affected_child_count": 2,
+      "reported_date": "2026-03-03",
+      "event_date": "2026-03-02",
+      "last_verified_at": "2026-04-05",
+      "locations": [
+        {
+          "id": "fatmanur-hifa-istanbul",
+          "label": "İstanbul",
+          "province_key": "ISTANBUL",
+          "province": "İstanbul",
+          "district": "",
+          "lat": 41.01,
+          "lng": 28.98,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar İstanbul/Zeytinburnu bağlamını verir; istismar ve koruma süreci için özel adres veya okul bilgisi eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-03",
+          "status": "reported",
+          "note": "Bianet, anne ve kızının cansız bedenlerinin bulunduğunu ve önceki istismar davası bağlamını aktardı."
+        },
+        {
+          "date": "2026-03-04",
+          "status": "trial",
+          "note": "İstanbul Barosu Çocuk Hakları Merkezi, süreci takip ettiklerini, yargılamalara katıldıklarını ve sistematik ihlaller yaşandığını açıkladı."
+        },
+        {
+          "date": "2026-04-05",
+          "status": "investigation",
+          "note": "Bianet, Fatmanur Çelik ve Hifa İkra paylaşımları nedeniyle ayrı bir soruşturma başlatıldığını ve olayın kamu gündemindeki takibini aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "\"İntihar demeyin\" demişti: İstismar edilen anne ve kızı ölü bulundu",
+          "url": "https://bianet.org/haber/intihar-demeyin-demisti-istismar-edilen-anne-ve-kizi-olu-bulundu-317311",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-03"
+        },
+        {
+          "title": "\"Devlet, Fatmanur Çelik ve kızı için yükümlülüklerini yerine getirmedi\"",
+          "url": "https://bianet.org/haber/devlet-fatmanur-celik-ve-kizi-icin-yukumluluklerini-yerine-getirmedi-317333",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-04"
+        },
+        {
+          "title": "Fatmanur Çelik ve Hifa İkra paylaşımları sonrası Gülben Ergen'e soruşturma",
+          "url": "https://bianet.org/haber/fatmanur-celik-ve-hifa-ikra-paylasimlari-sonrasi-gulben-ergen-e-sorusturma-318364",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-05"
+        }
+      ]
+    },
+    {
+      "id": "aydin-kosk-cirak-cocuk-istismari-sorusturmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Aydın/Köşk'te iş yerindeki iki çocuk için istismar soruşturması",
+      "summary": "Aydın Denge ve AA kaynaklı Haberler haberlerine göre, Aydın'ın Köşk ilçesinde bir iş yerinde çalışan iki çocuğun darp ve cinsel istismara maruz bırakıldıklarını ailelerine anlatması üzerine soruşturma başlatıldı. Haberlerde iki şüphelinin gözaltına alındığı, adliyeye sevk edildiği ve sulh ceza hakimliğince tutuklandığı aktarıldı.",
+      "institution": "İş yeri / çıraklık bağlamı",
+      "legal_status": "Soruşturma sürüyor; iki şüphelinin 'çocuğun cinsel istismarı' suçlamasıyla tutuklandığı bildirildi.",
+      "affected_child_count": 2,
+      "reported_date": "2026-03-25",
+      "last_verified_at": "2026-03-25",
+      "locations": [
+        {
+          "id": "aydin-kosk-workplace",
+          "label": "Köşk / Aydın",
+          "province_key": "AYDIN",
+          "province": "Aydın",
+          "district": "Köşk",
+          "lat": 37.84,
+          "lng": 28,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Köşk ilçesi ve iş yeri bağlamını verir; mahalle, iş yeri adı veya özel adres eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-25",
+          "status": "investigation",
+          "note": "Kaynaklara göre ailelerin bildirimi üzerine Köşk İlçe Emniyet Amirliği soruşturma başlattı."
+        },
+        {
+          "date": "2026-03-25",
+          "status": "investigation",
+          "note": "İki şüphelinin emniyet işlemlerinden sonra adliyeye sevk edilip tutuklandığı kamuya yansıdı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Aydın'da çocuk istismarı şüphelisi 2 kişi tutuklandı",
+          "url": "https://www.aydindenge.com.tr/kosk/25/03/2026/aydinda-cocuk-istismari-suphelisi-2-kisi-tutuklandi",
+          "publisher": "Aydın Denge",
+          "type": "news",
+          "published_at": "2026-03-25"
+        },
+        {
+          "title": "Aydın'da 2 çırağı darbeden kalfa ve usta tutuklandı",
+          "url": "https://www.haberler.com/guncel/ciraklara-darbe-ve-istismar-kalfa-ve-usta-tutuklandi-19688604-haberi/",
+          "publisher": "Haberler / AA",
+          "type": "news",
+          "published_at": "2026-03-25"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "gaziantep-sehitkamil-cocuk-taciz-iddiasi-inceleme-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Gaziantep/Şehitkamil'de kız çocuğuna yönelik taciz iddiası",
+      "summary": "Gaziantep Time ve Olay Medya haberlerine göre, Gaziantep'in Şehitkamil ilçesinde sokakta yürüyen bir kız çocuğunun takip edilerek rahatsız edildiği ve olayın güvenlik kameralarına yansıdığı iddia edildi. Gaziantep Time, güvenlik birimlerinin olayla ilgili inceleme başlattığını ve kamera görüntülerinin değerlendirildiğinin öğrenildiğini aktardı.",
+      "institution": "",
+      "legal_status": "Güvenlik birimlerinin inceleme başlattığı bildirildi; şüpheli veya karar bilgisi kaynaklarda netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-03-05",
+      "event_date": "2026-03-04",
+      "last_verified_at": "2026-03-05",
+      "locations": [
+        {
+          "id": "gaziantep-sehitkamil-public-space",
+          "label": "Şehitkamil / Gaziantep",
+          "province_key": "GAZIANTEP",
+          "province": "Gaziantep",
+          "district": "Şehitkamil",
+          "lat": 37.06,
+          "lng": 37.38,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Şehitkamil ilçesi bağlamını verir; mahalle, sokak veya kamera konumu eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-04",
+          "status": "reported",
+          "note": "Yerel kaynaklar, kız çocuğuna yönelik taciz girişimi iddiasının güvenlik kameralarına yansıdığını aktardı."
+        },
+        {
+          "date": "2026-03-05",
+          "status": "investigation",
+          "note": "Gaziantep Time, güvenlik birimlerinin inceleme başlattığını ve kamera görüntülerinin değerlendirildiğini yazdı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Gaziantep'te taciz iddiası: Aileleri tedirgin eden olay",
+          "url": "https://gazianteptime.com.tr/haber/27573631/gaziantepte-taciz-iddiasi-aileleri-tedirgin-eden-olay",
+          "publisher": "Gaziantep Time",
+          "type": "news",
+          "published_at": "2026-03-05"
+        },
+        {
+          "title": "Gaziantep Merveşehir'de taciz iddiası: Güvenlik kamerası görüntüleri ortaya çıktı",
+          "url": "https://www.olaymedya.com/asayis/17419222/gaziantep-mervesehirde-sapik-alarmi-mahalleli-ayakta-o-anlar-kamerada",
+          "publisher": "Olay Medya",
+          "type": "news",
+          "published_at": "2026-03-04"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "sanliurfa-birecik-okul-onu-cocuk-istismari-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Şanlıurfa/Birecik'te okul önü çocuk istismarı iddiasında tutuklama",
+      "summary": "Cumhuriyet ve Odatv/İHA haberlerine göre, Şanlıurfa'nın Birecik ilçesinde bir ilkokul önünde çocukların para ve içecekle kandırılarak taciz edildiği iddiası üzerine polis soruşturma başlattı. Haberlerde, güvenlik kamerası görüntüleri sonrasında yakalanan şüphelinin adliyeye sevk edildiği ve sulh ceza hakimliğince tutuklandığı aktarıldı.",
+      "institution": "Okul çevresi / kamusal alan",
+      "legal_status": "Şüphelinin tutuklandığı bildirildi; soruşturma aşaması sürüyor.",
+      "affected_child_count": null,
+      "reported_date": "2026-03-08",
+      "last_verified_at": "2026-03-08",
+      "locations": [
+        {
+          "id": "sanliurfa-birecik-school-perimeter",
+          "label": "Birecik / Şanlıurfa",
+          "province_key": "SANLIURFA",
+          "province": "Şanlıurfa",
+          "district": "Birecik",
+          "lat": 37.03,
+          "lng": 37.98,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Birecik ilçesi ve okul çevresi bağlamını verir; okul adı, mahalle veya kamera konumu haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-08",
+          "status": "investigation",
+          "note": "Kaynaklara göre güvenlik kamerası görüntüleri sonrasında polis ekipleri şüpheliyi yakaladı."
+        },
+        {
+          "date": "2026-03-08",
+          "status": "investigation",
+          "note": "Şüphelinin emniyet işlemlerinden sonra adliyeye sevk edilip tutuklandığı bildirildi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Şanlıurfa'da okul önünde çocuk istismarı: Çocukları para vererek kandırdı!",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/sanliurfa-da-okul-onunde-cocuk-istismari-cocuklari-para-vererek-kandirdi-2485105",
+          "publisher": "Cumhuriyet",
+          "type": "news",
+          "published_at": "2026-03-08"
+        },
+        {
+          "title": "Çocukları parayla kandırıp taciz eden şüpheli tutuklandı",
+          "url": "https://www.odatv.com/guncel/sanliurfa-birecikte-10-ttl-ve-meyve-suyu-ile-cocuklari-taciz-eden-sahis-tutuklandi-120138639",
+          "publisher": "Odatv / İHA",
+          "type": "news",
+          "published_at": "2026-03-08"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "samsun-ilkadim-tir-cocuk-istismari-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Samsun/İlkadım'da tır içinde çocuk istismarı iddiasında tutuklama",
+      "summary": "Samsun Gazetesi ve Ensonhaber/İHA haberlerine göre, Samsun'un İlkadım ilçesinde 14 yaşındaki bir kız çocuğunun tır yolculuğu sırasında cinsel istismara uğradığını ailesine anlatması üzerine polis soruşturma başlattı. Haberlerde şüphelinin gözaltına alındığı, suçlamaları reddettiği ve nöbetçi mahkemece tutuklanarak cezaevine gönderildiği aktarıldı.",
+      "institution": "",
+      "legal_status": "Şüphelinin 'çocuğun cinsel istismarı' suçlamasıyla tutuklandığı bildirildi; soruşturma/yargı sürecinin sonraki aşaması kaynaklarda netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-03-10",
+      "last_verified_at": "2026-03-10",
+      "locations": [
+        {
+          "id": "samsun-ilkadim-truck-case",
+          "label": "İlkadım / Samsun",
+          "province_key": "SAMSUN",
+          "province": "Samsun",
+          "district": "İlkadım",
+          "lat": 41.29,
+          "lng": 36.33,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar İlkadım ilçesi ve tır yolculuğu bağlamını verir; mahalle, araç veya özel konum bilgisi haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-10",
+          "status": "investigation",
+          "note": "Kaynaklara göre ailenin şikayeti üzerine polis ekipleri şüpheli hakkında işlem başlattı."
+        },
+        {
+          "date": "2026-03-10",
+          "status": "investigation",
+          "note": "Şüphelinin emniyet işlemlerinden sonra adliyeye sevk edilip tutuklandığı aktarıldı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Samsun'da 14 yaşındaki kız çocuğuna tırda taciz iddiası!",
+          "url": "https://www.samsungazetesi.com/samsunda-14-yasindaki-kiz-cocuguna-tirda-taciz-iddiasi",
+          "publisher": "Samsun Gazetesi / İHA",
+          "type": "news",
+          "published_at": "2026-03-10"
+        },
+        {
+          "title": "Samsun'da 14 yaşındaki kıza tırda cinsel istismar iddiası: Zanlıya tutuklama",
+          "url": "https://www.ensonhaber.com/3-sayfa/samsunda-14-yasindaki-kiza-tirda-cinsel-istismar-iddiasi-zanliya-tutuklama",
+          "publisher": "Ensonhaber / İHA",
+          "type": "news",
+          "published_at": "2026-03-10"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "samsun-gecmis-cocuk-istismari-sikayet-sureci-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Samsun'da geçmiş çocuk istismarı iddiası için savcılık başvurusu",
+      "summary": "Cumhuriyet'in haberine göre, Samsun'da yaşayan 19 yaşındaki bir kadın, çocukken yıllarca cinsel istismara maruz bırakıldığını öne sürerek CİMER'e ve Şebinkarahisar Cumhuriyet Başsavcılığı'na başvurdu. Haberde, şikayet sonrası şüphelinin ifadesinin henüz alınmadığının öğrenildiği aktarıldı.",
+      "institution": "",
+      "legal_status": "Şikayet ve savcılık ifadesi bildirildi; kaynak, şüphelinin ifadesinin henüz alınmadığını aktarıyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-03-13",
+      "event_date": "2013-2019",
+      "last_verified_at": "2026-03-13",
+      "locations": [
+        {
+          "id": "samsun-retrospective-abuse-claim",
+          "label": "Samsun",
+          "province_key": "SAMSUN",
+          "province": "Samsun",
+          "district": "",
+          "lat": 41.29,
+          "lng": 36.33,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak Samsun bağlamını verir ancak istismar olaylarının kesin kamusal konumunu vermez; il merkezi dışında konum eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-01-14",
+          "status": "investigation",
+          "note": "Kaynağa göre başvurucu Şebinkarahisar Cumhuriyet Başsavcılığı'na ifade verdi."
+        },
+        {
+          "date": "2026-03-13",
+          "status": "investigation",
+          "note": "Cumhuriyet, şikayet sonrası şüphelinin ifadesinin henüz alınmadığını aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kan donduran istismar iddiaları yargıya taşındı: '6 yaşından 12 yaşına kadar istismar edildim'",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/kan-donduran-istismar-iddialari-yargiya-tasindi-6-yasindan-12-yasina-kadar-istismar-edildim-2486542",
+          "publisher": "Cumhuriyet",
+          "type": "news",
+          "published_at": "2026-03-13"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "bursa-mustafakemalpasa-yedi-yil-kayip-cocuk-bulundu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Bursa/Mustafakemalpaşa'da yıllardır kayıp çocuk operasyonla bulundu",
+      "summary": "Haberler/AA ve Habertürk/DHA haberlerine göre, Bursa'nın Mustafakemalpaşa ilçesinde 2019'da kayıp ihbarı yapılan 8 yaşındaki çocuk, özel polis ekibinin teknik ve fiziki takibi sonrası bir evde bulundu ve devlet korumasına alındı. Haberlerde, evin hijyen koşullarının uygun olmadığının görüldüğü, babaanne ile çocuğun saklandığı ikametin sahibinin tutuklandığı aktarıldı.",
+      "institution": "Çocuk koruma / kayıp çocuk soruşturması",
+      "legal_status": "Mustafakemalpaşa Cumhuriyet Başsavcılığı koordinesindeki soruşturma kapsamında iki kişinin tutuklandığı bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-03-14",
+      "event_date": "2019",
+      "last_verified_at": "2026-03-14",
+      "locations": [
+        {
+          "id": "bursa-mustafakemalpasa-missing-child",
+          "label": "Mustafakemalpaşa / Bursa",
+          "province_key": "BURSA",
+          "province": "Bursa",
+          "district": "Mustafakemalpaşa",
+          "lat": 40.04,
+          "lng": 28.41,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Mustafakemalpaşa ilçesi bağlamını verir; çocuğun bulunduğu evin adresi veya özel konumu eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2019",
+          "status": "reported",
+          "note": "Kaynaklara göre aile, çocuğun kaybolduğuna dair polise ihbarda bulundu."
+        },
+        {
+          "date": "2026-03-14",
+          "status": "investigation",
+          "note": "Özel polis ekibinin operasyonuyla çocuk bulundu ve devlet korumasına alındı."
+        },
+        {
+          "date": "2026-03-14",
+          "status": "investigation",
+          "note": "İki kişinin adliyeye sevk edildikten sonra tutuklandığı bildirildi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bursa'da 7 yıldır kayıp olan 8 yaşındaki çocuk bulundu",
+          "url": "https://www.haberler.com/guncel/kaybolan-cocuk-7-yil-sonra-bulundu-19657298-haberi/",
+          "publisher": "Haberler / AA",
+          "type": "news",
+          "published_at": "2026-03-14"
+        },
+        {
+          "title": "Türk babanın Alman sevgilisinden kaçırdığı çocuk, 7 yıl boyunca tutulduğu harabe evde bulundu (2)",
+          "url": "https://www.haberturk.com/bursa-haberleri/117015874-turk-babanin-alman-sevgilisinden-kacirdigi-cocuk-7-yil-boyunca-tutuldugu-harabe-evde",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-03-14"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "mersin-erdemli-cocuk-istismari-adli-kontrol-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Mersin/Erdemli'de 16 yaşındaki çocuk için istismar başvurusu",
+      "summary": "İlke TV'nin aktardığına göre, Mersin'in Erdemli ilçesinde 16 yaşındaki bir çocuk için taciz ve fuhuşa zorlama iddialarıyla 27 Şubat'ta Mersin Cumhuriyet Başsavcılığı Çocuk Suçları Soruşturma ve Çocuk İzlem Merkezi Bürosu'na başvuru yapıldı; 10 Mart'ta CİMER'e de başvuruldu. Haberde, üç şüphelinin gözaltına alındıktan sonra adli kontrolle serbest bırakıldığı aktarıldı.",
+      "institution": "İşyeri / emlak ofisi bağlamı",
+      "legal_status": "Başsavcılık başvurusu, CİMER başvurusu ve üç şüpheli için adli kontrolle serbest bırakma bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-03-16",
+      "last_verified_at": "2026-03-16",
+      "locations": [
+        {
+          "id": "mersin-erdemli-workplace-abuse-claim",
+          "label": "Erdemli / Mersin",
+          "province_key": "MERSIN",
+          "province": "Mersin",
+          "district": "Erdemli",
+          "lat": 36.61,
+          "lng": 34.31,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynak Erdemli ve işyeri/ofis bağlamını verir; ofis, mahalle veya özel adres haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-27",
+          "status": "investigation",
+          "note": "Kaynağa göre Mersin Cumhuriyet Başsavcılığı Çocuk Suçları Soruşturma ve Çocuk İzlem Merkezi Bürosu'na başvuru yapıldı."
+        },
+        {
+          "date": "2026-03-10",
+          "status": "reported",
+          "note": "Kaynak, CİMER başvurusu yapıldığını aktardı."
+        },
+        {
+          "date": "2026-03-16",
+          "status": "investigation",
+          "note": "İlke TV, üç şüphelinin gözaltı sonrası adli kontrolle serbest bırakıldığını yazdı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mersin'de 16 yaşındaki çocuğa istismar: 3 şüpheli ses kayıtlarına rağmen serbest bırakıldı",
+          "url": "https://ilketv.com.tr/mersinde-16-yasindaki-cocuga-istismar-3-supheli-ses-kayitlarina-ragmen-serbest-birakildi/",
+          "publisher": "İlke TV / MA",
+          "type": "news",
+          "published_at": "2026-03-16"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "izmir-tire-hastane-stajyer-cocuk-taciz-sorusturmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "İzmir/Tire'de hastanede stajyer öğrenciye taciz iddiası",
+      "summary": "Ensonhaber/İHA ve İşçi Haber'in aktardığına göre, İzmir'in Tire ilçesindeki devlet hastanesinde staj yapan lise öğrencisi, kurumda teknisyen olarak çalışan bir kişi tarafından elle tacize uğradığını öne sürdü. Haberlerde öğrencinin durumu hastane yetkililerine ve ailesine bildirmesi sonrası ailenin emniyete şikayette bulunduğu, Tire Cumhuriyet Başsavcılığı'nın soruşturma başlattığı ve şüphelinin gözaltına alındığı aktarıldı.",
+      "institution": "Devlet hastanesi / staj bağlamı",
+      "legal_status": "Tire Cumhuriyet Başsavcılığı soruşturması ve şüpheli gözaltısı bildirildi; adliye/mahkeme sonucu kaynaklarda netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-03-28",
+      "last_verified_at": "2026-03-28",
+      "locations": [
+        {
+          "id": "izmir-tire-hospital-intern-abuse-claim",
+          "label": "Tire / İzmir",
+          "province_key": "IZMIR",
+          "province": "İzmir",
+          "district": "Tire",
+          "lat": 38.09,
+          "lng": 27.73,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Tire ilçesi ve hastane staj bağlamını verir; hastane koordinatı veya özel kurum içi konum eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-28",
+          "status": "reported",
+          "note": "Kaynaklara göre öğrenci durumu önce hastane yetkililerine, sonra ailesine bildirdi."
+        },
+        {
+          "date": "2026-03-28",
+          "status": "investigation",
+          "note": "Ailenin şikayeti üzerine savcılık soruşturması başlatıldığı ve şüphelinin gözaltına alındığı aktarıldı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "İzmir'de hastanede stajyer öğrenciye taciz iddiası: Savcılık harekete geçti",
+          "url": "https://www.ensonhaber.com/ic-haber/izmirde-hastanede-stajyer-ogrenciye-taciz-iddiasi-savcilik-harekete-gecti",
+          "publisher": "Ensonhaber / İHA",
+          "type": "news",
+          "published_at": "2026-03-28"
+        },
+        {
+          "title": "Tire Devlet Hastanesi'nde taciz iddiası: Teknisyen gözaltına alındı",
+          "url": "https://www.iscihaber.net/izmir/tire-devlet-hastanesinde-taciz-iddiasi-teknisyen-gozaltina-alindi/216602",
+          "publisher": "İşçi Haber",
+          "type": "news",
+          "published_at": "2026-03-28"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "bilecik-yenipazar-iki-cocuk-istismari-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Bilecik/Yenipazar'da iki çocuğa yönelik istismar iddiasında tutuklama",
+      "summary": "Cumhuriyet/İHA ve Aksiyon haberlerine göre, Bilecik'in Yenipazar ilçesinde bir çift, iki çocuklarının cinsel istismara uğradığı iddiasıyla Bilecik İl Jandarma Komutanlığı'na başvurdu. Haberlerde, savcılık talimatıyla yürütülen soruşturma kapsamında iki şüphelinin tutuklandığı ve suça sürüklenen bir çocuk hakkında işlem yapıldığı aktarıldı.",
+      "institution": "",
+      "legal_status": "Gölpazarı Cumhuriyet Savcılığı talimatıyla yürütülen soruşturma ve iki şüpheli için tutuklama bildirildi.",
+      "affected_child_count": 2,
+      "reported_date": "2026-03-30",
+      "last_verified_at": "2026-03-30",
+      "locations": [
+        {
+          "id": "bilecik-yenipazar-two-children-abuse-claim",
+          "label": "Yenipazar / Bilecik",
+          "province_key": "BILECIK",
+          "province": "Bilecik",
+          "district": "Yenipazar",
+          "lat": 40.18,
+          "lng": 30.52,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Yenipazar ilçesi bağlamını verir; köy veya özel adres haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-03-30",
+          "status": "investigation",
+          "note": "Kaynaklara göre aile, iki çocuğa yönelik istismar iddiasıyla jandarmaya başvurdu."
+        },
+        {
+          "date": "2026-03-30",
+          "status": "investigation",
+          "note": "İki şüphelinin mahkemece tutuklandığı; suça sürüklenen çocuk hakkında ayrı işlem yürütüldüğü bildirildi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bilecik'te çocuk istismarı soruşturması: 1'i çocuk 3 kişi yakalandı!",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/bilecik-te-cocuk-istismari-sorusturmasi-1-i-cocuk-3-kisi-yakalandi-2490765",
+          "publisher": "Cumhuriyet / İHA",
+          "type": "news",
+          "published_at": "2026-03-30"
+        },
+        {
+          "title": "Bilecik Yenipazar'da çocuk istismarı soruşturmasında 2 şüpheli tutuklandı",
+          "url": "https://www.aksiyon.com.tr/bilecik-yenipazar-da-cocuk-istismari-sorusturmasinda-2-supheli-tutuklandi-259464",
+          "publisher": "Aksiyon",
+          "type": "news",
+          "published_at": "2026-03-30"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "giresun-gorele-hasbi-dede-cocuk-taciz-mahkumiyet-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "conviction",
+      "title": "Giresun/Görele'de eski belediye başkanının çocuk tacizi davasında mahkûmiyet",
+      "summary": "İHA'nın aktardığına göre, Giresun'un Görele ilçesinde eski belediye başkanı Hasbi Dede hakkında 'çocuğa karşı cinsel taciz' suçlamasıyla açılan davada mahkeme 30 Nisan 2026'da 1 yıl 6 ay hapis cezası verdi ve hükmün açıklanmasının geri bırakılmamasına karar verdi. DHA ve Sözcü haberleri, Tuana Elif Torun'un davanın mağdur çocuğu olduğunu ve trafik kazası sonrası hayatını kaybettiğini aktardı; bu kayıt kaza noktasını değil, kamuya yansıyan çocuk tacizi davasını haritalar.",
+      "institution": "Görele Belediyesi / eski belediye başkanı",
+      "legal_status": "Görele 1. Asliye Ceza Mahkemesi'nde 1 yıl 6 ay hapis cezası ve HAGB uygulanmaması bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-12",
+      "event_date": "2026-02-08",
+      "investigation_date": "2026-02-10",
+      "decision_date": "2026-04-30",
+      "last_verified_at": "2026-04-30",
+      "locations": [
+        {
+          "id": "giresun-gorele-former-mayor-child-harassment-case",
+          "label": "Görele / Giresun",
+          "province_key": "GIRESUN",
+          "province": "Giresun",
+          "district": "Görele",
+          "lat": 41.03,
+          "lng": 39,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Görele ilçe ve yargı bağlamını verir; özel adres, okul, ev veya kaza noktası haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-10",
+          "status": "investigation",
+          "note": "DHA, İçişleri Bakanlığı açıklamasına dayanarak Görele Cumhuriyet Başsavcılığı'nın 'çocuğa karşı cinsel taciz' soruşturması kapsamında tutuklama ve görevden uzaklaştırma bilgisini aktardı."
+        },
+        {
+          "date": "2026-03-30",
+          "status": "trial",
+          "note": "DHA, Sözcü ve Bianet haberleri davanın mağdur çocuğunun trafik kazası sonrası hayatını kaybettiğini; adli sürecin devam ettiğini aktardı."
+        },
+        {
+          "date": "2026-04-30",
+          "status": "conviction",
+          "note": "İHA, Görele 1. Asliye Ceza Mahkemesi'nin 1 yıl 6 ay hapis cezası verdiğini ve HAGB uygulamadığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "CHP'li Görele eski Belediye Başkanı Hasbi Dede'nin taciz davasında karar",
+          "url": "https://www.iha.com.tr/giresun-haberleri/chpli-gorele-eski-belediye-baskani-hasbi-dedenin-taciz-davasinda-karar-416067811",
+          "publisher": "İHA",
+          "type": "news",
+          "published_at": "2026-04-30"
+        },
+        {
+          "title": "Görele Belediye Başkanı Dede, görevden uzaklaştırıldı",
+          "url": "https://www.dha.com.tr/politika/gorele-belediye-baskani-dede-gorevden-uzaklastirildi-2817380",
+          "publisher": "DHA",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        },
+        {
+          "title": "Belediye başkanının yargılandığı taciz davasının mağduru Tuana'nın organları hastalara umut oldu",
+          "url": "https://www.dha.com.tr/yerel-haberler/giresun/belediye-baskaninin-yargilandigi-taciz-davasini-2846402",
+          "publisher": "DHA",
+          "type": "news",
+          "published_at": "2026-03-31"
+        },
+        {
+          "title": "Belediye başkanı tutuklanmıştı! Taciz mağduru çocuk hayatını kaybetti",
+          "url": "https://www.sozcu.com.tr/belediye-baskani-tutuklanmisti-taciz-edilen-cocuk-hayatini-kaybetti-p305901",
+          "publisher": "Sözcü",
+          "type": "news",
+          "published_at": "2026-03-30"
+        },
+        {
+          "title": "Erkek şiddeti Mart 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-mart-2026-318425",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-04-07"
+        }
+      ]
+    },
+    {
+      "id": "istanbul-eyupsultan-guzeltepe-cem-cocuk-istismar-sikayeti-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "investigation",
+      "title": "İstanbul/Eyüpsultan'da çocuk merkezinde 6 yaşındaki çocuğa yönelik istismar iddiası",
+      "summary": "Yeni Şafak ve İşçi Haber'in aktardığına göre, İstanbul Büyükşehir Belediyesi'ne bağlı Güzeltepe Çocuk Etkinlik Merkezi'nde 6 yaşındaki bir çocuğun spor hocası Ö.D. tarafından istismara uğradığı iddiasıyla annesi 26 Ocak 2026'da Gaziosmanpaşa Cumhuriyet Başsavcılığı'na başvurdu. Haberlerde çocuğun Çocuk İzlem Merkezi'ne götürüldüğü, ailenin ses kayıtlarını başsavcılığa sunduğu ve soruşturmanın sürdüğü aktarıldı.",
+      "institution": "Güzeltepe Çocuk Etkinlik Merkezi / İBB çocuk merkezi",
+      "legal_status": "Gaziosmanpaşa Cumhuriyet Başsavcılığı'na şikayet, Çocuk İzlem Merkezi süreci ve devam eden soruşturma bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-02",
+      "complaint_date": "2026-01-26",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "istanbul-eyupsultan-guzeltepe-cem-child-abuse-claim",
+          "label": "Eyüpsultan / İstanbul",
+          "province_key": "ISTANBUL",
+          "province": "İstanbul",
+          "district": "Eyüpsultan",
+          "lat": 41.05,
+          "lng": 28.93,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Güzeltepe ÇEM ve Gaziosmanpaşa Cumhuriyet Başsavcılığı bağlamını verir; çocuk güvenliği için kurumun açık adresi veya çocuğa ilişkin özel konum eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-01-26",
+          "status": "reported",
+          "note": "Haberlere göre çocuğun annesi benzer belirtiler üzerine Gaziosmanpaşa Cumhuriyet Başsavcılığı'na şikayette bulundu."
+        },
+        {
+          "date": "2026-02-02",
+          "status": "investigation",
+          "note": "Yeni Şafak ve İşçi Haber, çocuğun ÇİM'e götürüldüğünü ve istismar iddiasının soruşturulduğunu aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, İstanbul'da spor hocası Ö.D. hakkındaki çocuk istismarı şikayetini aylık listede kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Aynı ÇEM'de yeni skandal",
+          "url": "https://www.yenisafak.com/gundem/ayni-cemde-yeni-skandal-4793579",
+          "publisher": "Yeni Şafak",
+          "type": "news",
+          "published_at": "2026-02-02"
+        },
+        {
+          "title": "Güzeltepe ÇEM'de yeni skandal: Mağdur çocuk sayısı 5'e yükseldi",
+          "url": "https://www.iscihaber.net/gundem/guzeltepe-cemde-yeni-skandal-magdur-cocuk-sayisi-5e-yukseldi/203431",
+          "publisher": "İşçi Haber",
+          "type": "news",
+          "published_at": "2026-02-02"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "istanbul-silivri-ilkokul-ogretmen-cocuk-istismar-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "investigation",
+      "title": "İstanbul/Silivri'de ilkokul öğretmeni hakkında çocuk istismarı tutuklaması",
+      "summary": "Damga Gazetesi ve Süper Silivri'nin aktardığına göre, İstanbul'un Silivri ilçesinde bir ilkokulda görev yapan sınıf öğretmeni M.Ç. hakkında 3. sınıf öğrencisi bir kız çocuğuna yönelik cinsel taciz/istismar iddiası kamuya yansıdı. Haberlerde öğretmenin tutuklanarak cezaevine gönderildiği, İlçe Milli Eğitim Müdürlüğü'nün konuyu savcılığa bildirdiği ve adli-idari soruşturmaların sürdüğü aktarıldı.",
+      "institution": "İlkokul / öğretmen bağlamı",
+      "legal_status": "Öğretmenin tutuklanarak cezaevine gönderildiği; adli ve idari soruşturmaların sürdüğü bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-02",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "istanbul-silivri-primary-school-teacher-abuse-claim",
+          "label": "Silivri / İstanbul",
+          "province_key": "ISTANBUL",
+          "province": "İstanbul",
+          "district": "Silivri",
+          "lat": 41.07,
+          "lng": 28.25,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Silivri ilçesi ve okul bağlamını verir; çocuk güvenliği için okulun açık konumu veya özel adres haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-01-31",
+          "status": "investigation",
+          "note": "Süper Silivri, öğretmen hakkındaki istismar iddiasını ve tutuklama bilgisini aktardı."
+        },
+        {
+          "date": "2026-02-02",
+          "status": "investigation",
+          "note": "Damga Gazetesi, İlçe Milli Eğitim Müdürlüğü'nün konuyu savcılığa bildirdiğini ve adli-idari soruşturmaların sürdüğünü yazdı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, İstanbul'da öğretmen M.Ç. hakkındaki çocuk istismarı kaydını aylık listede aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Silivri'de ilkokulda korkunç olay! O öğretmen tutuklandı!",
+          "url": "https://www.damgagazetesi.com/genel/silivride-ilkokulda-korkunc-olay-o-ogretmen-tutuklandi/8644",
+          "publisher": "Damga Gazetesi",
+          "type": "news",
+          "published_at": "2026-02-02"
+        },
+        {
+          "title": "İlkokulda korkunç olay",
+          "url": "https://www.supersilivri.com/ilkokulda-korkunc-olay",
+          "publisher": "Süper Silivri",
+          "type": "news",
+          "published_at": "2026-01-31"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "sanliurfa-market-sahibi-cocuk-istismari-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Şanlıurfa'da market sahibi hakkında 10 yaşındaki çocuğa istismar soruşturması",
+      "summary": "Bianet'in Şubat 2026 erkek şiddeti çetelesinde aktarıldığına göre, Urfa'da market sahibi bir erkeğin markete gelen 10 yaşındaki bir kız çocuğunu istismar ettiği bildirildi. Aylık kayıtta erkeğin gözaltına alındığı ve soruşturma başlatıldığı belirtildi. Bu kayıt yalnızca Bianet'in kamuya açık aylık çetelesine dayanır; ayrı bir vaka haberi bulunamadığı için il düzeyinde ve ihtiyatlı dille tutuldu.",
+      "institution": "Market / kamusal ticari alan",
+      "legal_status": "Gözaltı ve soruşturma başlatılması bildirildi; sonraki adli aşama kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-05",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "sanliurfa-market-owner-child-abuse-claim",
+          "label": "Şanlıurfa",
+          "province_key": "SANLIURFA",
+          "province": "Şanlıurfa",
+          "district": "",
+          "lat": 37.17,
+          "lng": 38.79,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak il düzeyinde Urfa/Şanlıurfa bilgisini verir; ilçe, market adı veya özel adres kamu kaydı olarak eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-05",
+          "status": "investigation",
+          "note": "Bianet çetelesi, market sahibi bir erkek hakkındaki çocuk istismarı iddiası sonrası gözaltı ve soruşturma bilgisini aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Vaka Şubat 2026 aylık çetelesinde yer aldı; ayrı bir vaka haberi bulunamadığı için kayıt il düzeyiyle sınırlı tutuldu."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "sakarya-hendek-kizilay-eski-sube-baskani-cocuk-mustehcenligi-davasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "trial",
+      "title": "Sakarya Hendek'te eski Kızılay şube başkanı hakkında çocuk müstehcenliği davası",
+      "summary": "Sözcü, Haberfokus ve Bianet'in aktardığına göre, Sakarya/Hendek'te eski Kızılay şube başkanı R.Y. ve Z.K. hakkında, 9 yaşındaki bir çocuğa ait fotoğrafların yapay zeka ile müstehcen hale getirildiği ve paylaşıldığı iddiasıyla soruşturma yürütüldü; iki şüphelinin tutuklandığı bildirildi. TGRT Haber'in İHA kaynaklı 20 Nisan 2026 haberine göre iddianame kabul edildi, Hendek 1. Asliye Ceza Mahkemesi'nde yargılama başladı ve sanıkların tutukluluk halinin devamına karar verildi.",
+      "institution": "Türk Kızılay Hendek Şubesi eski başkanlığı / dijital materyal soruşturması",
+      "legal_status": "İddianamenin kabul edildiği, yargılamanın başladığı, sanıkların tutukluluk halinin devamına karar verildiği ve duruşmanın 15 Haziran 2026'ya ertelendiği bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-06",
+      "indictment_date": "2026-04-20",
+      "trial_date": "2026-04-20",
+      "last_verified_at": "2026-04-20",
+      "locations": [
+        {
+          "id": "sakarya-hendek-kizilay-child-obscenity-trial",
+          "label": "Sakarya / Hendek",
+          "province_key": "SAKARYA",
+          "province": "Sakarya",
+          "district": "Hendek",
+          "lat": 40.7994,
+          "lng": 30.7481,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Sakarya/Hendek ve mahkeme sürecini kamuya açık biçimde verir; çocuğa, eve, iş yerine veya özel adrese ilişkin konum ayrıntısı eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-06",
+          "status": "investigation",
+          "note": "Sözcü ve Haberfokus, dijital materyaller ve yapay zeka ile oluşturulduğu iddia edilen çocuk müstehcenliği içerikleri nedeniyle R.Y. ve Z.K.'nin tutuklandığını aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Sakarya'da R.Y. ve Z.K. hakkındaki çocuk istismarı ve çocuk müstehcenliği tutuklama bilgisini aylık listede kaydetti."
+        },
+        {
+          "date": "2026-04-20",
+          "status": "trial",
+          "note": "TGRT Haber/İHA, iddianamenin kabul edildiğini, Hendek 1. Asliye Ceza Mahkemesi'nde yargılamanın başladığını, tutuklulukların devam ettiğini ve duruşmanın 15 Haziran 2026'ya ertelendiğini bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kızılay jet hızıyla açıklama yaptı! Şube başkanının telefonundan çocuk pornosu çıktı",
+          "url": "https://www.sozcu.com.tr/kizilay-jet-hiziyla-aciklama-yapti-sube-baskaninin-telefonundan-cocuk-pornosu-cikti-p291708",
+          "publisher": "Sözcü",
+          "type": "news",
+          "published_at": "2026-02-06"
+        },
+        {
+          "title": "Pedofili Davasında \"Sevgilisinin Kızı\" Detayı",
+          "url": "https://www.haberfokus.com/pedofili-davasinda-sevgilisinin-kizi-detayi-haber-1162429",
+          "publisher": "Haberfokus",
+          "type": "news",
+          "published_at": "2026-02-06"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        },
+        {
+          "title": "Telefonundan 9 yaşındaki çocuğa ait müstehcen fotoğraf çıktı: Suçu yapay zekaya attı",
+          "url": "https://www.tgrthaber.com/3-sayfa/telefonundan-9-yasindaki-cocuga-ait-mustehcen-fotograf-cikti-sucu-yapay-zekaya-atti-3295577",
+          "publisher": "TGRT Haber / İHA",
+          "type": "news",
+          "published_at": "2026-04-20"
+        }
+      ]
+    },
+    {
+      "id": "istanbul-cevrimici-cocuk-istismar-icerigi-51-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "İstanbul'da çevrim içi çocuk istismarı içerikleri soruşturmasında 51 tutuklama",
+      "summary": "AA'nın 4 Şubat 2026 haberine göre İstanbul Emniyet Müdürlüğü Siber Suçlarla Mücadele Şube Müdürlüğü, Anadolu Cumhuriyet Başsavcılığı koordinesinde, çevrim içi iletişim uygulamaları üzerinden çocuklara yönelik cinsel istismar içeriklerini temin ederek satın aldıkları ve dijital ortamda depoladıkları iddia edilen şüphelilere yönelik operasyon yaptı. Habertürk'ün AA kaynaklı 6 Şubat 2026 güncellemesine ve Bianet'in Şubat çetelesine göre gözaltı sayısı 51'e çıktı ve 51 şüpheli tutuklandı. Kaynaklar mağdur çocuk sayısını veya çocuklara ait konumları açıklamadığı için bu kayıt il düzeyinde ve çocuk sayısı bilinmiyor olarak tutuldu.",
+      "institution": "İstanbul Emniyet Müdürlüğü Siber Suçlarla Mücadele Şube Müdürlüğü / Anadolu Cumhuriyet Başsavcılığı",
+      "legal_status": "Soruşturma kapsamında 51 şüphelinin nöbetçi sulh ceza hakimliğince tutuklandığı bildirildi; iddianame veya duruşma aşaması kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": null,
+      "reported_date": "2026-02-04",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "istanbul-online-child-abuse-material-operation",
+          "label": "İstanbul",
+          "province_key": "ISTANBUL",
+          "province": "İstanbul",
+          "district": "",
+          "lat": 41.01,
+          "lng": 28.97,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar İstanbul merkezli siber soruşturma ve Anadolu Cumhuriyet Başsavcılığı koordinasyonunu verir; çocuklara, şüpheli adreslerine veya dijital materyallere ilişkin özel konum bilgisi eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "status": "investigation",
+          "note": "AA, dijital materyallerde suça konu içerik tespit edilen 47 şüphelinin İstanbul'da düzenlenen operasyonla yakalandığını ve gözaltı sayısının 49'a yükseldiğini aktardı."
+        },
+        {
+          "date": "2026-02-06",
+          "status": "investigation",
+          "note": "Habertürk'ün AA kaynaklı haberine göre gözaltı sayısı 51'e yükseldi; savcılığa sevk edilen 51 şüphelinin tamamı tutuklandı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, İstanbul'da çocuklara yönelik çevrim içi istismar içeriklerini temin ettikleri iddiasıyla gözaltına alınan 51 şüphelinin tutuklandığını kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "İstanbul'da çocuklara yönelik cinsel istismar içeriklerini temin eden 49 zanlı yakalandı",
+          "url": "https://www.aa.com.tr/tr/gundem/istanbulda-cocuklara-yonelik-cinsel-istismar-iceriklerini-temin-eden-49-zanli-yakalandi/3820117",
+          "publisher": "Anadolu Ajansı",
+          "type": "news",
+          "published_at": "2026-02-04"
+        },
+        {
+          "title": "Cinsel istismar içeriklerini temin eden 51 zanlı tutuklandı",
+          "url": "https://www.haberturk.com/cinsel-istismar-iceriklerini-temin-eden-51-zanli-tutuklandi-3859810",
+          "publisher": "Habertürk / Anadolu Ajansı",
+          "type": "news",
+          "published_at": "2026-02-06"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "kocaeli-dilovasi-ogretmen-26-ogrenci-istismar-sorusturmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "investigation",
+      "title": "Kocaeli/Dilovası'nda öğretmen hakkında 26 öğrenciye istismar soruşturması",
+      "summary": "Haber Global ve İHA kaynaklı haberlerde, Kocaeli'nin Dilovası ilçesinde bir ortaokulda görev yapan öğretmen O.M. hakkında öğrencilerine yönelik taciz/istismar iddiaları sonrası velilerin şikayetiyle işlem başlatıldığı ve öğretmenin tutuklandığı aktarıldı. İlk haberlerde 24 kız öğrenci bilgisi yer aldı; Bianet'in Şubat 2026 çetelesinde aynı O.M. kaydı daha sonra 26 öğrenci olarak geçti. Bu kayıt iki girişi aynı dosyanın güncellenen mağdur sayısı olarak ele alır, okul adı ve özel adres ayrıntılarını haritalamaz.",
+      "institution": "Ortaokul / öğretmen bağlamı",
+      "legal_status": "Öğretmenin gözaltına alındıktan sonra tutuklanarak cezaevine gönderildiği ve soruşturmanın sürdüğü bildirildi; iddianame veya duruşma aşaması kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": 26,
+      "reported_date": "2026-02-07",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "kocaeli-dilovasi-teacher-student-abuse-claim",
+          "label": "Dilovası / Kocaeli",
+          "province_key": "KOCAELI",
+          "province": "Kocaeli",
+          "district": "Dilovası",
+          "lat": 40.78,
+          "lng": 29.53,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Dilovası ilçesi ve okul bağlamını verir; çocuk güvenliği için okul adı, sınıf, çocukların kimlikleri veya özel adres konumu haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-07",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Kocaeli'de öğretmen O.M. hakkında 24 kız öğrenciyi istismar ettiği iddiasıyla tutuklama ve soruşturma bilgisini kaydetti."
+        },
+        {
+          "date": "2026-02-09",
+          "status": "investigation",
+          "note": "Haber Global ve İHA kaynaklı haberler, Dilovası'ndaki ortaokul bağlamında velilerin şikayeti, gözaltı ve tutuklama sürecini aktardı."
+        },
+        {
+          "date": "2026-02-18",
+          "status": "investigation",
+          "note": "Çağdaş Kocaeli, Kocaeli Kadın Platformu'nun açıklamasını ve davanın takipçisi olma çağrısını aktardı."
+        },
+        {
+          "date": "2026-02-24",
+          "status": "investigation",
+          "note": "Bianet'in aynı aylık çetelesindeki daha sonraki O.M. kaydı 26 öğrenci olarak geçti; kayıt tek dosya kabul edilerek son kamuya açık sayı kullanıldı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kocaeli'de 24 öğrenciye istismar iddiası! Öğretmen tutuklandı",
+          "url": "https://haberglobal.com/yasam/kocaelide-24-ogrenciye-istismar-iddiasi-ogretmen-tutuklandi-506914",
+          "publisher": "Haber Global",
+          "type": "news",
+          "published_at": "2026-02-08"
+        },
+        {
+          "title": "Tam 24 Kız Öğrenci Bir Bir Anlattı! Kocaeli Dilovası'ndaki Taciz Skandalında Öğretmen Tutuklandı!",
+          "url": "https://www.istiklal.com.tr/genel/tam-24-kiz-ogrenci-bir-bir-anlatti-kocaeli-dilovasindaki-taciz-skandalinda-1083924h",
+          "publisher": "İstiklal / İHA",
+          "type": "news",
+          "published_at": "2026-02-09"
+        },
+        {
+          "title": "Dilovası'ndaki taciz olayına ilişkin Kadın Platformu'ndan açıklama: \"Zincirin her halkası hesap vermeli\"",
+          "url": "https://www.cagdaskocaeli.com.tr/amp/haber/27483250/dilovasindaki-taciz-olayina-iliskin-kadin-platformundan-aciklama-zincirin-her-halkasi-hesap-vermeli",
+          "publisher": "Çağdaş Kocaeli",
+          "type": "news",
+          "published_at": "2026-02-18"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "zonguldak-karadeniz-eregli-cocuk-mustehcenligi-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Zonguldak/Karadeniz Ereğli'de çocuk müstehcenliği içerikleri soruşturmasında tutuklama",
+      "summary": "İHA'nın 7 Şubat 2026 haberine göre, Zonguldak İl Emniyet Müdürlüğü Siber Suçlarla Mücadele Şube Müdürlüğü ekipleri Karadeniz Ereğli ilçesinde bir operasyon düzenledi; H.D. isimli şüphelinin internet üzerinden çocuklara yönelik müstehcen içerikleri indirdiği ve izlediği iddia edildi. Haberde şüphelinin 'müstehcen yayınların izlenmesi ve bulundurulması' suçlamasıyla adliyeye sevk edildiği ve mahkemece tutuklandığı aktarıldı. Bianet'in Şubat 2026 çetelesi de aynı tutuklama bilgisini çocuk istismarı başlığı altında kaydetti. Kaynaklar mağdur çocuk sayısı veya çocuklara ait konum açıklamadığı için bu kayıt çocuk sayısı bilinmiyor olarak tutuldu.",
+      "institution": "Zonguldak İl Emniyet Müdürlüğü Siber Suçlarla Mücadele Şube Müdürlüğü",
+      "legal_status": "Şüphelinin gözaltına alındığı, adliyeye sevk edildiği ve tutuklandığı bildirildi; iddianame veya duruşma aşaması kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": null,
+      "reported_date": "2026-02-07",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "zonguldak-karadeniz-eregli-child-obscenity-operation",
+          "label": "Karadeniz Ereğli / Zonguldak",
+          "province_key": "ZONGULDAK",
+          "province": "Zonguldak",
+          "district": "Karadeniz Ereğli",
+          "lat": 41.28,
+          "lng": 31.42,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Karadeniz Ereğli ilçesinde siber suç operasyonu bilgisini verir; şüpheli adresi, dijital materyal ayrıntısı veya çocuklara ilişkin özel konum eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-07",
+          "status": "investigation",
+          "note": "İHA, Karadeniz Ereğli'deki siber suç operasyonunda H.D. isimli şüphelinin gözaltına alındığını, adliyeye sevk edildiğini ve tutuklandığını aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Zonguldak'taki H.D. tutuklama bilgisini çocuk istismarı bölümünde kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zonguldak'ta çocuk müstehcenliği operasyonunda 1 tutuklama",
+          "url": "https://www.iha.com.tr/zonguldak-haberleri/zonguldakta-cocuk-mustehcenligi-operasyonunda-1-tutuklama-374938674",
+          "publisher": "İhlas Haber Ajansı",
+          "type": "news",
+          "published_at": "2026-02-07"
+        },
+        {
+          "title": "Zonguldak'ta çocuk müstehcenliği operasyonunda 1 tutuklama",
+          "url": "https://www.hursozgazetesi.com/zonguldakta-cocuk-mustehcenligi-operasyonunda-1-tutuklama",
+          "publisher": "Hürsöz Gazetesi / İHA",
+          "type": "news",
+          "published_at": "2026-02-07"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "trabzon-cocuk-fotografi-cekim-istismar-sorusturmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Trabzon'da kız çocuğunun fotoğrafının çekilmesiyle ilgili istismar soruşturması",
+      "summary": "Bianet'in Şubat 2026 erkek şiddeti çetelesinde aktarıldığına göre, Trabzon'da bir erkeğin bir kız çocuğunun fotoğrafını çekerek istismar ettiği ve erkeğin gözaltına alındığı bildirildi. Kayıt yalnızca Bianet'in kamuya açık aylık çetelesine dayanır; ayrı bir vaka haberi bulunamadığı için il düzeyinde, çocuk ve olay yeri ayrıntısı eklenmeden tutuldu.",
+      "institution": "Kamusal alan / fotoğraf çekme iddiası",
+      "legal_status": "Gözaltı bildirildi; soruşturmanın sonraki adli aşaması kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-08",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "trabzon-child-photo-abuse-claim",
+          "label": "Trabzon",
+          "province_key": "TRABZON",
+          "province": "Trabzon",
+          "district": "",
+          "lat": 41,
+          "lng": 39.72,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak yalnızca Trabzon ilini verir; ilçe, kamusal alan, çocuk kimliği veya özel konum ayrıntısı eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-08",
+          "status": "investigation",
+          "note": "Bianet çetelesi, Trabzon'da bir kız çocuğunun fotoğrafını çekme yoluyla istismar iddiası ve gözaltı bilgisini aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Vaka Şubat 2026 aylık çetelesinde yer aldı; ayrı bir vaka haberi bulunamadığı için kayıt il düzeyiyle sınırlı tutuldu."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "izmir-sac-orme-videosu-tutuklu-cocuk-ciplak-arama-iddiasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "reported",
+      "title": "İzmir'de saç örme videosu nedeniyle tutuklanan çocuğa yönelik çıplak arama ve şiddet iddiaları",
+      "summary": "Bianet'in 6 Şubat 2026 haberine göre, İzmir'de yaşayan 16 yaşındaki lise öğrencisi bir çocuk sosyal medya hesabındaki saç örme videosu gerekçe gösterilerek 'örgüt propagandası' iddiasıyla gözaltına alındı ve Şakran Çocuk Cezaevi'ne gönderildi. Bianet ve İz Gazete'nin 12-13 Şubat haberlerinde, çocuğun avukatı ve ailesinin beyanlarına dayanarak cezaevi girişinde çıplak arama, koğuşta darp ve ağır cezaevi koşulları iddiaları aktarıldı. Kayıt, kamuya açık kaynaklarda yer alan kurumsal kötü muamele iddialarını haritalar; çocuğun özel kimliği, okul bilgisi veya ev konumu eklenmedi.",
+      "institution": "Şakran Çocuk Cezaevi / çocuk adalet ve tutukluluk süreci",
+      "legal_status": "Çocuk hakkında açılan 'örgüt propagandası' davasında ilk duruşmada tahliye kararı bildirildi; çıplak arama ve darp iddiaları avukat, aile ve milletvekili beyanları olarak kamuya yansıdı, bu iddialara ilişkin tamamlanmış bir resmi soruşturma sonucu bulunamadı.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-06",
+      "event_date": "2026-02-05",
+      "custody_abuse_reported_date": "2026-02-12",
+      "trial_date": "2026-03-03",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "izmir-aliaga-sakran-child-prison-custody-abuse-claim",
+          "label": "Aliağa / İzmir",
+          "province_key": "IZMIR",
+          "province": "İzmir",
+          "district": "Aliağa",
+          "lat": 38.8,
+          "lng": 26.97,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Şakran Çocuk Cezaevi ve İzmir/Aliağa bağlamını verir; çocuk güvenliği için ev, okul, sosyal medya hesabı veya özel adres ayrıntısı eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-05",
+          "status": "investigation",
+          "note": "Kaynaklar, 16 yaşındaki çocuğun sosyal medya paylaşımları nedeniyle gözaltına alındığını ve 'örgüt propagandası' iddiasıyla tutuklanarak Şakran Çocuk Cezaevi'ne gönderildiğini aktardı."
+        },
+        {
+          "date": "2026-02-12",
+          "status": "reported",
+          "note": "Bianet, avukat ve aile beyanlarına dayanarak çıplak arama, darp, ağır koğuş koşulları ve çocuğun psikolojik etkilenimi iddialarını kamuya taşıdı."
+        },
+        {
+          "date": "2026-02-13",
+          "status": "reported",
+          "note": "Bianet, İzmir milletvekili Burcugül Çubuk'un cezaevi ziyareti sonrası iddiaları Meclis gündemine taşıdığını aktardı; Bianet'in aylık çetelesi vakayı çocuk istismarı/çocuğa şiddet bölümünde kaydetti."
+        },
+        {
+          "date": "2026-03-03",
+          "status": "trial",
+          "note": "İz Gazete, İzmir 2. Çocuk Ağır Ceza Mahkemesi'ndeki ilk duruşmada çocuğun tahliye edildiğini ve bir sonraki duruşmanın 7 Mayıs 2026 olarak belirlendiğini aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Saç örme videosu paylaşan 16 yaşındaki çocuk tutuklandı",
+          "url": "https://bianet.org/haber/sac-orme-videosu-paylasan-16-yasindaki-cocuk-tutuklandi-316406",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-02-06"
+        },
+        {
+          "title": "Saç örme videosu paylaştığı için tutuklanan çocuğa çıplak arama",
+          "url": "https://bianet.org/haber/sac-orme-videosu-paylastigi-icin-tutuklanan-cocuga-ciplak-arama-316632",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Çocuğa yapılan çıplak arama Meclis gündeminde",
+          "url": "https://bianet.org/haber/cocuga-yapilan-ciplak-arama-meclis-gundeminde-316675",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-02-13"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        },
+        {
+          "title": "İzmir'de saç örme videosuyla tutuklanan çocuğa çıplak arama ve şiddet!",
+          "url": "https://www.izgazete.net/izmirde-sac-orme-videosuyla-tutuklanan-cocuga-ciplak-arama-ve-siddet",
+          "publisher": "İz Gazete",
+          "type": "news",
+          "published_at": "2026-02-13"
+        },
+        {
+          "title": "İzmir'de 'saç örme' videosuyla tutuklanan 16 yaşındaki A.K. tahliye edildi",
+          "url": "https://www.izgazete.net/izmirde-sac-orme-videosuyla-tutuklanan-16-yasindaki-ak-tahliye-edildi",
+          "publisher": "İz Gazete",
+          "type": "news",
+          "published_at": "2026-03-03"
+        },
+        {
+          "title": "TBMM Genel Kurulu 26 Şubat 2026 tutanağı",
+          "url": "https://cdn.tbmm.gov.tr/TbmmWeb/Tutanak/28/4/65/Ham/eca52a5e-e00a-4f45-aaa5-fe3e21eb5a51.pdf",
+          "publisher": "TBMM",
+          "type": "official",
+          "published_at": "2026-02-26"
+        }
+      ]
+    },
+    {
+      "id": "istanbul-on-dort-yas-kiz-cocugu-kacirma-baslik-parasi-iddiasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "reported",
+      "title": "İstanbul'da 14 yaşındaki kız çocuğunun kaçırılması ve başlık parası iddiası",
+      "summary": "Bianet'in Şubat 2026 erkek şiddeti çetelesinde aktarıldığına göre, İstanbul'da üç erkek akrabaları olan 14 yaşındaki bir kız çocuğunu kaçırdı; kaynak, çocuğun babasının aranarak başlık parası teklif edildiğini ve ailenin katıldığı bir televizyon programında şikayetçi olduğunu bildirdi. Ayrı bir vaka haberi bulunamadığı için kayıt yalnızca Bianet'in kamuya açık aylık çetelesine dayanır; çocuğun kimliği, aile ayrıntıları, televizyon programı, mahalle veya özel konum bilgisi eklenmedi.",
+      "institution": "Aile/akraba çevresi / zorla evlendirme riski iddiası",
+      "legal_status": "Ailenin televizyon programında şikayetçi olduğu bildirildi; resmi soruşturma, gözaltı veya dava aşaması kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-17",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "istanbul-child-abduction-bride-price-claim",
+          "label": "İstanbul",
+          "province_key": "ISTANBUL",
+          "province": "İstanbul",
+          "district": "",
+          "lat": 41.01,
+          "lng": 28.98,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak yalnızca İstanbul ilini verir; çocuğun aile, program, mahalle, ev veya özel konum ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-17",
+          "status": "reported",
+          "note": "Bianet çetelesi, İstanbul'da 14 yaşındaki bir kız çocuğunun akrabaları tarafından kaçırıldığı ve babasına başlık parası teklif edildiği iddiasını aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "reported",
+          "note": "Vaka Şubat 2026 aylık çetelesinde çocuk istismarı başlığı altında yer aldı; ayrı bir vaka haberi bulunamadığı için kayıt il düzeyinde ve ihtiyatlı dille tutuldu."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "antalya-manavgat-baba-kiz-cocugu-istismar-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Antalya/Manavgat'ta baba hakkında kız çocuğuna cinsel istismar tutuklaması",
+      "summary": "Antalya Körfez Gazetesi'nin 18 Şubat 2026 haberine göre, Antalya'nın Manavgat ilçesinde bir babanın kız çocuğuna yönelik cinsel istismar iddiası üzerine jandarma soruşturma yürüttü; şüphelinin gözaltına alındığı, adliyeye sevk edildiği ve '1. dereceden yakın akrabaya karşı nitelikli cinsel istismar' suçlamasıyla tutuklandığı aktarıldı. Bianet'in Şubat 2026 çetelesi de Antalya'daki bu tutuklama bilgisini çocuk istismarı bölümünde kaydetti. Kayıt, kamuya açık kaynaklarda verilen Manavgat ilçe düzeyiyle sınırlıdır; çocuk kimliği, aile adresi veya özel konum ayrıntısı eklenmedi.",
+      "institution": "Aile içi / birinci derece yakın akraba iddiası",
+      "legal_status": "Şüphelinin gözaltına alındığı, adliyeye sevk edildiği ve sulh ceza hakimliğince tutuklandığı bildirildi; soruşturmanın sürdüğü aktarıldı.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-18",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "antalya-manavgat-family-abuse-arrest",
+          "label": "Manavgat / Antalya",
+          "province_key": "ANTALYA",
+          "province": "Antalya",
+          "district": "Manavgat",
+          "lat": 36.79,
+          "lng": 31.44,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Manavgat ilçesini verir; çocuğun aile adresi, okul çevresi veya özel konumu haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-18",
+          "status": "investigation",
+          "note": "Antalya Körfez Gazetesi, ihbar sonrası jandarma soruşturması, gözaltı, adliyeye sevk ve tutuklama bilgisini aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 erkek şiddeti çetelesi, Antalya'daki bu baba-kız çocuğu istismar tutuklamasını çocuk istismarı başlığı altında kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Manavgat'ta bir baba öz kızını istismar etti! Baba tutuklandı",
+          "url": "https://www.antalyakorfez.com/manavgatta-bir-baba-oz-kizini-istismar-etti",
+          "publisher": "Antalya Körfez Gazetesi",
+          "type": "news",
+          "published_at": "2026-02-18"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "hatay-kirikhan-belediye-muduru-cocuk-istismari-davasi-saldiri-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "trial",
+      "title": "Hatay/Kırıkhan'da belediye müdürü hakkındaki çocuk istismarı davası ve aileye silahlı saldırı",
+      "summary": "DHA kaynaklı Habertürk ve Sözcü haberlerine göre, Kırıkhan Belediyesi Kültür ve Sosyal İşler Müdürü Mehmet Demir hakkında, dört yıl önce Yıldırım ailesine gıda yardımı yaptığı sırada ailenin o dönem 6 yaşındaki kız çocuğunu taciz ettiği iddiasıyla dava açıldı ve sanık tutuksuz yargılandı. Haberlere göre davanın duruşmasının görüldüğü gün, sanık ailenin kaldığı konteyner yaşam alanına giderek silahlı saldırı düzenledi; anne Cemile Yıldırım öldü, baba Hüseyin Yıldırım ile 10 yaşındaki kız çocuk ağır yaralandı. Bu kayıt, kamuya açık kaynaklarda aktarılan çocuk istismarı davasını ve davayla bağlantılı şiddet bağlamını haritalar; çocuğun özel konumu, konteyner alanının açık konumu veya ek aile ayrıntıları eklenmedi.",
+      "institution": "Kırıkhan Belediyesi / sosyal yardım ve çocuk istismarı davası bağlamı",
+      "legal_status": "Çocuk istismarı/taciz iddiasına ilişkin davanın sürdüğü, sanığın suçlamaları kabul etmediği ve saldırı sonrası ayrı soruşturma kapsamında tutuklandığı bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-21",
+      "event_date": "2026-02-20",
+      "trial_date": "2026-02-20",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "hatay-kirikhan-municipal-official-child-abuse-trial",
+          "label": "Kırıkhan / Hatay",
+          "province_key": "HATAY",
+          "province": "Hatay",
+          "district": "Kırıkhan",
+          "lat": 36.5,
+          "lng": 36.36,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Kırıkhan ilçesini ve konteyner yaşam alanı bağlamını verir; çocuğun yaşadığı yerin açık konumu veya aileye ilişkin özel adres haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-20",
+          "status": "trial",
+          "note": "DHA kaynaklı haberler, çocuk istismarı/taciz iddiasıyla açılan davanın duruşmasının görüldüğünü ve sanığın tutuksuz yargılandığını aktardı."
+        },
+        {
+          "date": "2026-02-20",
+          "status": "investigation",
+          "note": "Aynı gün yaşanan silahlı saldırıda anne ve babanın hedef alındığı, çocuğun ağır yaralandığı ve şüphelinin daha sonra yakalanıp tutuklandığı bildirildi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "trial",
+          "note": "Bianet'in Şubat 2026 çetelesi, Hatay'daki saldırı satırında M.D.'nin aynı çocukla ilgili istismar iddiasıyla tutuksuz yargılandığını ve olay günü duruşma görüldüğünü kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hatay'da annenin öldüğü, baba-kızın ağır yaralandığı silahlı saldırıda 'taciz davası' detayı",
+          "url": "https://www.haberturk.com/hatay-haberleri/116703304-hatayda-annenin-oldugu-baba-kizin-agir-yaralandigi-silahli-saldirida-taciz-davasi-detayi",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-02-21"
+        },
+        {
+          "title": "Konteyner kentteki kanlı saldırının nedeni oldu",
+          "url": "https://www.sozcu.com.tr/konteyner-kentteki-kanli-saldirinin-nedeni-oldu-p295816",
+          "publisher": "Sözcü / DHA",
+          "type": "news",
+          "published_at": "2026-02-21"
+        },
+        {
+          "title": "Husumetlisine kurşun yağdırdı",
+          "url": "https://www.yenisafak.com/gundem/husumetlisine-kursun-yagdirdi-4799650",
+          "publisher": "Yeni Şafak",
+          "type": "news",
+          "published_at": "2026-02-22"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "mugla-on-uc-yas-oglan-takip-istismar-girisimi-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Muğla'da 13 yaşındaki oğlan çocuğuna yönelik takip ve istismar girişimi iddiası",
+      "summary": "Bianet'in Şubat 2026 erkek şiddeti çetelesinde aktarıldığına göre, Muğla'da bir erkek 13 yaşındaki bir oğlan çocuğunu takip ederek istismar etmeye çalıştı. Kaynak, çocuğun ailesinin şikayetçi olduğunu, erkeğin kaçtığını ve soruşturma başlatıldığını bildirdi. Ayrı bir vaka haberi bulunamadığı için kayıt yalnızca Bianet'in kamuya açık aylık çetelesine dayanır; ilçe, olay yeri, çocuk kimliği veya özel konum ayrıntısı eklenmedi.",
+      "institution": "Kamusal alan / takip ve istismar girişimi iddiası",
+      "legal_status": "Ailenin şikayeti ve soruşturma başlatılması bildirildi; şüpheli kaçtı olarak aktarılıyor, sonraki adli aşama kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-22",
+      "last_verified_at": "2026-03-06",
+      "locations": [
+        {
+          "id": "mugla-child-following-abuse-attempt-claim",
+          "label": "Muğla",
+          "province_key": "MUGLA",
+          "province": "Muğla",
+          "district": "",
+          "lat": 37.22,
+          "lng": 28.36,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynak yalnızca Muğla ilini verir; ilçe, sokak, olay yeri, çocuk kimliği veya özel konum ayrıntısı eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-22",
+          "status": "investigation",
+          "note": "Bianet çetelesi, Muğla'da bir erkeğin 13 yaşındaki oğlan çocuğunu takip ederek istismar etmeye çalıştığı iddiası sonrası ailenin şikayetçi olduğunu ve soruşturma başlatıldığını aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Vaka Şubat 2026 aylık çetelesinde yer aldı; ayrı bir vaka haberi bulunamadığı için kayıt il düzeyiyle sınırlı tutuldu."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "aydin-soke-baba-kiz-cocugu-istismar-hamilelik-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Aydın/Söke'de babanın 14 yaşındaki kız çocuğunu istismar ettiği iddiasıyla tutuklanması",
+      "summary": "Aydın Denge ve Manşet Aydın'ın 22 Şubat 2026 tarihli haberlerine göre, Aydın'ın Söke ilçesinde F.Z. isimli baba, 14 yaşındaki kız çocuğunu istismar ettiği ve çocuğun hamile olduğunun tespit edildiği iddiasıyla gözaltına alındıktan sonra tutuklandı. Haberler, soruşturma kapsamında DNA incelemeleri yapıldığını ve şüphelinin adliyeye sevk edildiğini aktardı. Bianet'in Şubat 2026 erkek şiddeti çetelesi de Aydın'da F.Z. isimli erkeğin kızını istismar ettiği iddiasıyla tutuklandığını kaydetti. Kayıtta çocuğun adı/baş harfi, mahalle, ev, aile adresi veya özel konum ayrıntısı kullanılmadı.",
+      "institution": "Aile içi istismar iddiası / Söke",
+      "legal_status": "Yerel haberler ve Bianet, şüphelinin gözaltına alınıp tutuklandığını ve soruşturma başlatıldığını aktarıyor; iddianame, duruşma veya hüküm bilgisi kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-22",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "aydin-soke-family-abuse-pregnancy-arrest",
+          "label": "Söke / Aydın",
+          "province_key": "AYDIN",
+          "province": "Aydın",
+          "district": "Söke",
+          "lat": 37.75,
+          "lng": 27.41,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Söke ilçesini verir; çocuğun güvenliği için mahalle, ev, aile adresi ve özel konum ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-22",
+          "status": "investigation",
+          "note": "Aydın Denge ve Manşet Aydın, Söke'de babanın 14 yaşındaki kız çocuğunu istismar ettiği ve hamilelik tespiti sonrası tutuklandığı iddiasını aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Aydın'daki vakayı çocuk istismarı başlığı altında ve soruşturma/tutuklama bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Aydın'da iğrenç olay... Öz kızını hamile bırakan baba tutuklandı",
+          "url": "https://www.aydindenge.com.tr/soke/22/02/2026/aydinda-igrenc-olay-oz-kizini-hamile-birakan-baba-tutuklandi",
+          "publisher": "Aydın Denge",
+          "type": "news",
+          "published_at": "2026-02-22"
+        },
+        {
+          "title": "Aydın'da iğrenç olay!",
+          "url": "https://www.mansetaydin.com/haber/27509247/aydinda-igrenc-olay",
+          "publisher": "Manşet Aydın",
+          "type": "news",
+          "published_at": "2026-02-22"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "kocaeli-uvey-kardes-istismar-davasi-tahliye-yardim-cagrisi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "trial",
+      "title": "Kocaeli'de üvey kardeşe yönelik istismar iddiası davasında tahliye kararı ve yardım çağrısı",
+      "summary": "Kocaeli Gündem'in 24 Şubat 2026 tarihli özel haberine göre, Kocaeli 3. Ağır Ceza Mahkemesi'nde görülen çocuk istismarı davasında, üvey kardeşini istismar ettiği iddiasıyla yargılanan sanık üç aylık tutukluluk sonrası tahliye edildi. Haberde, iddianamenin 2023 tarihli aile içi istismar iddiasına dayandığı, ailenin ve avukatların tahliye kararına itiraz edeceği aktarıldı. Bianet'in Şubat 2026 çetelesi de Kocaeli'de üvey kız kardeşini istismar ettiği iddiasıyla yargılanan erkeğin tahliyesi üzerine 17 yaşındaki mağdurun sosyal medyada yardım çağrısında bulunduğunu kaydetti. Kayıtta çocuk ve aile bireylerinin baş harfleri, okul, ev, aile adresi veya özel konum ayrıntısı kullanılmadı.",
+      "institution": "Kocaeli 3. Ağır Ceza Mahkemesi / aile içi istismar iddiası davası",
+      "legal_status": "Kocaeli Gündem, sanığın üç ay tutuklu kaldıktan sonra davada tahliye edildiğini ve ailenin karara itiraz edeceğini aktardı; hüküm veya beraat bilgisi kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-24",
+      "trial_date": "2026-02-24",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "kocaeli-izmit-agir-ceza-child-abuse-trial-followup",
+          "label": "Kocaeli 3. Ağır Ceza Mahkemesi / İzmit",
+          "province_key": "KOCAELI",
+          "province": "Kocaeli",
+          "district": "İzmit",
+          "lat": 40.77,
+          "lng": 29.94,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynak davanın Kocaeli 3. Ağır Ceza Mahkemesi'nde görüldüğünü verir; ev, okul, aile adresi ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-24",
+          "status": "trial",
+          "note": "Kocaeli Gündem, Kocaeli 3. Ağır Ceza Mahkemesi'ndeki duruşmada sanığın üç aylık tutukluluk sonrası tahliye edildiğini ve ailenin karara itiraz edeceğini bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "trial",
+          "note": "Bianet'in Şubat 2026 çetelesi, tahliye sonrası mağdurun sosyal medyada yardım çağrısında bulunduğunu çocuk istismarı başlığı altında kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tacizci abi serbest bırakılınca sinir krizi geçirdi! Mağdur adalet istiyor",
+          "url": "https://kocaeligundem.com/haber/27522477/tacizci-abi-serbest-birakilinca-sinir-krizi-gecirdi-magdur-i-n-c-adalet-istiyor",
+          "publisher": "Kocaeli Gündem",
+          "type": "news",
+          "published_at": "2026-02-24"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "kayseri-kocasinan-uvey-baba-dokuz-yas-cocuk-siddet-uzaklastirma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "investigation",
+      "title": "Kayseri/Kocasinan'da üvey babanın 9 yaşındaki çocuğa şiddet uyguladığı iddiası",
+      "summary": "DHA kaynaklı Ensonhaber haberine göre, Kayseri'nin Kocasinan ilçesinde bir üvey babanın 9 yaşındaki erkek çocuğa şiddet uyguladığı anların cep telefonu kamerasıyla kaydedildiği, annenin şikayeti üzerine şüpheli hakkında uzaklaştırma kararı çıkarıldığı ve soruşturmanın sürdüğü aktarıldı. Halk TV ve Habertürk'ün DHA takip haberleri, annenin beyanına dayanarak çocuğa daha önce de şiddet uygulandığını, çocuğun sırtında morluklar görüldüğünü ve şiddet suçundan dava açıldığını bildirdi. Bianet'in Şubat 2026 çetelesi de Kayseri'de bir erkeğin üvey oğlunu darp ettiği, annenin şikayeti sonrası uzaklaştırma kararı verildiği bilgisini kaydetti. Kaynaklardaki şüpheli baş harfleri farklılaştığı için kayıtta şüpheli, çocuk ve anne baş harfleri kullanılmadı; mahalle, ev, okul veya özel konum bilgisi eklenmedi.",
+      "institution": "Aile içi fiziksel şiddet iddiası / Kocasinan",
+      "legal_status": "Annenin şikayeti üzerine uzaklaştırma kararı verildiği ve soruşturmanın sürdüğü bildirildi; takip haberlerinde şiddet suçundan dava açıldığı aktarılıyor ancak iddianame, duruşma veya hüküm bilgisi kamu kaynaklarında netleştirilmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-26",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "kayseri-kocasinan-child-physical-abuse-restraining-order",
+          "label": "Kocasinan / Kayseri",
+          "province_key": "KAYSERI",
+          "province": "Kayseri",
+          "district": "Kocasinan",
+          "lat": 38.73,
+          "lng": 35.49,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Kocasinan ilçesini verir; mahalle, ev, okul, aile adresi veya görüntüye ilişkin özel konum ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-26",
+          "status": "investigation",
+          "note": "DHA kaynaklı haber, çocuğa yönelik şiddet görüntüleri ve annenin şikayeti üzerine şüpheli hakkında uzaklaştırma kararı verildiğini, soruşturmanın sürdüğünü aktardı."
+        },
+        {
+          "date": "2026-02-28",
+          "status": "investigation",
+          "note": "Halk TV ve Habertürk, annenin DHA'ya yaptığı açıklamalarda çocuğun daha önce de şiddete maruz kaldığını söylediğini ve şiddet suçundan dava açıldığını bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Kayseri'deki bu çocuk şiddeti kaydını annenin şikayeti ve uzaklaştırma kararı bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kayseri'de üvey babanın çocuğa şiddeti kamerada",
+          "url": "https://www.ensonhaber.com/kayseride-uvey-babanin-cocuga-siddeti-kamerada-h1514697",
+          "publisher": "Ensonhaber / DHA",
+          "type": "news",
+          "published_at": "2026-02-26"
+        },
+        {
+          "title": "Kayseri'de üvey baba dehşetinde anne ilk kez konuştu",
+          "url": "https://halktv.com.tr/gundem/kayseride-uvey-baba-dehsetinde-anne-ilk-kez-konustu-1011758h",
+          "publisher": "Halk TV / DHA",
+          "type": "news",
+          "published_at": "2026-02-28"
+        },
+        {
+          "title": "Üvey baba şiddetinde anne konuştu: Oğlumun sırtı simsiyahtı!",
+          "url": "https://www.haberturk.com/son-dakika-uvey-baba-siddetinde-anne-konustu-oglumun-sirti-simsiyahti-3865648",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-02-28"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "sivas-mesem-pastane-cocuk-istismari-ifade-baskisi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "trial",
+      "title": "Sivas'ta MESEM kapsamındaki pastane çalışmasında çocuk istismarı ve ifade baskısı iddiası",
+      "summary": "soL'un Evrensel haberine dayandırdığı 27 Şubat 2026 tarihli habere göre, Sivas Mesleki Eğitim Merkezi'ne kayıtlı 17 yaşındaki bir çocuk MESEM kapsamında çalıştığı pastane/imalathane ortamında cinsel tacize uğradığını bildirdi; kaynak, çocuğun işyerinden ayrıldıktan sonra staj yeri bulamadığı için kaydının düştüğünü ve daha sonra okul yönetimi tarafından ifadesinin zorla değiştirilmek istendiğini aktardı. Aynı gün Ekmek ve Gül, EMEP Milletvekili Sevda Karaca'nın soru önergesine verilen MEB yanıtına göre olayla ilgili adli soruşturma açıldığının, işletme sözleşmesinin feshedildiğinin öne sürüldüğünü ve Sivas Valiliği onayıyla inceleme soruşturmasının sürdüğünü bildirdi. Bianet'in Şubat 2026 çetelesi de Sivas'ta çalıştığı pastanede istismara uğrayan 17 yaşındaki kız çocuğunun okul yönetimi tarafından ifadesinin değiştirilmek istendiği iddiasını kaydetti. Kayıtta çocuğun adı/baş harfi, okulun açık konumu, işyeri adı/adresi veya özel konum bilgisi kullanılmadı.",
+      "institution": "Sivas MESEM / pastane işyeri ve okul idaresi iddiaları",
+      "legal_status": "Kaynaklar adli soruşturma açıldığını, işletme sözleşmesinin feshedildiğinin bildirildiğini, Sivas Valiliği onayıyla idari incelemenin sürdüğünü ve failin dosyasında Nisan 2026 duruşması bulunduğunu aktarıyor; hüküm veya kesinleşmiş karar kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-27",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "sivas-merkez-mesem-workplace-abuse-pressure-claim",
+          "label": "Sivas Merkez",
+          "province_key": "SIVAS",
+          "province": "Sivas",
+          "district": "Merkez",
+          "lat": 39.75,
+          "lng": 37.02,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Sivas MESEM ve pastane/imalathane bağlamını verir; çocuğun güvenliği için okulun açık konumu, işyeri adı/adresi ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-27",
+          "status": "trial",
+          "note": "soL, Evrensel'e dayandırdığı haberde MESEM kapsamında çalışılan pastane/imalathane ortamındaki cinsel taciz iddiasını, okul idaresinin 'işyeriyle aranızda' yanıtı verdiği iddiasını ve Nisan 2026 duruşma bilgisini aktardı."
+        },
+        {
+          "date": "2026-02-27",
+          "status": "investigation",
+          "note": "Ekmek ve Gül, MEB yanıtına göre adli soruşturma açıldığı, işletme sözleşmesinin feshedildiğinin öne sürüldüğü ve Sivas Valiliği onayıyla idari incelemenin sürdüğü bilgisini yayımladı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "trial",
+          "note": "Bianet'in Şubat 2026 çetelesi, Sivas'taki pastane istismarı ve okul yönetiminin ifadeyi değiştirmeye çalıştığı iddiasını çocuk istismarı bağlamında kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "MESEM karanlığı: İşyerinde tacize uğramıştı, çocuğa yapılanları örtbas etmeye çalıştılar",
+          "url": "https://haber.sol.org.tr/haber/mesem-karanligi-isyerinde-tacize-ugramisti-cocuga-yapilanlari-ortbas-etmeye-calistilar-406920",
+          "publisher": "soL / Evrensel",
+          "type": "news",
+          "published_at": "2026-02-27"
+        },
+        {
+          "title": "MESEM'de istismar soru önergesine 'sözleşme feshedildi' yanıtı",
+          "url": "https://ekmekvegul.net/gundem/mesemde-istismar-soru-onergesine-sozlesme-feshedildi-yaniti-emepli-sevda-karaca-bir-cocugun-hayati-pahasina-kurumlari-aklama-cabasi",
+          "publisher": "Ekmek ve Gül",
+          "type": "news",
+          "published_at": "2026-02-27"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "bursa-osmangazi-sokakta-iki-kiz-cocugu-istismar-gozalti-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Bursa/Osmangazi'de sokakta iki kız çocuğuna yönelik istismar iddiası",
+      "summary": "İHA'nın 28 Şubat 2026 tarihli haberine göre, Bursa'nın Osmangazi ilçesinde iki kız çocuğuna yönelik sokakta taciz/istismar iddiası üzerine çevredekiler müdahale etti; çocukların güvenli bir noktaya götürüldüğü, şüphelinin polis ekiplerince gözaltına alınıp ifadesi alınmak üzere karakola götürüldüğü ve soruşturmanın sürdüğü aktarıldı. Bianet'in Şubat 2026 çetelesi de Bursa'da bir erkeğin iki kızı sokakta istismar ettiğini, çevredekilerin müdahale ettiğini ve gözaltına alınan erkeğin akli dengesinin yerinde olmadığının açıklandığını kaydetti. Kayıtta çocuk kimlikleri, şüpheli kimliği, kesin cadde/mahalle, video veya kalabalık görüntülerine ilişkin özel ayrıntılar kullanılmadı.",
+      "institution": "Kamusal alan / sokakta istismar iddiası",
+      "legal_status": "İHA ve Bianet kaynakları şüphelinin gözaltına alındığını ve soruşturmanın sürdüğünü bildiriyor; akli dengeye ilişkin açıklama kaynaklarda yer aldı, sonraki adli aşama kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 2,
+      "reported_date": "2026-02-28",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "bursa-osmangazi-two-girls-street-abuse-claim",
+          "label": "Osmangazi / Bursa",
+          "province_key": "BURSA",
+          "province": "Bursa",
+          "district": "Osmangazi",
+          "lat": 40.1933,
+          "lng": 29.061,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Osmangazi ilçesindeki kamusal alan bağlamını verir; çocuk güvenliği için kesin cadde, mahalle, plaza/video ayrıntıları veya tanımlayıcı konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-28",
+          "status": "investigation",
+          "note": "İHA, iki kız çocuğuna yönelik taciz/istismar iddiası üzerine çevredekilerin müdahale ettiğini, çocukların güvenli bir noktaya götürüldüğünü, şüphelinin gözaltına alındığını ve soruşturmanın sürdüğünü aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Bursa'daki bu sokakta istismar iddiasını iki kız çocuğu ve gözaltı bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bursa'da taciz iddiası ortalığı karıştırdı: Şüpheli linç edilmekten son anda kurtarıldı",
+          "url": "https://www.iha.com.tr/bursa-haberleri/bursada-taciz-iddiasi-ortaligi-karistirdi-supheli-linc-edilmekten-son-anda-kurtarildi-385645607",
+          "publisher": "İHA",
+          "type": "news",
+          "published_at": "2026-02-28"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "yalova-cinarcik-on-dort-aylik-cocuk-siddet-iddianame-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "indictment",
+      "title": "Yalova/Çınarcık'ta 14 aylık çocuğa yönelik fiziksel şiddet iddiası",
+      "summary": "Haberler/İHA'nın 23 Şubat 2026 tarihli haberine göre, Yalova'nın Çınarcık ilçesinde bir baba ile 14 aylık kızının komşular arasındaki tartışma sonrası darp edildiği iddiasıyla soruşturma başlatıldı; baba ve çocuğun hastaneye kaldırıldığı, bir şüphelinin tutuklandığı ve adli sürecin sürdüğü aktarıldı. Habertürk/DHA'nın 24 Şubat tarihli haberinde, olayın 20 Şubat'ta yaşandığı, baba ve çocuğun yaralandığı, bir şüphelinin tutuklandığı, diğer şüphelinin savcılık sorgusu sonrası serbest bırakıldığı yazıldı. Ekonomim/DHA'nın 27 Şubat tarihli haberine göre iddianamede çocuk ve baba için ayrı ayrı kasten yaralama suçlamasıyla hapis cezası istendi; adli tıp raporunda çocuğun yaralanmasının hayati tehlike arz ettiği belirtildi. Bianet'in Şubat 2026 çetelesi de Yalova'da bir erkeğin tartıştığı komşusu ile komşusunun bir yaşındaki kızını darp ettiğini, baba ve çocuğun hastaneye kaldırıldığını ve erkeğin tutuklandığını kaydetti. Kayıtta çocuğun adı, aile üyelerinin adları/baş harfleri, apartman/ev çevresi, kamera görüntüsü ayrıntıları ve özel konum bilgileri kullanılmadı.",
+      "institution": "Komşu şiddeti / aile konutu çevresi iddiası",
+      "legal_status": "Şüphelilerden birinin tutuklandığı ve 27 Şubat 2026 tarihli DHA haberinde çocuk ile baba için ayrı ayrı kasten yaralama suçlamasıyla iddianame hazırlandığı bildirildi; nihai mahkeme kararı kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-20",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "yalova-cinarcik-infant-physical-violence-indictment",
+          "label": "Çınarcık / Yalova",
+          "province_key": "YALOVA",
+          "province": "Yalova",
+          "district": "Çınarcık",
+          "lat": 40.64,
+          "lng": 29.12,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Çınarcık ilçesi ve belde düzeyinde konut çevresi bağlamını verir; çocuk güvenliği için belde, apartman, ev çevresi, kamera görüntüsü ve aileye ilişkin tanımlayıcı konum ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-20",
+          "status": "investigation",
+          "note": "DHA haberleri, olayın 20 Şubat'ta Çınarcık ilçesinde yaşandığını ve baba ile 14 aylık kızının yaralandığını aktardı."
+        },
+        {
+          "date": "2026-02-23",
+          "status": "investigation",
+          "note": "Haberler/İHA, soruşturma kapsamında gözaltına alınan bir şüphelinin tutuklandığını, baba ve çocuğun hastaneye kaldırıldığını ve adli sürecin sürdüğünü bildirdi."
+        },
+        {
+          "date": "2026-02-27",
+          "status": "indictment",
+          "note": "Ekonomim/DHA, iddianamede çocuk ve baba için ayrı ayrı kasten yaralama suçlamasıyla hapis cezası istendiğini ve adli tıp raporunda çocuğun yaralanmasının hayati tehlike arz ettiğinin belirtildiğini aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Yalova'daki bu çocuğa şiddet kaydını bir yaşındaki çocuk, hastaneye kaldırılma ve tutuklama bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yalova'da 14 aylık kızı ile birlikte darp edilen babadan teşekkür",
+          "url": "https://www.haberler.com/yerel/yalova-da-baba-ve-14-aylik-kizi-darp-edildi-sorusturma-baslatildi-19592897-haberi/",
+          "publisher": "Haberler / İHA",
+          "type": "news",
+          "published_at": "2026-02-23"
+        },
+        {
+          "title": "Yalova'da 14 aylık çocuğun yaralandığı kavganın kamera kayıtları haberleştirildi",
+          "url": "https://www.haberturk.com/yalova-haberleri/116737471-ikra-bebegin-darbedildigi-iddia-edilen-kavganin-guvenlik-kamerasi-goruntuleri-ortaya-cikti",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-02-24"
+        },
+        {
+          "title": "Yalova'da 14 aylık çocuğun yaralandığı olayla ilgili iddianame hazırlandı",
+          "url": "https://www.ekonomim.com/gundem/ikra-bebekle-babasinin-dovulmesiyle-ilgili-iddianame-hazirlandi-cocuk-skuteri-silah-sayildi-haberi-878568",
+          "publisher": "Ekonomim / DHA",
+          "type": "news",
+          "published_at": "2026-02-27"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "istanbul-uskudar-cocuk-isci-pastane-fiziksel-siddet-gozalti-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "investigation",
+      "title": "İstanbul/Üsküdar'da 16 yaşındaki çocuk işçiye yönelik fiziksel şiddet iddiası",
+      "summary": "Habertürk/AA ve Gerçek İzmir/AA'nın 12 Şubat 2026 tarihli haberlerine göre, İstanbul'un Üsküdar ilçesinde bir pastane işyerinde çalışan 16 yaşındaki çocuğun işletme müdürü tarafından darp edildiği belirlendi; şüphelinin gözaltına alındıktan sonra kasten yaralama suçundan adliyeye sevk edildiği aktarıldı. Haberlerde şüphelinin çocuğa fiziksel şiddet uyguladığı ve boyun bölgesine bir çubukla baskı yaptığı belirtildi. Bianet'in Şubat 2026 çetelesi de İstanbul'da bir pastane müdürünün 16 yaşındaki oğlan çalışanı darp ettiğini ve gözaltına alınan erkeğin tutuklandığını kaydetti. Kayıtta çocuğun adı/baş harfi, şüpheli adı/baş harfi, işletmenin adı, mahalle, olay kaydı veya özel konum ayrıntıları kullanılmadı.",
+      "institution": "Pastane işyeri / çocuk işçi çalışması bağlamı",
+      "legal_status": "AA kaynaklı haberler şüphelinin kasten yaralama suçundan adliyeye sevk edildiğini, Bianet'in Şubat 2026 çetelesi ise gözaltına alınan erkeğin tutuklandığını aktardı; iddianame, duruşma veya hüküm bilgisi kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-12",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "istanbul-uskudar-child-worker-physical-violence-claim",
+          "label": "Üsküdar / İstanbul",
+          "province_key": "ISTANBUL",
+          "province": "İstanbul",
+          "district": "Üsküdar",
+          "lat": 41.0256,
+          "lng": 29.015,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Üsküdar ilçesinde bir pastane/işyeri bağlamını verir; çocuk güvenliği için işletmenin adı, mahalle, olay kaydı, okul/ev bağlantısı ve tanımlayıcı konum ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-12",
+          "status": "investigation",
+          "note": "Habertürk/AA ve Gerçek İzmir/AA, 16 yaşındaki çocuk çalışanın işyeri müdürü tarafından darp edildiğinin belirlendiğini ve şüphelinin kasten yaralama suçundan adliyeye sevk edildiğini aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, İstanbul'daki bu çocuğa şiddet kaydını pastane müdürü, 16 yaşındaki oğlan çalışan ve tutuklama bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Üsküdar'da 16 yaşındaki çalışanını darbeden işletme müdürü gözaltına alındı",
+          "url": "https://www.haberturk.com/video/haber/izle/uskudarda-16-yasindaki-calisanini-darbeden-isletme-muduru-gozaltina-alindi/902179",
+          "publisher": "Habertürk / AA",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "16 yaşında çalışana pastanede işkence!",
+          "url": "https://www.gercekizmir.com/haber/16-yasinda-calisana-pastanede-iskence/187377",
+          "publisher": "Gerçek İzmir / AA",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "igdir-merkez-on-alti-yas-kiz-cocugu-bicakli-saldiri-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "investigation",
+      "title": "Iğdır/Merkez'de 16 yaşındaki kız çocuğuna yönelik bıçaklı saldırı",
+      "summary": "DHA'nın 11 Şubat 2026 tarihli haberine göre, Iğdır'da caddede yürüyen 16 yaşındaki kız çocuğu, tanımadığı bir erkek tarafından bıçakla yaralandı; çocuk tedavi altına alınırken şüpheli yakalanıp gözaltına alındı ve Sulh Ceza Hakimliği tarafından kasten öldürmeye teşebbüs suçundan tutuklandı. Bianet'in Şubat 2026 çetelesi de Iğdır'da yolda yürüyen tanımadığı 16 yaşındaki kızı bıçakla yaralayan erkeğin gözaltı sonrası tutuklandığını kaydetti. Kayıtta çocuğun adı/baş harfi, şüpheli adı/baş harfi, kesin cadde/mahalle, hastane adı, okul/ev bağlantısı veya görsel ayrıntılar kullanılmadı.",
+      "institution": "Kamusal alan / sokakta fiziksel şiddet iddiası",
+      "legal_status": "DHA, şüphelinin kasten öldürmeye teşebbüs suçundan tutuklandığını bildirdi; iddianame, duruşma veya hüküm bilgisi kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-10",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "igdir-merkez-girl-stabbing-public-place-claim",
+          "label": "Iğdır Merkez",
+          "province_key": "IGDIR",
+          "province": "Iğdır",
+          "district": "Merkez",
+          "lat": 39.92,
+          "lng": 44.04,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Iğdır merkezde kamusal alan bağlamını verir; çocuk güvenliği için kesin cadde, mahalle, hastane, okul/ev bağlantısı ve tanımlayıcı konum ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-10",
+          "status": "investigation",
+          "note": "DHA, olayın Iğdır merkezde yaşandığını, 16 yaşındaki kız çocuğunun bıçakla yaralandığını ve tedavisinin sürdüğünü aktardı."
+        },
+        {
+          "date": "2026-02-11",
+          "status": "investigation",
+          "note": "DHA, şüphelinin yakalanıp gözaltına alındıktan sonra kasten öldürmeye teşebbüs suçundan tutuklandığını bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Iğdır'daki bu çocuğa şiddet kaydını 16 yaşındaki kız çocuğu, hastaneye kaldırılma ve tutuklama bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "'Birini bıçaklamam lazım' diyerek evden çıkıp 16 yaşındaki kız çocuğunu bıçakladı",
+          "url": "https://www.dha.com.tr/gundem/birini-bicaklamam-lazim-diyerek-evden-cikip-16-yasindaki-kiz-cocugunu-bicakladi-2816879",
+          "publisher": "DHA",
+          "type": "news",
+          "published_at": "2026-02-11"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "ankara-kecioren-sekiz-yas-cocuk-cinayeti-cezaevi-izni-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "investigation",
+      "title": "Ankara/Keçiören'de 8 yaşındaki çocuğun babası tarafından öldürülmesi",
+      "summary": "Habertürk/DHA'nın 9 Şubat 2026 tarihli haberine göre, Ankara'nın Keçiören ilçesinde cezaevinden izinli çıkan bir erkek annesi, 8 yaşındaki kızı ve boşanma aşamasındaki eşini tabancayla öldürdükten sonra intihar etti; olayla ilgili inceleme başlatıldı. İHA'nın 10 Şubat tarihli haberinde de failin önce annesi ile 8 yaşındaki kızını öldürdüğü, ardından boşanma aşamasındaki eşini öldürüp intihar ettiği ve geniş çaplı soruşturma başlatıldığı aktarıldı. Sözcü/DHA, failin 2 Şubat'ta 11 günlük izinle açık ceza infaz kurumundan çıktığını yazdı. Bianet'in Şubat 2026 çetelesi olayı çocuk cinayeti başlığı altında kaydetti. Kayıtta çocuğun adı, aile üyelerinin adları/baş harfleri, kesin sokak/mahalle, ev, araç, sonraki tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Aile içi şiddet / cezaevi izin süreci bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili soruşturma başlatıldığını ve failin aynı olayda yaşamına son verdiğini bildiriyor; failin ölümü nedeniyle iddianame, duruşma veya hüküm bilgisi kamu kaynaklarında yer almıyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-09",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "ankara-kecioren-child-homicide-prison-leave-case",
+          "label": "Keçiören / Ankara",
+          "province_key": "ANKARA",
+          "province": "Ankara",
+          "district": "Keçiören",
+          "lat": 39.98,
+          "lng": 32.86,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Keçiören ilçesini verir; çocuk ve aile güvenliği için kesin sokak, mahalle, ev, araç, sonraki tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-09",
+          "status": "investigation",
+          "note": "Habertürk/DHA, Keçiören'de cezaevinden izinli çıkan failin annesi, 8 yaşındaki kızı ve boşanma aşamasındaki eşini öldürdükten sonra intihar ettiğini ve inceleme başlatıldığını aktardı."
+        },
+        {
+          "date": "2026-02-10",
+          "status": "investigation",
+          "note": "İHA, olayla ilgili geniş çaplı soruşturma başlatıldığını; Sözcü/DHA ise failin açık ceza infaz kurumundan 11 günlük izinle çıktığının öğrenildiğini bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Ankara'daki bu olayı çocuk cinayeti başlığı altında 8 yaşındaki çocuk ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Annesini, kızını ve eşini öldürüp kendi canına kıydı",
+          "url": "https://www.haberturk.com/annesini-kizini-ve-esini-oldurup-kendi-canina-kiydi-3860511",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-02-09"
+        },
+        {
+          "title": "Ankara'da cinnet geçiren koca, eşini kızını ve annesini öldürdü",
+          "url": "https://www.iha.com.tr/ankara-haberleri/ankarada-cinnet-geciren-koca-esini-kizini-ve-annesini-oldurdu-olaya-tanik-komsu-korku-dolu-anlari-anlatti-once-annesi-ile-cocugunu-arabada-vurmus-376361556",
+          "publisher": "İHA",
+          "type": "news",
+          "published_at": "2026-02-10"
+        },
+        {
+          "title": "Annesini, kızını ve eşini öldürüp intihar etmişti... Cezaevinden 11 günlüğüne izinli çıkmış",
+          "url": "https://www.sozcu.com.tr/annesini-kizini-ve-esini-oldurup-intihar-etmisti-cezaevinden-11-gunlugune-izinli-cikmis-p292774",
+          "publisher": "Sözcü / DHA",
+          "type": "news",
+          "published_at": "2026-02-10"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "hatay-kirikhan-su-dolu-insaat-temeli-iki-cocuk-olumu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Hatay/Kırıkhan'da su dolu inşaat temelinde iki çocuğun ölümü",
+      "summary": "İHA'nın 10 Şubat 2026 tarihli haberine göre, Hatay'ın Kırıkhan ilçesinde ev yapımı için kazılan ve yağış sonrası su dolan bir temel çukuruna düşen iki kardeş hayatını kaybetti; jandarma ekiplerinin olayla ilgili inceleme başlattığı bildirildi. Habertürk/AA ve Habertürk/DHA da iki kardeşin su dolu inşaat temeline düştükten sonra hastaneye kaldırıldığını ve kurtarılamadığını aktardı; DHA kaynaklı haberde jandarmanın soruşturma başlattığı belirtildi. soL Haber, 16 Şubat'ta bu olayı Hatay'da yağış sonrası su dolan inşaat çukurlarıyla ilgili daha geniş güvenlik-ihmal tartışması içinde değerlendirdi ve yurttaşların tahliye veya güvenlik önlemi talep ettiğini yazdı. Bianet'in Şubat 2026 çetelesi de olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kaynaklar çocukların yaşlarını farklı aktardığı için kayıt yalnızca iki etkilenen çocuk sayısını kullanır; çocuk adları/baş harfleri, aile adları, kesin mahalle, ev veya inşaat alanı yeri, hastane/kurum ayrıntısı, sonraki tören ve medya ayrıntıları eklenmedi.",
+      "institution": "İnşaat temeli / kamusal güvenlik ve ihmal iddiası bağlamı",
+      "legal_status": "Kaynaklar jandarma incelemesi ya da soruşturması başlatıldığını bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 2,
+      "reported_date": "2026-02-10",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "hatay-kirikhan-water-filled-foundation-child-death-case",
+          "label": "Kırıkhan / Hatay",
+          "province_key": "HATAY",
+          "province": "Hatay",
+          "district": "Kırıkhan",
+          "lat": 36.5,
+          "lng": 36.36,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Kırıkhan ilçesini ve daha dar yer bilgilerini verir; çocuk ve aile güvenliği için kesin mahalle, ev, inşaat alanı, hastane/kurum, sonraki tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-10",
+          "status": "investigation",
+          "note": "İHA, Kırıkhan'da yağış sonrası su dolan bir inşaat temeline düşen iki kardeşin hayatını kaybettiğini ve jandarma ekiplerinin olayla ilgili inceleme başlattığını aktardı."
+        },
+        {
+          "date": "2026-02-11",
+          "status": "investigation",
+          "note": "Habertürk/AA ve Habertürk/DHA, iki kardeşin su dolu inşaat temeline düşmesi sonrası hastaneye kaldırıldığını ve kurtarılamadığını bildirdi; DHA kaynaklı haber soruşturma başlatıldığını yazdı."
+        },
+        {
+          "date": "2026-02-16",
+          "status": "investigation",
+          "note": "soL Haber, olayı Hatay'daki su dolu inşaat çukurları ve güvenlik önlemi talepleri bağlamında haberleştirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Hatay'daki bu olayı şüpheli çocuk ölümü başlığı altında iki kardeş ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hatay'da su dolu temelin içine düşen 2 kardeş çocuk hayatını kaybetti",
+          "url": "https://www.iha.com.tr/hatay-haberleri/hatayda-su-dolu-temelin-icine-dusen-2-kardes-cocuk-hayatini-kaybetti-376592525",
+          "publisher": "İHA",
+          "type": "news",
+          "published_at": "2026-02-10"
+        },
+        {
+          "title": "Hatay'da su dolan inşaat temeline düşen 2 kardeş boğuldu",
+          "url": "https://www.haberturk.com/hatay-haberleri/40515106-hatayda-su-dolan-insaat-temeline-dusen-2-kardes-boguldu",
+          "publisher": "Habertürk / AA",
+          "type": "news",
+          "published_at": "2026-02-10"
+        },
+        {
+          "title": "Hatay'da su dolu inşaat temeline düşen 2 kardeş öldü",
+          "url": "https://www.haberturk.com/hatay-da-su-dolu-insaat-temeline-dusen-2-kardes-oldu-3860826",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-02-11"
+        },
+        {
+          "title": "Hatay'da bir hafta içinde üç çocuk su dolu inşaat çukurunda can verdi",
+          "url": "https://haber.sol.org.tr/haber/hatayda-bir-hafta-icinde-uc-cocuk-su-dolu-insaat-cukurunda-can-verdi-406495",
+          "publisher": "soL Haber",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "tekirdag-cerkezkoy-ortaokul-dorduncu-kat-dusme-cocuk-olumu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "investigation",
+      "title": "Tekirdağ/Çerkezköy'de okul binasından düşen çocuğun ölümü",
+      "summary": "Habertürk/AA'nın 11 Şubat 2026 tarihli haberine göre, Tekirdağ'ın Çerkezköy ilçesinde bir ortaokulda öğrenim gören 8. sınıf öğrencisi, okul binasının dördüncü katından zemine düştü; hastaneye kaldırılan çocuk kurtarılamadı ve jandarma ekipleri olayla ilgili inceleme başlattı. BirGün/AA ve Kapaklı Gazetesi de öğrencinin okul binasından düşmesi sonrası hastanede hayatını kaybettiğini aktardı. Çerkezköy Bakış'ın yerel haberinde okul yönetiminin acil çağrı merkezine bildirim yaptığı, jandarma ekiplerinin okul çevresinde güvenlik önlemi alarak olay yerinde inceleme gerçekleştirdiği ve olayın nasıl meydana geldiğine ilişkin soruşturma başlatıldığı belirtildi. Bianet'in Şubat 2026 çetelesi de olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıt, okulda gerçekleşen ölüm ve soruşturma bağlamı nedeniyle kurumsal ihmal/okul güvenliği izlemesine alınmıştır; çocuk adı/baş harfi, kurumun özel adı, daha dar yer bilgisi, hastane adı, aile ayrıntıları, olay kaydı, sonraki tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Ortaokul / okul güvenliği ve kurumsal ihmal iddiası bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili jandarma incelemesi ya da soruşturması başlatıldığını bildiriyor; kamuya açık kaynaklarda iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-11",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "tekirdag-cerkezkoy-school-building-fall-child-death-case",
+          "label": "Çerkezköy / Tekirdağ",
+          "province_key": "TEKIRDAG",
+          "province": "Tekirdağ",
+          "district": "Çerkezköy",
+          "lat": 41.286,
+          "lng": 27.999,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Çerkezköy'de bir ortaokul bağlamını verir; çocuk güvenliği için kurumun özel adı, daha dar yer bilgisi, hastane, ev/aile bağlantısı, olay kaydı, sonraki tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-11",
+          "status": "investigation",
+          "note": "Habertürk/AA, Çerkezköy'de 8. sınıf öğrencisinin okul binasının dördüncü katından düşerek hastaneye kaldırıldığını, kurtarılamadığını ve jandarmanın inceleme başlattığını aktardı."
+        },
+        {
+          "date": "2026-02-12",
+          "status": "investigation",
+          "note": "BirGün/AA ve Kapaklı Gazetesi, öğrencinin hastanede yapılan müdahalelere rağmen hayatını kaybettiğini bildirdi; Çerkezköy Bakış, olayın nasıl meydana geldiğinin netleşmesi için soruşturma başlatıldığını yazdı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Tekirdağ'daki bu olayı şüpheli çocuk ölümü başlığı altında ortaokul, dördüncü kat, hastane ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tekirdağ'da okulun 4'üncü katından düşen 8'inci sınıf öğrencisi hayatını kaybetti",
+          "url": "https://www.haberturk.com/son-dakika-tekirdag-da-okulun-4-uncu-katindan-dusen-8-inci-sinif-ogrencisi-hayatini-kaybetti-3861016",
+          "publisher": "Habertürk / AA",
+          "type": "news",
+          "published_at": "2026-02-11"
+        },
+        {
+          "title": "Tekirdağ'da okulun 4. katından düşen öğrenci hayatını kaybetti",
+          "url": "https://www.birgun.net/haber/tekirdag-da-okulun-4-katindan-dusen-ogrenci-hayatini-kaybetti-692145",
+          "publisher": "BirGün / AA",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Yüksekten düşen kız öğrenci hayatını kaybetti",
+          "url": "https://www.cerkezkoybakis.com/haber/27435606/yuksekten-dusen-kiz-ogrenci-hayatini-kaybetti",
+          "publisher": "Çerkezköy Bakış",
+          "type": "news",
+          "published_at": "2026-02-11"
+        },
+        {
+          "title": "Dördüncü kattan düşen öğrenci hayatını kaybetti",
+          "url": "https://www.kapakligazetesi.com.tr/dorduncu-kattan-dusen-ogrenci-hayatini-kaybetti",
+          "publisher": "Kapaklı Gazetesi",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "mardin-balkondan-dusme-uc-yas-cocuk-olumu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Mardin'de balkondan düşen 3 yaşındaki çocuğun ölümü",
+      "summary": "Tigris Haber'in İHA kaynaklı 11 Şubat 2026 tarihli haberine göre, Mardin'de 3 yaşındaki bir çocuk bir konutun üçüncü katındaki balkondan henüz bilinmeyen nedenle düşerek ağır yaralandı; sağlık ve polis ekipleri olay yerine sevk edildi, çocuk sağlık kuruluşuna kaldırıldı ve olayla ilgili inceleme başlatıldı. BirGün/AA'nın 12 Şubat tarihli haberinde çocuğun tedavi gördüğü sağlık kuruluşunda hayatını kaybettiği aktarıldı. Nefes/ANKA da çocuğun üçüncü kattaki balkondan düştükten sonra yaşamını yitirdiğini yazdı. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, daha dar yer bilgisi, ev/aile ayrıntıları, sağlık kuruluşu adı, sonraki özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Konut balkonu / çocuk güvenliği ve ihmal iddiası bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili inceleme ya da soruşturmanın sürdüğünü bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-12",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "mardin-balcony-fall-child-death-province",
+          "label": "Mardin",
+          "province_key": "MARDIN",
+          "province": "Mardin",
+          "district": "",
+          "lat": 37.3212,
+          "lng": 40.7245,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Mardin'de özel konut bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, daha dar yer bilgisi, ev, aile bağlantısı, sağlık kuruluşu, sonraki özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-12",
+          "status": "investigation",
+          "note": "Tigris Haber/İHA, Mardin'de 3 yaşındaki çocuğun bir konut balkonundan düşerek ağır yaralandığını, sağlık ekiplerince sağlık kuruluşuna kaldırıldığını ve inceleme başlatıldığını aktardı."
+        },
+        {
+          "date": "2026-02-12",
+          "status": "investigation",
+          "note": "BirGün/AA ve Nefes/ANKA, çocuğun tedavi gördüğü sağlık kuruluşunda hayatını kaybettiğini bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Mardin'deki bu olayı şüpheli çocuk ölümü başlığı altında 3 yaşındaki çocuk ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mardin'de 3 yaşındaki çocuğun balkondan düşmesi sonrası ağır yaralanması",
+          "url": "https://www.tigrishaber.com/mardinde-3-yasindaki-cocuk-balkondan-dustu-146797h.htm",
+          "publisher": "Tigris Haber / İHA",
+          "type": "news",
+          "published_at": "2026-02-11"
+        },
+        {
+          "title": "Mardin'de üçüncü kattan düşen çocuğun ölümü",
+          "url": "https://www.birgun.net/haber/mardin-de-ucuncu-kattan-dusen-cocuk-hayatini-kaybetti-692200",
+          "publisher": "BirGün / AA",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Mardin'de 3 yaşındaki çocuğun balkondan düşmesi sonrası ölümü",
+          "url": "https://www.nefes.com.tr/yurek-yakan-olay-3-yasindaki-cocuk-balkondan-duserek-hayatini-kaybetti-103419",
+          "publisher": "Nefes / ANKA",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "manisa-balkondan-dusme-on-alti-yas-cocuk-olumu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Manisa'da balkondan düşen 16 yaşındaki çocuğun ölümü",
+      "summary": "Bölge Gazetesi Van'ın 12 Şubat 2026 tarihli haberine göre, Manisa'da 16 yaşındaki bir çocuk gece saatlerinde yaşadığı binanın dördüncü kat balkonundan düşerek ağır yaralandı; sağlık ve polis ekipleri olay yerine sevk edildi, çocuk hastaneye kaldırıldı ancak kurtarılamadı. Hakkari İl Sesi ve Hakkari Analiz Haber de çocuğun balkondan düşmesi sonrası hayatını kaybettiğini ve olayla ilgili inceleme başlatıldığını aktardı. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, aile adı ve yakınlık bilgileri, kesin ilçe, daha dar yer bilgisi, ev, sağlık kuruluşu, sonraki özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Konut balkonu / çocuk güvenliği ve ihmal iddiası bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili inceleme ya da soruşturma başlatıldığını bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-12",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "manisa-balcony-fall-child-death-province",
+          "label": "Manisa",
+          "province_key": "MANISA",
+          "province": "Manisa",
+          "district": "",
+          "lat": 38.6191,
+          "lng": 27.4289,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Manisa'da özel konut bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, daha dar yer bilgisi, ev, aile bağlantısı, sağlık kuruluşu, sonraki özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-12",
+          "status": "investigation",
+          "note": "Bölge Gazetesi Van, Manisa'da 16 yaşındaki çocuğun bir konut balkonundan düşerek ağır yaralandığını, sağlık ve polis ekiplerinin sevk edildiğini, çocuğun hastaneye kaldırıldıktan sonra kurtarılamadığını ve soruşturma başlatıldığını aktardı."
+        },
+        {
+          "date": "2026-02-12",
+          "status": "investigation",
+          "note": "Hakkari İl Sesi ve Hakkari Analiz Haber, çocuğun balkondan düşmesi sonrası hayatını kaybettiğini ve olayla ilgili inceleme başlatıldığını bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Manisa'daki bu olayı şüpheli çocuk ölümü başlığı altında 16 yaşındaki çocuk ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Manisa'da 16 yaşındaki çocuğun balkondan düşmesi sonrası ölümü",
+          "url": "https://www.bolgegazetesivan.com/aci-olay-hakkarili-16-yasindaki-genc-kiz-balkondan-duserek-hayatini-kaybetti",
+          "publisher": "Bölge Gazetesi Van",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Manisa'da balkondan düşen 16 yaşındaki çocuğun ölümü",
+          "url": "https://www.hakkariilsesigazetesi.com/hakkarili-genc-kiz-balkondan-duserek-hayatini-kaybetti",
+          "publisher": "Hakkari İl Sesi Gazetesi",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Manisa'da 16 yaşındaki çocuğun balkondan düşmesi sonrası inceleme",
+          "url": "https://hakkarianalizhaber.com/2026/02/12/hakkarili-genc-kiz-balkondan-duserek-hayatini-kaybetti/",
+          "publisher": "Hakkari Analiz Haber",
+          "type": "news",
+          "published_at": "2026-02-12"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "hatay-su-dolu-cukur-on-yas-cocuk-olumu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Hatay'da su dolu çukura düşen 10 yaşındaki çocuğun ölümü",
+      "summary": "İHA'nın 15 Şubat 2026 tarihli haberine göre, Hatay'da oyun oynadığı sırada yağışla su dolan bir çukura düşen 10 yaşındaki bir çocuk hayatını kaybetti; olay yerine jandarma, sağlık ve itfaiye ekiplerinin sevk edildiği ve jandarma ekiplerinin inceleme başlattığı aktarıldı. Nefes/İHA ve Yeniçağ/İHA da çocuğun su dolu çukura düşmesi sonrası kurtarılamadığını ve olayla ilgili inceleme başlatıldığını bildirdi. soL Haber, 16 Şubat'ta bu olayı Hatay'da bir hafta içinde su dolu inşaat çukurları ve su birikintileri nedeniyle ölen çocuklara ilişkin daha geniş güvenlik-ihmal tartışması içinde değerlendirdi. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, daha dar yer bilgisi, ev/aile bağlantısı, olay yeri ayrıntısı, sağlık kuruluşu, adli tıp süreci, sonraki özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Su dolu çukur / kamusal güvenlik ve ihmal iddiası bağlamı",
+      "legal_status": "Kaynaklar jandarma incelemesi ya da soruşturması başlatıldığını bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-15",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "hatay-water-filled-pit-child-death-province",
+          "label": "Hatay",
+          "province_key": "HATAY",
+          "province": "Hatay",
+          "district": "",
+          "lat": 36.4018,
+          "lng": 36.3498,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Hatay'da su dolu çukur ve özel yerleşim çevresi bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, daha dar yer bilgisi, ev, aile bağlantısı, olay yeri ayrıntısı, sağlık kuruluşu, sonraki özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-15",
+          "status": "investigation",
+          "note": "İHA, Hatay'da 10 yaşındaki çocuğun yağışla su dolan bir çukura düşerek hayatını kaybettiğini, jandarma, sağlık ve itfaiye ekiplerinin sevk edildiğini ve jandarmanın inceleme başlattığını aktardı."
+        },
+        {
+          "date": "2026-02-16",
+          "status": "investigation",
+          "note": "soL Haber, olayı Hatay'daki su dolu çukurlar ve güvenlik önlemi talepleri bağlamında haberleştirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Hatay'daki bu olayı şüpheli çocuk ölümü başlığı altında 10 yaşındaki çocuk ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Yağışlı havayla birlikte su dolan çukura düşen 10 yaşındaki çocuk hayatını kaybetti",
+          "url": "https://www.iha.com.tr/hatay-haberleri/yagisli-havayla-birlikte-su-dolan-cukura-dusen-10-yasindaki-cocuk-hayatini-kaybetti-378762859",
+          "publisher": "İHA",
+          "type": "news",
+          "published_at": "2026-02-15"
+        },
+        {
+          "title": "Oyun oynarken facia: su dolan çukura düşen 10 yaşındaki çocuk hayatını kaybetti",
+          "url": "https://www.nefes.com.tr/oyun-oynarken-facia-su-dolan-cukura-dusen-10-yasindaki-cocuk-hayatini-kaybetti-103959",
+          "publisher": "Nefes / İHA",
+          "type": "news",
+          "published_at": "2026-02-15"
+        },
+        {
+          "title": "Hatay'da su dolu çukura düşen 10 yaşındaki çocuk hayatını kaybetti",
+          "url": "https://www.yenicaggazetesi.com/hatayda-aci-olay-su-dolu-cukura-dusen-10-yasindaki-cocuk-hayatini-kaybetti-1001269h.htm",
+          "publisher": "Yeniçağ / İHA",
+          "type": "news",
+          "published_at": "2026-02-15"
+        },
+        {
+          "title": "Hatay'da bir hafta içinde üç çocuk su dolu inşaat çukurunda can verdi",
+          "url": "https://haber.sol.org.tr/haber/hatayda-bir-hafta-icinde-uc-cocuk-su-dolu-insaat-cukurunda-can-verdi-406495",
+          "publisher": "soL Haber",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "bolu-evde-olu-bulunan-on-alti-yas-cocuk-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Bolu'da evde ölü bulunan 16 yaşındaki çocukla ilgili soruşturma",
+      "summary": "Habertürk/İHA'nın 15 Şubat 2026 tarihli haberine göre, Bolu'da 16 yaşındaki bir lise öğrencisi evde ölü bulundu; yakınlarının 112 Acil Çağrı Merkezi'ne haber vermesi üzerine sağlık, polis ve itfaiye ekiplerinin sevk edildiği, sağlık ekiplerinin çocuğun hayatını kaybettiğini belirlediği ve polis ekiplerinin olayla ilgili inceleme yürüttüğü aktarıldı. Cumhuriyet/İHA ve Yeniçağ/İHA da polis ekiplerinin olayın nedenine ilişkin soruşturma başlattığını ve intihar ihtimali üzerinde durulduğunu bildirdi. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin mahalle, ev, aile bağlantısı, sağlık kurumu, ölüm yöntemi, sonraki özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Özel konut / şüpheli çocuk ölümü bağlamı",
+      "legal_status": "Kaynaklar polis incelemesi ya da soruşturması başlatıldığını bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-15",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "bolu-home-child-death-province",
+          "label": "Bolu",
+          "province_key": "BOLU",
+          "province": "Bolu",
+          "district": "",
+          "lat": 40.74,
+          "lng": 31.61,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Bolu'da özel konut bağlamını verir; çocuk ve aile güvenliği için kesin mahalle, daha dar yer bilgisi, ev, aile bağlantısı, sağlık kurumu, sonraki özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-15",
+          "status": "investigation",
+          "note": "Habertürk/İHA, Bolu'da 16 yaşındaki lise öğrencisinin evde ölü bulunduğunu, sağlık, polis ve itfaiye ekiplerinin sevk edildiğini ve polis ekiplerinin olayla ilgili inceleme yürüttüğünü aktardı."
+        },
+        {
+          "date": "2026-02-16",
+          "status": "investigation",
+          "note": "Cumhuriyet/İHA ve Yeniçağ/İHA, polis ekiplerinin olayın nedenine ilişkin soruşturma başlattığını ve intihar ihtimali üzerinde durulduğunu bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Bolu'daki bu olayı şüpheli çocuk ölümü başlığı altında 16 yaşındaki çocuk ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Bolu'da lise öğrencisi evinde ölü bulundu",
+          "url": "https://www.haberturk.com/bolu-haberleri/116623549-boluda-lise-ogrencisi-evinde-olu-bulundu",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-02-15"
+        },
+        {
+          "title": "16 yaşındaki lise öğrencisi evinde ölü bulundu",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/16-yasindaki-lise-ogrencisi-evinde-olu-bulundu-2479177",
+          "publisher": "Cumhuriyet / İHA",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Bolu'da 16 yaşındaki lise öğrencisi evde ölü bulundu",
+          "url": "https://www.yenicaggazetesi.com/boluda-16-yasindaki-lise-ogrencisi-evde-olu-bulundu-1001475h.htm",
+          "publisher": "Yeniçağ / İHA",
+          "type": "news",
+          "published_at": "2026-02-15"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "kahramanmaras-evde-olu-bulunan-on-yedi-yas-cocuk-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Kahramanmaraş'ta evde ölü bulunan 17 yaşındaki çocukla ilgili soruşturma",
+      "summary": "Aksu TV'nin 16 Şubat 2026 tarihli haberine göre, Kahramanmaraş'ta 17 yaşındaki bir çocuk evde hayatını kaybetmiş halde bulundu; 112 Acil Sağlık ekiplerinin sevk edildiği, sağlık ekiplerinin çocuğun hayatını kaybettiğini belirlediği ve olayla ilgili tahkikat başlatıldığı aktarıldı. Yeşil Afşin ve Maraş Bugün de çocuğun evde hareketsiz halde bulunduğunu, sağlık ekiplerinin ölümü tespit ettiğini ve soruşturma başlatıldığını bildirdi. Kahraman TV, savcılık talimatıyla kesin ölüm nedeninin belirlenmesi sürecinin başlatıldığını ve incelemenin sürdüğünü aktardı. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, mahalle, sokak, ev, aile bağlantısı, eğitim/işyeri bilgisi, sağlık kurumu, adli tıp ayrıntıları, sonraki özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Özel konut / şüpheli çocuk ölümü bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili tahkikat, inceleme ya da soruşturma başlatıldığını bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-16",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "kahramanmaras-home-child-death-province",
+          "label": "Kahramanmaraş",
+          "province_key": "KAHRAMANMARAS",
+          "province": "Kahramanmaraş",
+          "district": "",
+          "lat": 37.58,
+          "lng": 36.93,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Kahramanmaraş'ta özel konut bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, mahalle, sokak, ev, aile bağlantısı, eğitim/işyeri bilgisi, sağlık kurumu, sonraki özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-16",
+          "status": "investigation",
+          "note": "Aksu TV, Kahramanmaraş'ta 17 yaşındaki çocuğun evde hayatını kaybetmiş halde bulunduğunu, sağlık ekiplerinin sevk edildiğini ve olayla ilgili tahkikat başlatıldığını aktardı."
+        },
+        {
+          "date": "2026-02-16",
+          "status": "investigation",
+          "note": "Yeşil Afşin, Maraş Bugün ve Kahraman TV, çocuğun evde hareketsiz halde bulunduğunu, sağlık ekiplerinin ölümü tespit ettiğini ve soruşturma ya da incelemenin sürdüğünü bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Maraş'taki bu olayı şüpheli çocuk ölümü başlığı altında 17 yaşındaki çocuk ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kahramanmaraş'ta 17 yaşındaki çocuk evde ölü bulundu",
+          "url": "https://www.aksutvhaber.net/onikisubatta-17-yasindaki-genc-evde-olu-bulundu",
+          "publisher": "Aksu TV",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "17 Yaşındaki Genç Evinde Ölü Bulundu",
+          "url": "https://www.yesilafsin.com/17-yasindaki-genc-evinde-olu-bulundu",
+          "publisher": "Yeşil Afşin Gazetesi",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Kahramanmaraş'ta 17 Yaşındaki Genç Evinde Ölü Bulundu",
+          "url": "https://www.marasbugun.com.tr/kahramanmarasta-17-yasindaki-genc-evinde-olu-bulundu",
+          "publisher": "Maraş Bugün",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Kahramanmaraş'ta 17 Yaşındaki Genç Evinde Ölü Bulundu",
+          "url": "https://www.kahramantv.com/kahramanmarasta-17-yasindaki-genc-evinde-olu-bulundu",
+          "publisher": "Kahraman TV",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "izmir-cigli-hurda-otobus-yangin-on-alti-yas-cocuk-olumu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "İzmir'de hurda otobüs yangınında 16 yaşındaki çocuğun ölümü",
+      "summary": "DHA'nın 16 Şubat 2026 tarihli haberine göre, İzmir'de hurdaya ayrılmış bir otobüste çıkan yangında 16 yaşındaki bir çocuk hayatını kaybetti; itfaiye, sağlık ve polis ekiplerinin sevk edildiği, yangının söndürüldüğü ve olayla ilgili soruşturmanın sürdüğü aktarıldı. Habertürk/DHA ve Cumhuriyet/DHA da yangında bir çocuğun öldüğünü, geceyi otobüste geçirdikleri belirtilen üç başka çocuğun gözaltına alındığını ve soruşturmanın sürdüğünü bildirdi. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta ölen çocuğun ve gözaltına alınan çocukların adları/baş harfleri, kesin mahalle, sanayi sitesi, araç tanımlayıcıları, medya ayrıntıları, sağlık kurumu, adli süreç ayrıntıları, aile/ev bağlantısı veya sonraki özel tören ayrıntıları kullanılmadı.",
+      "institution": "Hurdaya ayrılmış otobüs / kamusal güvenlik ve ihmal iddiası bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili soruşturmanın sürdüğünü ve üç çocuğun gözaltına alındığını bildiriyor; kamuya açık kaynaklarda iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-16",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "izmir-cigli-scrapped-bus-fire-child-death-district",
+          "label": "Çiğli, İzmir",
+          "province_key": "IZMIR",
+          "province": "İzmir",
+          "district": "Çiğli",
+          "lat": 38.4924,
+          "lng": 27.0588,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Çiğli ilçesinde hurdaya ayrılmış otobüs bağlamını verir; çocuk güvenliği için kesin mahalle, sanayi sitesi, sokak/site, araç tanımlayıcıları, araç konumu, sağlık kurumu, medya ve özel tören ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-16",
+          "status": "investigation",
+          "note": "DHA, İzmir'de hurdaya ayrılmış otobüste çıkan yangında 16 yaşındaki bir çocuğun hayatını kaybettiğini, itfaiye, sağlık ve polis ekiplerinin sevk edildiğini ve soruşturmanın sürdüğünü aktardı."
+        },
+        {
+          "date": "2026-02-16",
+          "status": "investigation",
+          "note": "Habertürk/DHA ve Cumhuriyet/DHA, geceyi otobüste geçirdikleri belirtilen üç başka çocuğun gözaltına alındığını ve soruşturmanın sürdüğünü bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, İzmir'deki bu olayı şüpheli çocuk ölümü başlığı altında 16 yaşındaki çocuk, üç çocuk hakkında gözaltı ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hurda otobüsteki yangında 16 yaşındaki çocuk öldü; 3 gözaltı",
+          "url": "https://www.dha.com.tr/foto-galeri/hurda-otobusteki-yangin-kamerada-abdullah-oldu-3-gozalti-2820067",
+          "publisher": "DHA",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Hurda otobüste yangın... 16 yaşındaki çocuk hayatını kaybetti",
+          "url": "https://www.haberturk.com/son-dakika-hurda-otobuste-yangin-16-yasindaki-cocuk-hayatini-kaybetti-3862228",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "İzmir'de hurda otobüs yandı: 1 çocuk öldü, 3 çocuk gözaltına alındı",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/izmir-de-hurda-otobus-alev-alev-yandi-1-cocuk-oldu-3-cocuk-gozaltina-alindi-2479335",
+          "publisher": "Cumhuriyet / DHA",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "trabzon-evde-olu-bulunan-on-uc-yas-cocuk-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Trabzon'da evde ölü bulunan 13 yaşındaki çocukla ilgili soruşturma",
+      "summary": "Haber61'in 16 Şubat 2026 tarihli haberine göre, Trabzon'da 13 yaşındaki bir çocuk evde yaşanan olay sonrası kaldırıldığı sağlık kurumunda hayatını kaybetti. Yeni Asır, Cumhuriyet/DHA ve Hedef Halk'ın 17 Şubat tarihli haberleri, çocuğun evde hareketsiz halde bulunduğunu, sağlık ekiplerinin sevk edildiğini, dijital oyun iddiasının soruşturma kapsamında incelendiğini ve dijital materyallerin incelemeye alındığını aktardı. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, mahalle, ev, aile bağlantısı, sağlık kurumu, ölüm yöntemi, dijital materyal ayrıntıları, sonraki özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Özel konut / şüpheli çocuk ölümü ve dijital ortam iddiası bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili soruşturma başlatıldığını ve dijital materyallerin incelendiğini bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-17",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "trabzon-home-child-death-province",
+          "label": "Trabzon",
+          "province_key": "TRABZON",
+          "province": "Trabzon",
+          "district": "",
+          "lat": 41,
+          "lng": 39.72,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Trabzon'da özel konut bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, mahalle, ev, aile bağlantısı, sağlık kurumu, ölüm yöntemi, dijital materyal ayrıntıları, sonraki özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-16",
+          "status": "investigation",
+          "note": "Haber61, Trabzon'da 13 yaşındaki çocuğun evde yaşanan olay sonrası sağlık ekiplerinin müdahalesi ve tedavi sürecine rağmen hayatını kaybettiğini aktardı."
+        },
+        {
+          "date": "2026-02-17",
+          "status": "investigation",
+          "note": "Yeni Asır, Cumhuriyet/DHA ve Hedef Halk, çocuğun evde hareketsiz halde bulunduğunu, dijital oyun iddiasının incelendiğini ve soruşturmanın sürdüğünü bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Trabzon'daki bu olayı şüpheli çocuk ölümü başlığı altında 13 yaşındaki çocuk ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Trabzon'da 13 yaşındaki çocukla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.haber61.net/trabzon/trabzonda-sok-eden-haber-13-yasinda-canina-kiydi-h624403.html",
+          "publisher": "Haber61",
+          "type": "news",
+          "published_at": "2026-02-16"
+        },
+        {
+          "title": "Trabzon'da 13 yaşındaki çocukla ilgili şüpheli ölüm ve dijital oyun iddiası",
+          "url": "https://www.yeniasir.com.tr/yasam/2026/02/17/trabzonda-supheli-olum-eymeni-sanal-oyun-mu-oldurdu",
+          "publisher": "Yeni Asır",
+          "type": "news",
+          "published_at": "2026-02-17"
+        },
+        {
+          "title": "Trabzon'da 13 yaşındaki çocukla ilgili şüpheli ölüm ve dijital oyun iddiası",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/13-yasindaki-cocuk-odasina-olu-bulundu-dikkat-ceken-sanal-oyun-ayrintisi-2479585",
+          "publisher": "Cumhuriyet / DHA",
+          "type": "news",
+          "published_at": "2026-02-17"
+        },
+        {
+          "title": "Trabzon'da 13 yaşındaki çocukla ilgili dijital oyun iddiası",
+          "url": "https://www.hedefhalk.com/trabzon-da-sanal-oyun-iddiasi-13-yasindaki-eymen-olu-bulundu/1811174/",
+          "publisher": "Hedef Halk",
+          "type": "news",
+          "published_at": "2026-02-17"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "sanliurfa-olu-bulunan-on-yedi-yas-cocuk-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Şanlıurfa'da ölü bulunan 17 yaşındaki çocukla ilgili soruşturma",
+      "summary": "Urfanatik'in 19 Şubat 2026 tarihli haberine göre, Şanlıurfa'da 17 yaşındaki bir çocuk kamusal alanda ölü bulundu; olay yerine sağlık ve güvenlik ekiplerinin sevk edildiği, savcılık ve polis incelemesi başlatıldığı aktarıldı. UrfaSesVer ve Urfastar da çocuğun ölü bulunmasının ardından soruşturma başlatıldığını bildirdi. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, mahalle, olay yeri, aile/ev bağlantısı, sağlık kurumu, ölüm yöntemi, adli süreç ayrıntıları, sonraki özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Kamusal alan / şüpheli çocuk ölümü bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili savcılık ve polis incelemesi ya da soruşturma başlatıldığını bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-19",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "sanliurfa-public-area-child-death-province",
+          "label": "Şanlıurfa",
+          "province_key": "SANLIURFA",
+          "province": "Şanlıurfa",
+          "district": "",
+          "lat": 37.16,
+          "lng": 38.79,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Şanlıurfa'da kamusal alan bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, mahalle, olay yeri, özel konum, sağlık kurumu, ölüm yöntemi, sonraki özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-19",
+          "status": "investigation",
+          "note": "Urfanatik, Şanlıurfa'da 17 yaşındaki bir çocuğun ölü bulunduğunu, sağlık ve güvenlik ekiplerinin sevk edildiğini ve savcılık ile polis incelemesinin başlatıldığını aktardı."
+        },
+        {
+          "date": "2026-02-19",
+          "status": "investigation",
+          "note": "UrfaSesVer ve Urfastar, Şanlıurfa'da 17 yaşındaki çocuğun ölü bulunmasının ardından soruşturma başlatıldığını bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Urfa'daki bu olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Şanlıurfa'da 17 yaşındaki çocukla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.urfanatik.com/ramazanin-ilk-gununde-eyyubiye-osmanli-mesire-alaninda-feci-olay",
+          "publisher": "Urfanatik",
+          "type": "news",
+          "published_at": "2026-02-19"
+        },
+        {
+          "title": "Şanlıurfa'da 17 yaşındaki çocukla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.urfasesver.com/haber/27493703/sanliurfada-17-yasindaki-genc-osmanli-mesire-alaninda-olu-bulundu",
+          "publisher": "UrfaSesVer",
+          "type": "news",
+          "published_at": "2026-02-19"
+        },
+        {
+          "title": "Urfa'da 17 yaşındaki çocukla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.urfastar.com/urfada-aci-olay",
+          "publisher": "Urfastar",
+          "type": "news",
+          "published_at": "2026-02-19"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "mugla-okulda-rahatsizlanan-on-bir-yas-cocuk-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Muğla'da okulda rahatsızlanan 11 yaşındaki çocukla ilgili soruşturma",
+      "summary": "DHA'nın 20 Şubat 2026 tarihli haberine göre, Muğla'da 11 yaşındaki 5'inci sınıf öğrencisi bir çocuk okul günü içinde rahatsızlandı; sağlık ekiplerinin sevk edildiği, çocuğun sağlık müdahalesine rağmen hayatını kaybettiği aktarıldı. İşçi Haber/DHA ve Gazete İlk Sayfa da okulda rahatsızlanma sonrası ölüm bilgisini yayımladı. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, okul adı, sağlık kurumu, aile/ev bağlantısı, özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Okul ortamı / şüpheli çocuk ölümü bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili soruşturma başlatıldığını bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-20",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "mugla-school-day-child-death-province",
+          "label": "Muğla",
+          "province_key": "MUGLA",
+          "province": "Muğla",
+          "district": "",
+          "lat": 37.22,
+          "lng": 28.36,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Muğla'da okul günü bağlamını verir; çocuk ve okul topluluğu güvenliği için kesin ilçe, okul adı, sağlık kurumu, aile/ev bağlantısı, özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-20",
+          "status": "investigation",
+          "note": "DHA, Muğla'da 11 yaşındaki bir çocuğun okul günü içinde rahatsızlandığını, sağlık ekiplerinin sevk edildiğini ve çocuğun sağlık müdahalesine rağmen hayatını kaybettiğini aktardı."
+        },
+        {
+          "date": "2026-02-20",
+          "status": "investigation",
+          "note": "İşçi Haber/DHA ve Gazete İlk Sayfa, okulda rahatsızlanma sonrası ölüm bilgisini ve soruşturma başlığını yayımladı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Muğla'daki bu olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Muğla'da okulda rahatsızlanan 11 yaşındaki çocukla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.dha.com.tr/gundem/okulda-rahatsizlanan-11-yasindaki-oyku-hayatini-kaybetti-2823271",
+          "publisher": "DHA",
+          "type": "news",
+          "published_at": "2026-02-20"
+        },
+        {
+          "title": "Muğla'da okulda rahatsızlanan 11 yaşındaki çocukla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.iscihaber.net/mugla/muglada-okulda-fenelasan-11-yasindaki-oyku-hayatini-kaybetti/208335",
+          "publisher": "İşçi Haber / DHA",
+          "type": "news",
+          "published_at": "2026-02-20"
+        },
+        {
+          "title": "11 yaşındaki çocuğun okulda rahatsızlanması sonrası şüpheli ölüm soruşturması",
+          "url": "https://www.gazeteilksayfa.com/11-yasindaki-cocuk-okulda-fenalasarak-hayatini-kaybetti-298979h.htm",
+          "publisher": "Gazete İlk Sayfa",
+          "type": "news",
+          "published_at": "2026-02-20"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "diyarbakir-evde-olu-bulunan-on-bes-yas-kiz-cocugu-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Diyarbakır'da evde ölü bulunan 15 yaşındaki kız çocuğuyla ilgili soruşturma",
+      "summary": "DHA'nın 25 Şubat 2026 tarihli haberine göre, Diyarbakır'da 15 yaşındaki bir kız çocuğu evde ölü bulundu; polis ve sağlık ekiplerinin sevk edildiği, olayla ilgili soruşturmanın sürdüğü aktarıldı. Diyarbakır Olay da aynı gün çocuğun evde ölü bulunması sonrası geniş çaplı soruşturma başlatıldığını bildirdi. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, mahalle, ev, aile bağlantısı, silah/yöntem, sağlık/adli kurum, özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Özel konut / şüpheli çocuk ölümü bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili soruşturmanın sürdüğünü bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-25",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "diyarbakir-home-girl-child-death-province",
+          "label": "Diyarbakır",
+          "province_key": "DIYARBAKIR",
+          "province": "Diyarbakır",
+          "district": "",
+          "lat": 37.91,
+          "lng": 40.22,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Diyarbakır'da özel konut bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, mahalle, ev, aile bağlantısı, silah/yöntem, sağlık/adli kurum, özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-25",
+          "status": "investigation",
+          "note": "DHA, Diyarbakır'da 15 yaşındaki kız çocuğunun evde ölü bulunduğunu, polis ve sağlık ekiplerinin sevk edildiğini ve olayla ilgili soruşturmanın sürdüğünü aktardı."
+        },
+        {
+          "date": "2026-02-25",
+          "status": "investigation",
+          "note": "Diyarbakır Olay, çocuğun evde ölü bulunmasının ardından geniş çaplı soruşturma başlatıldığını bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Diyarbakır'daki bu olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Diyarbakır'da 15 yaşındaki kız çocuğuyla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.dha.com.tr/gundem/15-yasindaki-amine-silahla-vurulmus-halde-bulundu-2825791",
+          "publisher": "DHA",
+          "type": "news",
+          "published_at": "2026-02-25"
+        },
+        {
+          "title": "Diyarbakır'da 15 yaşındaki kız çocuğuyla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.diyarbakirolay.com.tr/haber/diyarbakir-da-15-yasindaki-genc-kiz-evinde-olu-bulundu-187180.html",
+          "publisher": "Diyarbakır Olay",
+          "type": "news",
+          "published_at": "2026-02-25"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "aydin-evde-olu-bulunan-on-bes-yas-oglan-cocugu-sorusturma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Aydın'da evde ölü bulunan 15 yaşındaki oğlan çocuğuyla ilgili soruşturma",
+      "summary": "Cumhuriyet/IHA'nın 25 Şubat 2026 tarihli haberine göre, Aydın'da 15 yaşındaki bir oğlan çocuğu evde ölü bulundu; sağlık ve polis ekiplerinin sevk edildiği, olayla ilgili soruşturmanın sürdüğü aktarıldı. TGRT Haber/IHA ve Haberler/IHA da çocuğun evde ölü bulunması sonrası soruşturma başlatıldığını bildirdi. Bianet'in Şubat 2026 çetelesi olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, mahalle, sokak, bina, ev içi konum, aile bağlantısı, ölüm yöntemi, sağlık kurumu, özel tören veya medya ayrıntıları kullanılmadı.",
+      "institution": "Özel konut / şüpheli çocuk ölümü bağlamı",
+      "legal_status": "Kaynaklar olayla ilgili soruşturmanın sürdüğünü bildiriyor; kamuya açık kaynaklarda sorumlu kişi, iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-25",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "aydin-home-boy-child-death-province",
+          "label": "Aydın",
+          "province_key": "AYDIN",
+          "province": "Aydın",
+          "district": "",
+          "lat": 37.84,
+          "lng": 28.0,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Aydın'da özel konut bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, mahalle, sokak, bina, ev içi konum, aile bağlantısı, ölüm yöntemi, sağlık kurumu, özel tören ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-25",
+          "status": "investigation",
+          "note": "Cumhuriyet/IHA, Aydın'da 15 yaşındaki bir oğlan çocuğunun evde ölü bulunduğunu, sağlık ve polis ekiplerinin sevk edildiğini ve olayla ilgili soruşturmanın sürdüğünü aktardı."
+        },
+        {
+          "date": "2026-02-25",
+          "status": "investigation",
+          "note": "TGRT Haber/IHA ve Haberler/IHA, çocuğun evde ölü bulunması sonrası soruşturmanın devam ettiğini bildirdi."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Aydın'daki bu olayı şüpheli çocuk ölümü başlığı altında soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Aydın'da 15 yaşındaki oğlan çocuğuyla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.cumhuriyet.com.tr/turkiye/aydin-da-feci-olay-15-yasindaki-cocuk-olu-bulundu-2481805",
+          "publisher": "Cumhuriyet / İHA",
+          "type": "news",
+          "published_at": "2026-02-25"
+        },
+        {
+          "title": "Aydın'da 15 yaşındaki çocukla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.tgrthaber.com/3-sayfa/aydinda-aci-olay-15-yasindaki-cocuk-odasinda-asili-bulundu-3284424",
+          "publisher": "TGRT Haber / İHA",
+          "type": "news",
+          "published_at": "2026-02-25"
+        },
+        {
+          "title": "Aydın'da 15 yaşındaki çocukla ilgili şüpheli ölüm soruşturması",
+          "url": "https://www.haberler.com/3-sayfa/15-yasindaki-cocuk-ailesi-tarafindan-olu-bulundu-19598903-haberi/",
+          "publisher": "Haberler / İHA",
+          "type": "news",
+          "published_at": "2026-02-25"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "manisa-iki-bin-dokuz-kayip-on-yedi-yas-kiz-cocugu-cinayet-sorusturmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "investigation",
+      "title": "Manisa'da 2009'dan beri kayıp 17 yaşındaki kız çocuğuyla ilgili cinayet soruşturması",
+      "summary": "Habertürk/DHA'nın 24 Şubat 2026 tarihli haberine göre, Manisa'da 2009'dan bu yana kayıp olan ve kaybolduğu dönemde 17 yaşında olduğu bildirilen bir kız çocuğu hakkında yürütülen soruşturmada dört kişi gözaltına alındı; kaynak, bir şüphelinin suçlamayı kabul ettiğini ve yeni arama bulgularının soruşturma dosyasına girdiğini aktardı. BirGün/AA'nın 26 Şubat tarihli haberine göre, iki şüpheli 'kasten öldürme' suçundan tutuklandı. SonDakika/DHA ve Bianet de dosyayı 17 yaşındaki çocuğun öldürülmesi konulu soruşturma olarak kaydetti. Kayıtta çocuğun adı/baş harfi, kesin ilçe, mahalle, tarihsel ev veya kayıp yeri, arama yeri, aile ve şüpheli yakınlık bilgileri, kaybolma öncesi özel yaşam iddiaları, adli inceleme veya medya ayrıntıları kullanılmadı.",
+      "institution": "Tarihsel kayıp çocuk cinayeti soruşturması",
+      "legal_status": "Kaynaklar iki şüphelinin 'kasten öldürme' suçundan tutuklandığını, iki kişinin ise ifade işlemleri sonrası serbest bırakıldığını ve soruşturmanın sürdüğünü bildiriyor; kamuya açık kaynaklarda iddianame, dava veya hüküm bilgisi netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-02-24",
+      "last_verified_at": "2026-05-04",
+      "locations": [
+        {
+          "id": "manisa-historical-missing-child-murder-province",
+          "label": "Manisa",
+          "province_key": "MANISA",
+          "province": "Manisa",
+          "district": "",
+          "lat": 38.61,
+          "lng": 27.43,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Manisa ilini ve tarihsel kayıp dosyası bağlamını verir; çocuk ve yakınlarının güvenliği için kesin ilçe, mahalle, tarihsel ev veya kayıp yeri, arama yeri, aile ve şüpheli yakınlık bilgileri, kaybolma öncesi özel yaşam iddiaları, adli inceleme ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-02-24",
+          "status": "investigation",
+          "note": "Habertürk/DHA, Manisa'da 2009'dan beri kayıp olan ve kaybolduğu dönemde 17 yaşında olduğu bildirilen kız çocuğu hakkında yürütülen soruşturmada dört kişinin gözaltına alındığını ve bir şüphelinin suçlamayı kabul ettiğinin aktarıldığını bildirdi."
+        },
+        {
+          "date": "2026-02-26",
+          "status": "investigation",
+          "note": "BirGün/AA, soruşturma kapsamında iki şüphelinin 'kasten öldürme' suçundan tutuklandığını, iki kişinin ifade işlemleri sonrası serbest bırakıldığını aktardı."
+        },
+        {
+          "date": "2026-03-06",
+          "status": "investigation",
+          "note": "Bianet'in Şubat 2026 çetelesi, Manisa'daki bu dosyayı Şubat ayında aydınlatılan çocuk cinayeti başlığı altında ve soruşturma bilgisiyle kaydetti."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Manisa'da 2009'dan beri kayıp 17 yaşındaki çocukla ilgili cinayet soruşturması",
+          "url": "https://www.haberturk.com/manisada-17-yildir-kayip-olan-ebrunun-olduruldugu-ortaya-cikti-ablasi-eski-enistesi-ve-2-supheli-gozaltinda-3864606",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-02-24"
+        },
+        {
+          "title": "Manisa'da tarihi kayıp çocuk dosyasında tutuklama",
+          "url": "https://www.birgun.net/haber/2009-da-kaybolan-ebru-nun-olduruldugu-ortaya-cikti-ablasi-ve-eski-enistesi-tutuklandi-696097",
+          "publisher": "BirGün / AA",
+          "type": "news",
+          "published_at": "2026-02-26"
+        },
+        {
+          "title": "Manisa'da tarihi kayıp çocuk dosyasında cinayet soruşturması",
+          "url": "https://www.sondakika.com/guncel/haber-kayip-ebru-koyuncu-nun-cinayeti-ortaya-cikti-19603178/",
+          "publisher": "SonDakika / DHA",
+          "type": "news",
+          "published_at": "2026-02-26"
+        },
+        {
+          "title": "Erkek şiddeti Şubat 2026",
+          "url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-03-06"
+        }
+      ]
+    }
+  ]
+}

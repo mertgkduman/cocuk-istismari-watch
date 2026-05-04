@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Çocuk İstismarı Takip</title>
+  <meta name="description" content="Türkiye'de kamuya yansımış ve kaynaklı çocuk istismarı vakalarını izleyen açık harita.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23172026'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Arial' font-size='24' font-weight='700' fill='white'%3ECI%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand" aria-label="Çocuk İstismarı Takip">
+      <span class="brand-mark">Cİ</span>
+      <span>Çocuk <span>İstismarı Takip</span></span>
+    </div>
+    <nav class="nav-actions" aria-label="Ana menü">
+      <button class="ghost-btn mobile-filter-btn" id="mobile-filter-btn" type="button" data-i18n="nav.filters">Filtre</button>
+      <button class="ghost-btn desktop-nav" id="methodology-btn" type="button" data-i18n="nav.methodology">Yöntem</button>
+      <button class="ghost-btn desktop-nav" id="sources-btn" type="button" data-i18n="nav.sources">Kaynaklar</button>
+      <button class="ghost-btn" id="lang-btn" type="button" aria-label="Switch language">EN</button>
+      <button class="primary-btn" id="open-submit-btn" type="button" data-i18n="nav.submit">+ Bildir</button>
+    </nav>
+  </header>
+
+  <div class="drawer-scrim" id="drawer-scrim" hidden></div>
+
+  <main class="app-shell">
+    <aside class="left-rail" id="filter-panel" aria-label="Filtreler">
+      <div class="rail-header">
+        <div>
+          <div class="section-label" data-i18n="filters.panel">Filtreler</div>
+          <strong data-i18n="filters.panelTitle">Kayıtları daralt</strong>
+        </div>
+        <button class="icon-btn mobile-only" id="close-filter-btn" type="button" aria-label="Filtreleri kapat">×</button>
+      </div>
+
+      <section class="summary-block">
+        <div class="section-label" data-i18n="stats.label">Genel görünüm</div>
+        <div class="stat-grid">
+          <div class="stat-tile"><strong id="stat-total">0</strong><span data-i18n="stats.total">Toplam kayıt</span></div>
+          <div class="stat-tile"><strong id="stat-active">0</strong><span data-i18n="stats.active">Aktif süreç</span></div>
+          <div class="stat-tile"><strong id="stat-institutional">0</strong><span data-i18n="stats.institutional">Kurumsal vaka</span></div>
+          <div class="stat-tile"><strong id="stat-convictions">0</strong><span data-i18n="stats.convictions">Mahkûmiyet</span></div>
+        </div>
+      </section>
+
+      <section class="filters">
+        <label class="search-wrap" for="search-input">
+          <span data-i18n="filters.search">Ara</span>
+          <input id="search-input" type="search" autocomplete="off" data-i18n-placeholder="filters.searchPlaceholder" placeholder="Vaka, kurum, il, kaynak...">
+        </label>
+        <label for="date-range-filter"><span data-i18n="filters.dateRange">Tarih aralığı</span><select id="date-range-filter"></select></label>
+        <label for="province-filter"><span data-i18n="filters.province">İl</span><select id="province-filter"></select></label>
+        <div class="filter-group">
+          <div class="section-label" data-i18n="filters.layers">Katmanlar</div>
+          <div id="layer-filters" class="check-list"></div>
+        </div>
+        <div class="filter-group">
+          <div class="section-label" data-i18n="filters.abuseType">İstismar türü</div>
+          <div id="abuse-type-filters" class="check-list"></div>
+        </div>
+        <div class="filter-group">
+          <div class="section-label" data-i18n="filters.status">Hukuki durum</div>
+          <div id="status-filters" class="check-list"></div>
+        </div>
+        <div class="filter-group">
+          <div class="section-label" data-i18n="filters.sourceType">Kaynak türü</div>
+          <div id="source-type-filters" class="check-list"></div>
+        </div>
+      </section>
+    </aside>
+
+    <section class="map-region" aria-label="Harita">
+      <div class="mobile-chipbar" id="mobile-chipbar" aria-label="Hızlı katmanlar"></div>
+      <div id="map"></div>
+      <div class="map-tools">
+        <div class="legend-card" id="legend-card"></div>
+        <div class="result-count"><span id="result-count">0</span> <span data-i18n="map.results">sonuç</span></div>
+      </div>
+    </section>
+
+    <aside class="detail-panel" id="detail-panel" aria-label="Kayıt ayrıntıları">
+      <div class="detail-toolbar">
+        <div>
+          <div class="section-label" data-i18n="list.label">Kayıt listesi</div>
+          <strong data-i18n="list.title">Filtredeki kayıtlar</strong>
+        </div>
+        <button class="ghost-btn" id="list-records-btn" type="button" aria-pressed="false" data-i18n="nav.listAll">Listele</button>
+      </div>
+      <div id="empty-detail" class="empty-state">
+        <div class="mini-map-icon">TR</div>
+        <h1 data-i18n="empty.title">Haritadan bir kayıt seçin</h1>
+        <p data-i18n="empty.text">Varsayılan harita, kaynaklı son kayıtları, aktif yargı süreçlerini ve kurumsal bağlamlı vakaları gösterir. Toplu resmi istatistikler bağlam olarak verilir, nokta olarak haritalanmaz.</p>
+        <div class="source-context">
+          <div class="section-label" data-i18n="empty.context">Bağlam kaynakları</div>
+          <a href="https://www.tuik.gov.tr/media/announcements/Turkiye_Cocuk_2024TR.pdf" target="_blank" rel="noreferrer">TÜİK Türkiye'deki Çocuklar 2024</a>
+          <a href="https://adlisicil.adalet.gov.tr/Resimler/SayfaDokuman/202604060901356772025Adalet%C4%B0statistikleriKitab%C4%B1.pdf" target="_blank" rel="noreferrer">Adalet Bakanlığı Adalet İstatistikleri 2025</a>
+          <a href="https://magdur.adalet.gov.tr/" target="_blank" rel="noreferrer">Adli Destek ve Mağdur Hizmetleri</a>
+          <div class="context-total">
+            <strong data-i18n="empty.aggregateTitle">Resmi istatistik bağlamı</strong>
+            <p data-i18n="empty.aggregateNote">TÜİK ve Adalet Bakanlığı verileri ülke ölçeğinde bağlam sağlar. Haritada yalnızca kaynak URL'si olan tekil kamu kayıtları yer alır.</p>
+          </div>
+        </div>
+      </div>
+      <article id="record-list-panel" class="record-list-panel" hidden></article>
+      <article id="case-detail" class="case-detail" hidden></article>
+    </aside>
+  </main>
+
+  <div class="modal-backdrop" id="submit-modal" aria-hidden="true">
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="submit-title">
+      <div class="modal-header">
+        <div><div class="section-label" data-i18n="submit.label">İnceleme kuyruğu</div><h2 id="submit-title" data-i18n="submit.title">Vaka veya kaynak bildir</h2></div>
+        <button class="icon-btn" type="button" data-close-modal aria-label="Kapat">×</button>
+      </div>
+      <form id="submission-form" class="modal-body" novalidate>
+        <div class="field-pair">
+          <label for="submission-abuse-type"><span data-i18n="submit.abuseType">İstismar türü</span><select id="submission-abuse-type" required></select></label>
+          <label for="submission-province"><span data-i18n="submit.province">İl</span><select id="submission-province" required></select></label>
+        </div>
+        <label for="submission-title"><span data-i18n="submit.caseTitle">Başlık</span><input id="submission-title" type="text" required maxlength="160" data-i18n-placeholder="submit.caseTitlePlaceholder" placeholder="Örn. Bir ilde çocuk istismarı davasında iddianame kabul edildi"></label>
+        <label for="submission-summary"><span data-i18n="submit.summary">Kısa özet</span><textarea id="submission-summary" required maxlength="1000" data-i18n-placeholder="submit.summaryPlaceholder" placeholder="Kaynakta ne aktarılıyor? Soruşturma, iddianame, duruşma veya karar durumu nedir?"></textarea></label>
+        <div class="field-pair">
+          <label for="submission-location"><span data-i18n="submit.location">Konum adı</span><input id="submission-location" type="text" data-i18n-placeholder="submit.locationPlaceholder" placeholder="İlçe, mahkeme, kamu kurumu veya genel konum..."></label>
+          <label for="submission-date"><span data-i18n="submit.date">Kamuya yansıma tarihi</span><input id="submission-date" type="date"></label>
+        </div>
+        <div class="field-pair">
+          <label for="submission-lat"><span>Lat</span><input id="submission-lat" type="number" step="0.000001" placeholder="39.9208" required></label>
+          <label for="submission-lng"><span>Lng</span><input id="submission-lng" type="number" step="0.000001" placeholder="32.8541" required></label>
+        </div>
+        <label for="submission-source-url"><span data-i18n="submit.sourceUrl">Kaynak URL</span><input id="submission-source-url" type="url" required placeholder="https://..."></label>
+        <div class="field-pair">
+          <label for="submission-source-title"><span data-i18n="submit.sourceTitle">Kaynak başlığı</span><input id="submission-source-title" type="text" maxlength="200"></label>
+          <label for="submission-source-type"><span data-i18n="submit.sourceType">Kaynak türü</span><select id="submission-source-type"></select></label>
+        </div>
+        <label for="submission-contact"><span data-i18n="submit.contact">İletişim</span><input id="submission-contact" type="email" data-i18n-placeholder="submit.contactPlaceholder" placeholder="İsteğe bağlı e-posta"></label>
+        <p class="form-note" data-i18n="submit.note">Bildirimler editör incelemesinden sonra yayımlanır. Çocuğun kimliği, özel adresi, okul bilgisi veya aile ayrıntısı kamuya açık ve gerekli değilse eklenmemelidir.</p>
+        <div class="form-error" id="submission-error" role="alert"></div>
+        <div class="modal-footer">
+          <button class="ghost-btn" type="button" data-close-modal data-i18n="common.cancel">Vazgeç</button>
+          <button class="primary-btn" type="submit" data-i18n="submit.send">İncelemeye gönder</button>
+        </div>
+      </form>
+      <div id="submission-success" class="success-pane" hidden>
+        <h3 data-i18n="submit.successTitle">Bildirim alındı</h3>
+        <p id="submission-success-copy"></p>
+        <button class="primary-btn" type="button" data-close-modal data-i18n="common.close">Kapat</button>
+      </div>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="methodology-modal" aria-hidden="true">
+    <section class="modal text-modal" role="dialog" aria-modal="true" aria-labelledby="methodology-title">
+      <div class="modal-header">
+        <div><div class="section-label" data-i18n="methodology.label">Yöntem</div><h2 id="methodology-title" data-i18n="methodology.title">Kayıt ve güvenlik ilkeleri</h2></div>
+        <button class="icon-btn" type="button" data-close-modal aria-label="Kapat">×</button>
+      </div>
+      <div class="modal-body prose">
+        <p data-i18n="methodology.p1">Çocuk İstismarı Takip, Türkiye'de kamuya yansımış ve kaynak URL'si bulunan çocuk istismarı vakalarını haritalar. Kayıtlar haber, resmi açıklama, mahkeme süreci veya hak örgütü raporu gibi kaynaklara dayalıdır.</p>
+        <p data-i18n="methodology.p2">Kayıt dili iddia, soruşturma, iddianame, yargılama ve karar aşamalarını ayırır. Devam eden dosyalarda kaynak atfı korunur; mahkeme kararı yoksa olay bağımsız kesin hüküm gibi yazılmaz.</p>
+        <p data-i18n="methodology.p3">Çocuk güvenliği esastır: harita özel adres, okul, aile ilişkisi veya kimlik ayrıntılarını kaynağın ötesinde zenginleştirmez. Resmi/aggregate istatistikler bağlam panelinde tutulur, toplu nokta olarak gösterilmez.</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="modal-backdrop" id="sources-modal" aria-hidden="true">
+    <section class="modal text-modal" role="dialog" aria-modal="true" aria-labelledby="sources-title">
+      <div class="modal-header">
+        <div><div class="section-label" data-i18n="sources.label">Kaynaklar</div><h2 id="sources-title" data-i18n="sources.title">Başlangıç kaynak havuzu</h2></div>
+        <button class="icon-btn" type="button" data-close-modal aria-label="Kapat">×</button>
+      </div>
+      <div class="modal-body source-list">
+        <a href="https://www.tuik.gov.tr/media/announcements/Turkiye_Cocuk_2024TR.pdf" target="_blank" rel="noreferrer">TÜİK Türkiye'deki Çocuklar 2024</a>
+        <a href="https://adlisicil.adalet.gov.tr/Resimler/SayfaDokuman/202604060901356772025Adalet%C4%B0statistikleriKitab%C4%B1.pdf" target="_blank" rel="noreferrer">Adalet Bakanlığı Adalet İstatistikleri 2025</a>
+        <a href="https://magdur.adalet.gov.tr/" target="_blank" rel="noreferrer">Adli Destek ve Mağdur Hizmetleri</a>
+        <a href="https://bianet.org/haber/meclis-teki-cocuk-istismari-sorusturmasinda-istenen-cezalar-belli-oldu-314931" target="_blank" rel="noreferrer">Bianet çocuk istismarı dava izlemesi</a>
+        <a href="https://www.ucim.org.tr/" target="_blank" rel="noreferrer">UCİM</a>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
