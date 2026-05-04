@@ -4,6 +4,7 @@ const SUPABASE_ANON_KEY = "";
 const CONFIG = {
   incidentPaths: ["data/incidents.json"],
   fallbackSeedPath: "data/seed-cases.json",
+  translationPaths: { en: "data/incident-translations-en.json" },
   defaultCenter: [39.05, 35.05],
   defaultZoom: 6,
   timeZone: "Europe/Istanbul",
@@ -123,6 +124,11 @@ const LAYER_COLORS = {
 
 const COPY = {
   tr: {
+    meta: {
+      title: "Çocuk İstismarı Takip",
+      description: "Türkiye'de kamuya yansımış ve kaynaklı çocuk istismarı vakalarını izleyen açık harita.",
+    },
+    brand: { first: "Çocuk", rest: "İstismarı Takip" },
     nav: { filters: "Filtre", listAll: "Listele", methodology: "Yöntem", sources: "Kaynaklar", submit: "+ Bildir" },
     common: { cancel: "Vazgeç", close: "Kapat", notSpecified: "Belirtilmedi", source: "Kaynak" },
     stats: { label: "Genel görünüm", total: "Toplam kayıt", active: "Aktif süreç", institutional: "Kurumsal vaka", convictions: "Mahkûmiyet" },
@@ -256,8 +262,20 @@ const COPY = {
       p3: "Çocuk güvenliği esastır: harita özel adres, okul, aile ilişkisi veya kimlik ayrıntılarını kaynağın ötesinde zenginleştirmez. Resmi/aggregate istatistikler bağlam panelinde tutulur, toplu nokta olarak gösterilmez.",
     },
     sources: { label: "Kaynaklar", title: "Başlangıç kaynak havuzu" },
+    sourceLinks: {
+      tuik: "TÜİK Türkiye'deki Çocuklar 2024",
+      justiceStats: "Adalet Bakanlığı Adalet İstatistikleri 2025",
+      victimServices: "Adli Destek ve Mağdur Hizmetleri",
+      bianetCase: "Bianet çocuk istismarı dava izlemesi",
+      ucim: "UCİM",
+    },
   },
   en: {
+    meta: {
+      title: "Child Abuse Watch",
+      description: "An open map tracking public, source-backed child-abuse cases in Türkiye.",
+    },
+    brand: { first: "Child Abuse", rest: "Watch" },
     nav: { filters: "Filter", listAll: "List", methodology: "Method", sources: "Sources", submit: "+ Report" },
     common: { cancel: "Cancel", close: "Close", notSpecified: "Not specified", source: "Source" },
     stats: { label: "Overview", total: "Total records", active: "Active process", institutional: "Institutional", convictions: "Convictions" },
@@ -391,6 +409,13 @@ const COPY = {
       p3: "Child safety is the baseline: the map does not enrich private address, school, family, or identity details beyond what the source publicly and necessarily provides. Aggregate statistics stay in the context panel.",
     },
     sources: { label: "Sources", title: "Initial source pool" },
+    sourceLinks: {
+      tuik: "TÜİK Children in Türkiye 2024",
+      justiceStats: "Ministry of Justice Justice Statistics 2025",
+      victimServices: "Judicial Support and Victim Services",
+      bianetCase: "Bianet child-abuse case monitoring",
+      ucim: "UCİM",
+    },
   },
 };
 
@@ -398,6 +423,7 @@ const state = {
   map: null,
   sb: null,
   records: [],
+  recordTranslations: {},
   filtered: [],
   markers: new Map(),
   layerFilters: new Set(DEFAULT_LAYERS),
@@ -448,6 +474,8 @@ async function loadRecords() {
       .eq("verification_status", "verified");
     if (!error && Array.isArray(data)) {
       state.records = data.map(normalizeSupabaseRecord).filter(hasPublicSource);
+      await loadRecordTranslations();
+      applyRecordTranslations();
       return;
     }
     showLoadNotice(`Supabase okunamadı, statik veri kullanılıyor: ${error?.message || "bilinmeyen hata"}`);
@@ -461,6 +489,39 @@ async function loadRecords() {
     const fallback = await fetchJson(CONFIG.fallbackSeedPath);
     state.records = extractRecords(fallback).map(normalizeRecord).filter(hasPublicSource);
   }
+
+  await loadRecordTranslations();
+  applyRecordTranslations();
+}
+
+async function loadRecordTranslations() {
+  const entries = Object.entries(CONFIG.translationPaths || {});
+  const payloads = await Promise.all(entries.map(async ([lang, path]) => {
+    try {
+      return [lang, await fetchJson(path)];
+    } catch (error) {
+      showLoadNotice(`${path} okunamadı; kayıt çevirileri atlandı.`);
+      return [lang, null];
+    }
+  }));
+
+  state.recordTranslations = {};
+  for (const [lang, payload] of payloads) {
+    const records = payload?.records || {};
+    for (const [id, translation] of Object.entries(records)) {
+      state.recordTranslations[id] = {
+        ...(state.recordTranslations[id] || {}),
+        [lang]: translation,
+      };
+    }
+  }
+}
+
+function applyRecordTranslations() {
+  state.records.forEach((record) => {
+    record.i18n = state.recordTranslations[record.id] || {};
+    record.search_blob = buildSearchBlob(record);
+  });
 }
 
 async function fetchJson(path) {
@@ -663,12 +724,18 @@ function renderCheckboxGroup(containerId, values, selectedSet, labelKey, colors 
 function cycleLanguage() {
   state.lang = state.lang === "tr" ? "en" : "tr";
   document.documentElement.lang = state.lang;
+  state.records.forEach((record) => {
+    record.search_blob = buildSearchBlob(record);
+  });
   populateControls();
   applyTranslations();
   applyFilters();
 }
 
 function applyTranslations() {
+  document.title = t("meta.title");
+  document.querySelector("meta[name='description']")?.setAttribute("content", t("meta.description"));
+  document.querySelector(".brand")?.setAttribute("aria-label", t("meta.title"));
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = t(element.dataset.i18n);
   });
@@ -776,7 +843,7 @@ function renderMarkers() {
       const marker = L.marker([location.lat, location.lng], {
         icon,
         keyboard: true,
-        title: record.title,
+        title: recordText(record, "title"),
       }).addTo(state.map);
       marker.on("click", (event) => {
         L.DomEvent.stopPropagation(event);
@@ -848,7 +915,7 @@ function renderRecordListItem(record) {
     <button class="record-list-item ${selected}" type="button" data-record-list-id="${escapeAttribute(record.id)}">
       <span class="record-list-dot" style="background:${LAYER_COLORS[record.layer]}"></span>
       <span class="record-list-copy">
-        <strong>${escapeHtml(record.title)}</strong>
+        <strong>${escapeHtml(recordText(record, "title"))}</strong>
         <span>${escapeHtml(recordListMeta(record))}</span>
       </span>
     </button>
@@ -859,7 +926,7 @@ function sortedFilteredRecords() {
   return [...state.filtered].sort((a, b) => (
     String(recordDateValue(b)).localeCompare(String(recordDateValue(a)))
     || LAYER_ORDER.indexOf(a.layer) - LAYER_ORDER.indexOf(b.layer)
-    || a.title.localeCompare(b.title, localeForLang())
+    || recordText(a, "title").localeCompare(recordText(b, "title"), localeForLang())
   ));
 }
 
@@ -938,8 +1005,8 @@ function renderDetail(record) {
           <button class="icon-btn" type="button" data-close-detail aria-label="${escapeHtml(t("common.close"))}">×</button>
         </div>
       </div>
-      <h2>${escapeHtml(record.title)}</h2>
-      <p class="case-summary">${escapeHtml(record.summary || t("common.notSpecified"))}</p>
+      <h2>${escapeHtml(recordText(record, "title"))}</h2>
+      <p class="case-summary">${escapeHtml(recordText(record, "summary") || t("common.notSpecified"))}</p>
     </header>
     <div class="detail-stats">${renderCaseStats(record)}</div>
     ${detailSection(t("detail.locations"), renderLocations(record))}
@@ -952,9 +1019,9 @@ function renderDetail(record) {
 function renderCaseStats(record) {
   return [
     detailStat(t("detail.abuseType"), t(`abuseType.${record.abuse_type}`)),
-    detailStat(t("detail.legalStatus"), record.legal_status || t(`status.${record.status}`)),
+    detailStat(t("detail.legalStatus"), recordText(record, "legal_status") || t(`status.${record.status}`)),
     detailStat(t("detail.affectedChildren"), formatCount(record.affected_child_count)),
-    detailStat(t("detail.institution"), record.institution),
+    detailStat(t("detail.institution"), recordText(record, "institution")),
     detailStat(t("detail.reportedDate"), formatDate(record.reported_date)),
     detailStat(t("detail.eventDate"), formatDate(record.event_date)),
     detailStat(t("detail.indictmentDate"), formatDate(record.indictment_date)),
@@ -973,28 +1040,28 @@ function detailSection(title, content) {
 }
 
 function renderLocations(record) {
-  return `<div class="location-list">${record.locations.map((location) => `
+  return `<div class="location-list">${record.locations.map((location, index) => `
     <div class="location-row">
-      <strong>${escapeHtml(location.label)}</strong>
+      <strong>${escapeHtml(locationText(record, location, index, "label"))}</strong>
       <span>${escapeHtml([location.district, location.province].filter(Boolean).join(", "))}</span><br>
       <span>${escapeHtml(t("detail.geocode"))}: ${escapeHtml(t(`geocodePrecision.${location.geocode_precision || "unknown"}`))}</span>
-      ${location.location_basis ? `<br><span>${escapeHtml(location.location_basis)}</span>` : ""}
+      ${locationText(record, location, index, "location_basis") ? `<br><span>${escapeHtml(locationText(record, location, index, "location_basis"))}</span>` : ""}
     </div>`).join("")}</div>`;
 }
 
 function renderTimeline(record) {
   if (!record.timeline.length) return `<p class="case-summary">${escapeHtml(t("common.notSpecified"))}</p>`;
-  return `<div class="timeline-list">${record.timeline.map((item) => `
+  return `<div class="timeline-list">${record.timeline.map((item, index) => `
     <div class="timeline-row">
       <div class="timeline-date">${escapeHtml(formatDate(item.date) || "")}</div>
-      <div class="timeline-body"><strong>${escapeHtml(t(`status.${item.status}`))}</strong>${escapeHtml(item.note)}</div>
+      <div class="timeline-body"><strong>${escapeHtml(t(`status.${item.status}`))}</strong>${escapeHtml(timelineText(record, item, index, "note"))}</div>
     </div>`).join("")}</div>`;
 }
 
 function renderSources(record) {
-  return `<div class="source-list">${record.sources.map((source) => `
+  return `<div class="source-list">${record.sources.map((source, index) => `
     <a class="source-row" href="${escapeAttribute(source.url)}" target="_blank" rel="noreferrer">
-      <strong>${escapeHtml(source.title || t("common.source"))}</strong>
+      <strong>${escapeHtml(sourceText(record, source, index, "title") || t("common.source"))}</strong>
       <span>${escapeHtml([source.publisher, source.type ? t(`sourceType.${source.type}`) : "", formatDate(source.published_at)].filter(Boolean).join(" · "))}</span>
     </a>`).join("")}</div>`;
 }
@@ -1114,16 +1181,24 @@ function recordDateValue(record) {
 }
 
 function buildSearchBlob(record) {
+  const en = record.i18n?.en || {};
   const values = [
     record.title,
     record.summary,
     record.institution,
     record.legal_status,
+    en.title,
+    en.summary,
+    en.institution,
+    en.legal_status,
     t(`abuseType.${record.abuse_type}`),
     t(`status.${record.status}`),
     ...record.locations.flatMap((location) => [location.label, location.province, location.district, location.location_basis]),
     ...record.sources.flatMap((source) => [source.title, source.publisher, source.type]),
     ...record.timeline.flatMap((item) => [item.status, item.note]),
+    ...Object.values(en.locations || {}).flatMap((location) => [location.label, location.location_basis]),
+    ...(en.sources || []).map((source) => source.title),
+    ...(en.timeline || []).map((item) => item.note),
   ];
   return values.filter(Boolean).join(" ").toLocaleLowerCase(localeForLang());
 }
@@ -1223,6 +1298,26 @@ function t(path) {
   let value = COPY[state.lang];
   for (const part of parts) value = value?.[part];
   return value || path;
+}
+
+function recordText(record, field) {
+  return record?.i18n?.[state.lang]?.[field] || record?.[field] || "";
+}
+
+function locationText(record, location, index, field) {
+  const translations = record?.i18n?.[state.lang]?.locations || {};
+  return translations[location.id]?.[field]
+    || translations[index]?.[field]
+    || location?.[field]
+    || "";
+}
+
+function timelineText(record, item, index, field) {
+  return record?.i18n?.[state.lang]?.timeline?.[index]?.[field] || item?.[field] || "";
+}
+
+function sourceText(record, source, index, field) {
+  return record?.i18n?.[state.lang]?.sources?.[index]?.[field] || source?.[field] || "";
 }
 
 function escapeHtml(value) {
