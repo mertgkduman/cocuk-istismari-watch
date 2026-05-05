@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-04",
-  "description": "Reviewed starter records for Çocuk İstismarı Takip. Public records must keep at least one stable public source URL and avoid adding non-public child-identifying details.",
+  "updated_at": "2026-05-05",
+  "description": "Reviewed public records for Çocuk İstismarı Takip. Public records must keep at least one stable public source URL and avoid adding non-public child-identifying details.",
   "records": [
     {
       "id": "tbmm-mesem-cocuk-istismari-davasi-2026",
@@ -318,11 +318,11 @@
       "title": "Fatmanur Çelik ve Hifa İkra dosyasında koruma ihlalleri",
       "summary": "Bianet'in aktardığına göre, çocuk yaştayken Kuran'a Hizmet Vakfı yöneticisi A.Ş. tarafından istismar edilen ve faille evlendirilen Fatmanur Çelik ile aynı failin yıllarca istismar ettiği sekiz yaşındaki kızı Hifa İkra Şengüler, Mart 2026'da ölü bulundu. İstanbul Barosu Çocuk Hakları Merkezi, süreç boyunca sistematik ihlaller yaşandığını ve koruma mekanizmalarının etkili çalışmadığını açıkladı.",
       "institution": "Kuran'a Hizmet Vakfı bağlantılı dosya / çocuk koruma mekanizmaları",
-      "legal_status": "Kaynaklar, failin tutuksuz yargılandığı istismar davası ve ölüm sonrası soruşturma/kamu açıklamaları bağlamını aktarıyor.",
+      "legal_status": "Kaynaklar, failin tutuksuz yargılandığı istismar davası ve ölüm sonrasındaki soruşturma/kamu açıklamaları bağlamını aktarıyor. Bianet'in 5 Mayıs 2026 haberine göre duruşmada katılma talepleri reddedildi, hâkim reddi talebi ayrı mahkemeye gönderildi ve sonraki duruşma 14 Ekim 2026'ya bırakıldı.",
       "affected_child_count": 2,
       "reported_date": "2026-03-03",
       "event_date": "2026-03-02",
-      "last_verified_at": "2026-04-05",
+      "last_verified_at": "2026-05-05",
       "locations": [
         {
           "id": "fatmanur-hifa-istanbul",
@@ -351,6 +351,11 @@
           "date": "2026-04-05",
           "status": "investigation",
           "note": "Bianet, Fatmanur Çelik ve Hifa İkra paylaşımları nedeniyle ayrı bir soruşturma başlatıldığını ve olayın kamu gündemindeki takibini aktardı."
+        },
+        {
+          "date": "2026-05-05",
+          "status": "trial",
+          "note": "Bianet, İstanbul Anadolu 2. Ağır Ceza Mahkemesi'ndeki duruşmada katılma taleplerinin reddedildiğini, hâkim reddi talebinin ayrı mahkemeye gönderildiğini ve bir sonraki duruşmanın 14 Ekim 2026'ya bırakıldığını aktardı."
         }
       ],
       "sources": [
@@ -374,6 +379,20 @@
           "publisher": "Bianet",
           "type": "news",
           "published_at": "2026-04-05"
+        },
+        {
+          "title": "Fatma Nur Çelik davasına çağrı: Erkek adalet değil gerçek adalet",
+          "url": "https://bianet.org/haber/fatma-nur-celik-davasina-cagri-erkek-adalet-degil-gercek-adalet-319294",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-05-04"
+        },
+        {
+          "title": "Fatma Nur Çelik davasının bir sonraki duruşması 14 Ekim'de",
+          "url": "https://bianet.org/haber/fatma-nur-celik-davasinin-bir-sonraki-durusmasi-14-ekim-de-319315",
+          "publisher": "Bianet",
+          "type": "news",
+          "published_at": "2026-05-05"
         }
       ]
     },
@@ -3356,7 +3375,7 @@
           "province": "Aydın",
           "district": "",
           "lat": 37.84,
-          "lng": 28.0,
+          "lng": 28,
           "geocode_precision": "province_centroid",
           "location_basis": "Kaynaklar Aydın'da özel konut bağlamını verir; çocuk ve aile güvenliği için kesin ilçe, mahalle, sokak, bina, ev içi konum, aile bağlantısı, ölüm yöntemi, sağlık kurumu, özel tören ve medya ayrıntıları haritaya eklenmedi."
         }
@@ -3479,6 +3498,461 @@
           "publisher": "Bianet",
           "type": "news",
           "published_at": "2026-03-06"
+        }
+      ]
+    },
+    {
+      "id": "turkiye-yirmi-dort-il-cevrimici-cocuk-mustehcenligi-operasyonu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "24 il merkezli çevrim içi çocuk müstehcenliği ve tacizi operasyonu",
+      "summary": "Anadolu Ajansı'nın İçişleri Bakanlığı açıklamasına dayandırdığı 4 Mayıs 2026 tarihli habere göre, son beş günde 24 ilde \"çevrim içi çocuk müstehcenliği ve tacizi\", yasa dışı bahis ve nitelikli dolandırıcılık suçlarına yönelik siber operasyonlar düzenlendi. Kaynaklar 212 şüphelinin yakalandığını, 127'sinin tutuklandığını ve 35 kişi hakkında adli kontrol uygulandığını aktardı. Çocuk mağdur sayısı, çocukların konumları veya hangi illerde çocuk istismarı materyali şüphesi bulunduğu açıklanmadığı için kayıt Ankara/ulusal koordinasyon düzeyinde tutuldu.",
+      "institution": "İçişleri Bakanlığı / EGM Siber Suçlarla Mücadele Daire Başkanlığı",
+      "legal_status": "Soruşturma kapsamında 212 şüphelinin yakalandığı, 127 şüphelinin tutuklandığı, 35 kişi hakkında adli kontrol uygulandığı ve diğer işlemlerin sürdüğü bildirildi; çocuk mağdur sayısı kamuya açıklanmadı.",
+      "affected_child_count": null,
+      "reported_date": "2026-05-04",
+      "last_verified_at": "2026-05-05",
+      "locations": [
+        {
+          "id": "turkiye-24-il-cyber-child-abuse-material-operation-ankara",
+          "label": "Ankara / ulusal operasyon duyurusu",
+          "province_key": "ANKARA",
+          "province": "Ankara",
+          "district": "",
+          "lat": 39.92,
+          "lng": 32.85,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar operasyonun 24 ilde yürütüldüğünü ancak çocuk istismarı materyali şüphesinin il dağılımını açıklamadığını belirtir; çocuklara veya şüpheli adreslerine ilişkin konum eklenmedi, ulusal duyuru Ankara'da haritalandı."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-04",
+          "status": "investigation",
+          "note": "AA ve TRT Haber, İçişleri Bakanlığı açıklamasına dayanarak 24 ildeki siber operasyonlarda 212 şüphelinin yakalandığını, 127 şüphelinin tutuklandığını ve soruşturmanın sürdüğünü aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "24 il merkezli çevrim içi suçlar, yasa dışı bahis ve nitelikli dolandırıcılık operasyonu",
+          "url": "https://www.aa.com.tr/tr/gundem/24-il-merkezli-cevrim-ici-suclar-yasa-disi-bahis-ve-nitelikli-dolandiricilik-operasyonu-/3926214",
+          "publisher": "Anadolu Ajansı",
+          "type": "news",
+          "published_at": "2026-05-04"
+        },
+        {
+          "title": "Siber suçlarla mücadele: 127 şüpheli tutuklandı",
+          "url": "https://www.trthaber.com/haber/gundem/siber-suclarla-mucadele-127-supheli-tutuklandi-943910.html",
+          "publisher": "TRT Haber",
+          "type": "news",
+          "published_at": "2026-05-04"
+        }
+      ]
+    },
+    {
+      "id": "gaziantep-on-uc-yas-kiz-cocugu-aile-ici-istismar-olum-sorusturmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Gaziantep'te 13 yaşındaki kız çocuğunun ölümüyle ilgili aile içi istismar soruşturması",
+      "summary": "Haberler.com ve Odatv'nin Sabah kaynaklı aktarımlarına göre, Gaziantep'te 13 yaşındaki bir kız çocuğunun ölümü sonrası yürütülen soruşturmada aile içi cinsel istismar ve intihara sürükleme iddialarıyla dört aile üyesi tutuklandı; iki aile büyüğü hakkında adli kontrol kararı verildi. Kayıt, kaynakların aktardığı adli süreci esas alır ve çocuğun adı, aile ilişkilerinin ayrıntıları, yöntem, hastane, ev veya özel konum bilgilerini haritaya eklemez.",
+      "institution": "Aile içi istismar ve çocuk ölümü soruşturması",
+      "legal_status": "Kaynaklar dört şüphelinin 'cinsel istismar' ve 'intihara sürükleme' suçlamalarıyla tutuklandığını, iki kişi hakkında adli kontrol kararı verildiğini ve soruşturmanın sürdüğünü aktarıyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-05",
+      "last_verified_at": "2026-05-05",
+      "locations": [
+        {
+          "id": "gaziantep-family-abuse-child-death-investigation",
+          "label": "Gaziantep",
+          "province_key": "GAZIANTEP",
+          "province": "Gaziantep",
+          "district": "",
+          "lat": 37.06,
+          "lng": 37.38,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Gaziantep ilini ve aile içi soruşturma bağlamını verir; çocuk adı, aile/akrabalık ayrıntıları, ev, hastane, ölüm yöntemi ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-04",
+          "status": "investigation",
+          "note": "Yerel kaynaklar, çocuğun ölümü sonrası yürütülen soruşturmada aile içi cinsel istismar iddialarının ortaya çıktığını ve dört şüphelinin tutuklandığını aktardı."
+        },
+        {
+          "date": "2026-05-05",
+          "status": "investigation",
+          "note": "Haberler.com ve Odatv, Sabah kaynaklı haberlerinde dört kişinin tutuklandığını, iki kişi hakkında adli kontrol uygulandığını ve soruşturmanın sürdüğünü bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "13 yaşındaki çocuğun ölümünün ardından cinsel istismar soruşturması",
+          "url": "https://www.haberler.com/guncel/13-yasindaki-cocugun-intiharinin-altindan-cinsel-19803047-haberi/",
+          "publisher": "Haberler.com / Sabah",
+          "type": "news",
+          "published_at": "2026-05-05"
+        },
+        {
+          "title": "Gaziantep'te 13 yaşındaki çocuğun ölümüyle ilgili istismar soruşturması",
+          "url": "https://www.odatv.com/guncel/gaziantepte-fatma-azra-kutlunun-olumu-altindan-istismar-cikti-120145872",
+          "publisher": "Odatv / Sabah",
+          "type": "news",
+          "published_at": "2026-05-05"
+        },
+        {
+          "title": "Gaziantep'te 13 yaşındaki çocuğun ölümüyle ilgili aile içi istismar soruşturması",
+          "url": "https://haber.mynet.com/13-yasindaki-kizin-olumunde-kahreden-detay-2-agabey-2-amca-tutuklandi-110107292110",
+          "publisher": "Mynet / Sabah",
+          "type": "news",
+          "published_at": "2026-05-05"
+        }
+      ]
+    },
+    {
+      "id": "hatay-iskenderun-mesem-pastane-elektrik-akimi-cocuk-isci-olumu-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "investigation",
+      "title": "Hatay/İskenderun'da MESEM öğrencisinin pastanede elektrik akımına kapılarak ölümü",
+      "summary": "İHA kaynaklı Habertürk haberine göre, Hatay'ın İskenderun ilçesinde MESEM kapsamında pastanede staj yapan bir çocuk 1 Mayıs 2026'da işyerinde elektrik akımına kapıldı ve hastanede hayatını kaybetti; ilk haberlerde pastane sahibinin gözaltına alındığı bildirildi. Haberler.com'un 5 Mayıs tarihli haberinde, aynı işyerinde staj yapan başka bir öğrencinin olaydan bir gün önce aynı noktada elektrik çarpmasına maruz kaldığını, çocuğun görevi olmadığı halde elektrikçiye yardım ettirildiğini ve elektrik işlerini yapan kişinin taksirle öldürme suçlamasıyla tutuklandığını anlattığı aktarıldı. Kayıt, çocuğun adı, mezarlık, hastane, açık işyeri adresi ve görsel ayrıntıları kullanmaz.",
+      "institution": "İskenderun MESEM / pastane staj işyeri",
+      "legal_status": "Kaynaklar işyeri sahibinin gözaltına alındığını, daha sonra elektrik işlerini yapan kişinin taksirle öldürme suçlamasıyla tutuklandığını ve ihmal iddialarının soruşturma konusu olduğunu aktarıyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-03",
+      "event_date": "2026-05-01",
+      "last_verified_at": "2026-05-05",
+      "locations": [
+        {
+          "id": "hatay-iskenderun-mesem-pastry-electrocution-child-death",
+          "label": "İskenderun / Hatay",
+          "province_key": "HATAY",
+          "province": "Hatay",
+          "district": "İskenderun",
+          "lat": 36.58,
+          "lng": 36.17,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar İskenderun ilçesi, MESEM ve pastane staj bağlamını verir; çocuk adı, açık işyeri adresi, hastane, mezarlık ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-01",
+          "status": "investigation",
+          "note": "Kaynaklar, MESEM öğrencisi çocuğun pastane stajı sırasında işyerinde elektrik akımına kapılarak ağır yaralandığını ve kaldırıldığı hastanede hayatını kaybettiğini aktardı."
+        },
+        {
+          "date": "2026-05-03",
+          "status": "investigation",
+          "note": "Habertürk/İHA, pastane sahibinin olay sonrası gözaltına alındığının öğrenildiğini bildirdi."
+        },
+        {
+          "date": "2026-05-05",
+          "status": "investigation",
+          "note": "Haberler.com, başka bir stajyerin olaydan bir gün önce aynı noktada elektrik çarpması yaşandığına ve çocuğun görevi olmayan bir elektrik işine yönlendirildiğine dair anlatımını; ayrıca elektrik işlerini yapan kişinin tutuklandığı bilgisini yayımladı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hatay'da MESEM öğrencisi pastane stajında elektrik akımına kapılarak hayatını kaybetti",
+          "url": "https://www.haberturk.com/hatayda-staj-yaptigi-pastanede-akima-kapilan-15-yasindaki-mahir-hayatini-kaybetti-3881910",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-03"
+        },
+        {
+          "title": "MESEM öğrencisinin ölümünde ihmal iddiaları ve tutuklama",
+          "url": "https://www.haberler.com/3-sayfa/staj-yaptigi-pastanede-akima-kapilarak-can-veren-19802875-haberi/",
+          "publisher": "Haberler.com / İHA",
+          "type": "news",
+          "published_at": "2026-05-05"
+        },
+        {
+          "title": "MMO Bursa'dan MESEM'e tepki: Çocuklar hayattan koparılmamalı",
+          "url": "https://www.bursaport.com/guncel/mmo-bursa-dan-mesem-e-tepki-cocuklar-hayattan-koparilmamali-184094",
+          "publisher": "Bursaport",
+          "type": "rights_org",
+          "published_at": "2026-05-05"
+        },
+        {
+          "title": "MESEM öğrencisinin işyerinde ölümü sonrası aile ve soruşturma bilgileri",
+          "url": "https://www.haberturk.com/yerel-haberler/hatay-haberleri/staj-yaptigi-pastanede-akima-kapilarak-can-veren-16-yasindaki-mahirin-annesinden-aci-dolu-117728620",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-04"
+        },
+        {
+          "title": "MESEM öğrencisinin ölümünde diğer stajyerin ihmal iddiası",
+          "url": "https://www.haberturk.com/yerel-haberler/hatay-haberleri/staj-yaptigi-pastanede-akima-kapilarak-can-veren-16-yasindaki-mahirden-bir-gun-once-de-117742759",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-05"
+        }
+      ]
+    },
+    {
+      "id": "mersin-bozyazi-iki-cocuk-zehirlenme-supheli-olum-sorusturmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "Mersin/Bozyazı'da iki çocuğun zehirlenme şüphesiyle ölümü",
+      "summary": "AA, İHA ve DHA kaynaklı haberlerde, Mersin'in Bozyazı ilçesinde aynı aileden iki çocuğun bulantı ve kusma şikayetiyle hastaneye kaldırıldıktan sonra hayatını kaybettiği, anne ve babanın tedavi altına alındığı ve evde inceleme yapıldığı aktarıldı. Haber7/DHA'nın 5 Mayıs güncellemesine göre çocukların ölüm nedeninin belirlenmesi için otopsi ve soruşturma süreci devam ediyor. Kayıt, çocuğun ve aile bireylerinin adlarını, kesin mahalle/sokak/ev, mezarlık, hastane ve tören ayrıntılarını kullanmaz.",
+      "institution": "Şüpheli çocuk ölümü / zehirlenme incelemesi",
+      "legal_status": "Kaynaklar savcılık, jandarma ve sağlık birimlerinin ölüm nedenini belirlemek üzere soruşturma ve otopsi sürecini sürdürdüğünü bildiriyor; ihmal veya kast kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 2,
+      "reported_date": "2026-05-04",
+      "event_date": "2026-05-04",
+      "last_verified_at": "2026-05-05",
+      "locations": [
+        {
+          "id": "mersin-bozyazi-two-children-poisoning-suspicious-death",
+          "label": "Bozyazı / Mersin",
+          "province_key": "MERSIN",
+          "province": "Mersin",
+          "district": "Bozyazı",
+          "lat": 36.11,
+          "lng": 32.97,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Bozyazı ilçesi ve evde rahatsızlanma bağlamını verir; çocuk ve aile adları, kesin mahalle/sokak/ev, hastane, mezarlık, tören ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-04",
+          "status": "investigation",
+          "note": "İHA ve AA kaynaklı haberler, iki çocuğun bulantı ve kusma şikayeti sonrası hastaneye kaldırıldığını, hayatlarını kaybettiğini ve aile bireylerinin tedavi altına alındığını bildirdi."
+        },
+        {
+          "date": "2026-05-05",
+          "status": "investigation",
+          "note": "Haber7/DHA, zehirlenme şüphesiyle otopsi ve ev incelemesi yapıldığını, ölüm nedeninin belirlenmesi için soruşturmanın sürdüğünü aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Mersin'de hastaneye kaldırılan aileden acı haber: iki çocuk kurtarılamadı",
+          "url": "https://www.iha.com.tr/mersin-haberleri/mersinde-hastaneye-kaldirilan-aileden-aci-haber-2-cocuk-kurtarilamadi-418021485",
+          "publisher": "İhlas Haber Ajansı",
+          "type": "news",
+          "published_at": "2026-05-04"
+        },
+        {
+          "title": "Mersin'de evde rahatsızlanan iki çocuk hayatını kaybetti",
+          "url": "https://www.canligaste.com/mersin-de-evde-rahatsizlanan-2-cocuk-hayatini-kaybetti-anne-ve-baba-tedavi-altina-alindi/839769/",
+          "publisher": "Canlı Gaste / Anadolu Ajansı",
+          "type": "news",
+          "published_at": "2026-05-04"
+        },
+        {
+          "title": "Mersin'de iki kardeşin ölümüyle ilgili zehirlenme soruşturması",
+          "url": "https://www.haber7.com/mersin/3625524-mersinde-aci-veda-2-kardes-topraga-verildi",
+          "publisher": "Haber7 / DHA",
+          "type": "news",
+          "published_at": "2026-05-05"
+        }
+      ]
+    },
+    {
+      "id": "igdir-karakoyunlu-cocuklarin-silahla-oyunu-olum-sorusturmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Iğdır/Karakoyunlu'da çocukların eriştiği silahla bir çocuğun ölümü",
+      "summary": "AA kaynaklı Habertürk ve Gerçek Gündem haberlerine göre, Iğdır'ın Karakoyunlu ilçesinde 13 yaşındaki bir çocuğun evden getirdiği silahın ateş alması sonucu 12 yaşındaki bir çocuk ağır yaralandı ve hastanede hayatını kaybetti. Kaynaklar olayla ilgili baba ve çocuğun gözaltına alındığını ve jandarmanın soruşturma başlattığını aktardı. Kayıt, çocukların baş harflerini, köy adını, hastane ve özel konum ayrıntılarını haritaya eklemez.",
+      "institution": "Evde silaha erişim / şüpheli çocuk ölümü soruşturması",
+      "legal_status": "Kaynaklar baba ve 13 yaşındaki çocuğun gözaltına alındığını ve jandarma soruşturmasının sürdüğünü bildiriyor; silahın kime ait olduğu ve sorumluluk zinciri kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-01",
+      "event_date": "2026-04-30",
+      "last_verified_at": "2026-05-05",
+      "locations": [
+        {
+          "id": "igdir-karakoyunlu-firearm-access-child-death",
+          "label": "Karakoyunlu / Iğdır",
+          "province_key": "IGDIR",
+          "province": "Iğdır",
+          "district": "Karakoyunlu",
+          "lat": 39.97,
+          "lng": 44.18,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Karakoyunlu ilçesi ve köy bağlamını verir; çocukların baş harfleri, köy adı, ev/silah ayrıntıları, hastane ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "status": "investigation",
+          "note": "AA kaynaklı yerel haberler, evden getirilen silahın çocukların oyunu sırasında ateş aldığını ve 12 yaşındaki çocuğun hastanede hayatını kaybettiğini aktardı."
+        },
+        {
+          "date": "2026-05-01",
+          "status": "investigation",
+          "note": "Habertürk ve Gerçek Gündem, olayla ilgili baba ve 13 yaşındaki çocuğun gözaltına alındığını, jandarmanın soruşturma başlattığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Iğdır'da çocukların eriştiği silahla bir çocuk hayatını kaybetti",
+          "url": "https://www.haberturk.com/igdirda-cocuklarin-silahla-oyunu-olumle-bitti-3881514",
+          "publisher": "Habertürk / Anadolu Ajansı",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Iğdır'da çocukların silahla oyunu ölümle bitti",
+          "url": "https://www.gercekgundem.com/guncel/igdirda-cocuklarin-silahla-oyunu-olumle-bitti-570713",
+          "publisher": "Gerçek Gündem / Anadolu Ajansı",
+          "type": "news",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "id": "kirsehir-merkez-ozel-gereksinimli-cocuk-market-siddet-iddiasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "reported",
+      "title": "Kırşehir'de özel gereksinimli çocuğa markette şiddet iddiası",
+      "summary": "Yaşadıkça'nın 2 Mayıs 2026 tarihli haberine göre, Kırşehir Merkez'deki bir zincir market şubesinde özel gereksinimli bir çocuğa ve ailesine yönelik sözlü hakaret ve fiziksel şiddet iddiası kamuoyuna yansıdı. Haberde mağdur ailenin şikayetçi olduğu ve soruşturma beklendiği aktarıldı. Kayıt, tek kaynaklı bir kamu iddiası olarak tutuldu; çocuğun adı, özel gereksinim ayrıntıları, açık market adresi ve aile bilgileri haritaya eklenmedi.",
+      "institution": "Kamusal alanda özel gereksinimli çocuğa şiddet iddiası",
+      "legal_status": "Kaynak, ailenin şikayetçi olduğunu ve soruşturma beklendiğini aktarıyor; gözaltı, iddianame veya mahkeme kararı kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-02",
+      "last_verified_at": "2026-05-05",
+      "locations": [
+        {
+          "id": "kirsehir-merkez-special-needs-child-market-violence-claim",
+          "label": "Kırşehir Merkez",
+          "province_key": "KIRSEHIR",
+          "province": "Kırşehir",
+          "district": "Merkez",
+          "lat": 39.15,
+          "lng": 34.16,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynak Kırşehir Merkez'deki market bağlamını verir; çocuğun adı, özel gereksinim ayrıntıları, açık market adresi, aile bilgileri ve özel konum haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-02",
+          "status": "reported",
+          "note": "Yaşadıkça, özel gereksinimli çocuğa ve ailesine yönelik hakaret ve fiziksel şiddet iddiasını, ailenin şikayetçi olduğu bilgisiyle yayımladı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Kırşehir'de özel gereksinimli çocuğa şiddet iddiası",
+          "url": "https://yasadikca.com/kirsehirde-ozel-gereksinimli-eymen-berata-siddet-iddiasi/",
+          "publisher": "Yaşadıkça",
+          "type": "news",
+          "published_at": "2026-05-02"
+        }
+      ]
+    },
+    {
+      "id": "adiyaman-engelli-kiz-cocugu-istismar-davasi-dusme-karari-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "dismissed_or_closed",
+      "title": "Adıyaman'da engelli kız çocuğuna yönelik istismar davasında düşme kararı",
+      "summary": "PERRE kaynaklı Tum1Haber ve Besni Güncel haberlerine göre, Adıyaman'da 17 yaşındaki engelli bir kız çocuğunun istismara uğradığı iddiasına ilişkin dava, istinaf bozması sonrası 5 Mayıs 2026'da yeniden görüldü. Mağdur vekili, mahkemenin şikayetten vazgeçme gerekçesiyle düşme kararı verdiğini, isnat edilen suçun nitelikli cinsel istismardan reşit olmayanla cinsel ilişkiye dönüştürüldüğünü ve kanun yollarına başvuracaklarını açıkladı. Kayıt, çocuğun kimliğini ve dava dosyasına ilişkin özel ayrıntıları eklemez.",
+      "institution": "Adıyaman Adliyesi / çocuk istismarı davası",
+      "legal_status": "Yerel mahkemenin şikayetten vazgeçme gerekçesiyle düşme kararı verdiği; mağdur vekillerinin karara karşı kanun yollarına başvuracaklarını açıkladığı bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-05",
+      "decision_date": "2026-05-05",
+      "last_verified_at": "2026-05-05",
+      "locations": [
+        {
+          "id": "adiyaman-child-abuse-case-dismissal-courthouse",
+          "label": "Adıyaman",
+          "province_key": "ADIYAMAN",
+          "province": "Adıyaman",
+          "district": "",
+          "lat": 37.76,
+          "lng": 38.28,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Adıyaman Adliyesi ve il bağlamını verir; çocuğun kimliği, yaşadığı yer, aile bilgileri ve dava dosyasına ilişkin özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-05",
+          "status": "dismissed_or_closed",
+          "note": "PERRE kaynaklı haberler, istinaf bozması sonrası görülen duruşmada mahkemenin şikayetten vazgeçme gerekçesiyle düşme kararı verdiğini ve mağdur vekillerinin itiraz edeceklerini aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Adıyaman'da istismar davasında düşme kararı",
+          "url": "https://www.tum1haber.com/haber/adiyamanda-istismar-davasinda-ucuncu-durusma-goruldu-mahkeme-dosyada-dusme-karari-verdi-videolu-haber-362523",
+          "publisher": "Tum1Haber / PERRE",
+          "type": "news",
+          "published_at": "2026-05-05"
+        },
+        {
+          "title": "Adıyaman'daki istismar davasında tartışmalı karar",
+          "url": "https://www.besniguncel.com/adiyamanda-istismar-davasinda-ucuncu-durusma-goruldu-mahkeme-dosyada-dusme-karari-verdi-videolu-haber",
+          "publisher": "Besni Güncel / PERRE",
+          "type": "news",
+          "published_at": "2026-05-05"
+        }
+      ]
+    },
+    {
+      "id": "burdur-aglasun-aileye-av-tufegi-saldirisi-cocuk-yaralanmasi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "investigation",
+      "title": "Burdur/Ağlasun'da aileye av tüfeği saldırısında çocuğun yaralanması",
+      "summary": "Sözcü/ANKA ve AA kaynaklı En Son Dakika haberlerine göre, Burdur'un Ağlasun ilçesinde husumetli iki kişi arasında çıkan olayda bir erkek, yanında çocuğu bulunan aileye av tüfeğiyle ateş etti; aileden bir çocuk dahil üç kişi yaralandı. Kaynaklar şüphelinin teslim olduğunu, gözaltına alındığını ve çıkarıldığı hakimlikçe tutuklandığını aktardı. Kayıt, çocuğun ve aile bireylerinin isim/baş harflerini, köy adını, sağlık kurumu ve özel konum ayrıntılarını haritaya eklemez.",
+      "institution": "Aileye silahlı saldırı / çocuk yaralanması soruşturması",
+      "legal_status": "Kaynaklar şüphelinin av tüfeğiyle teslim olduğunu, gözaltına alındığını ve mahkemece tutuklandığını bildiriyor; soruşturma sürüyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-01",
+      "event_date": "2026-04-30",
+      "last_verified_at": "2026-05-05",
+      "locations": [
+        {
+          "id": "burdur-aglasun-family-shotgun-attack-child-injury",
+          "label": "Ağlasun / Burdur",
+          "province_key": "BURDUR",
+          "province": "Burdur",
+          "district": "Ağlasun",
+          "lat": 37.65,
+          "lng": 30.53,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Ağlasun ilçesi ve aileye silahlı saldırı bağlamını verir; çocuk ve aile baş harfleri, köy adı, sağlık kurumu ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "status": "investigation",
+          "note": "AA kaynaklı haber, Ağlasun'da bir aileye av tüfeğiyle ateş edildiğini, aileden bir çocuk dahil üç kişinin yaralandığını aktardı."
+        },
+        {
+          "date": "2026-05-01",
+          "status": "investigation",
+          "note": "Sözcü/ANKA, şüphelinin jandarmaya teslim olduğunu, sevk edildiği hakimlikçe tutuklanarak cezaevine gönderildiğini bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Burdur/Ağlasun'da aileye av tüfeği saldırısı ve tutuklama",
+          "url": "https://www.sozcu.com.tr/kucuk-cocuk-baasinin-islahiyla-arkadasini-oldurdu-p315900",
+          "publisher": "Sözcü / ANKA",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Burdur'da av tüfeğiyle vurulan üç kişinin yaralanması",
+          "url": "https://www.ensondakika.com.tr/guncelleme-burdur-da-cikan-kavgada-av-tufegiyle-vurulan-3-kisi-yaralandi/633142/",
+          "publisher": "En Son Dakika / Anadolu Ajansı",
+          "type": "news",
+          "published_at": "2026-04-30"
         }
       ]
     }

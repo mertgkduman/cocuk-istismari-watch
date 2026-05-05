@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-04",
+  "updated_at": "2026-05-05",
   "workflow": [
     "Use a durable month bucket before adding records, so context can be cleared between incidents.",
     "For each month, record the aggregate count source first, then process one lead at a time.",
@@ -8,14 +8,14 @@
   ],
   "range": "2022-01 through 2026-05",
   "current_focus": {
-    "month": "2026-02",
-    "source_url": "https://bianet.org/haber/erkek-siddeti-subat-2026-317394",
-    "target_child_abuse_count": 65,
-    "processed_count": 37,
-    "processed_child_count": 62,
+    "month": "2026-05",
+    "source_url": null,
+    "target_child_abuse_count": null,
+    "processed_count": 8,
+    "processed_child_count": 11,
     "remaining_count": null,
-    "remaining_child_count": 3,
-    "next_lead": "21 February 2026 Gaziantep home-attack child-injury lead: a 15-year-old child reportedly was injured during a violent home attack. Find case-specific sources before promoting, avoid child/family names/initials, exact district/neighborhood/street/home details, robbery/weapon/medical/image details, and count one affected child only if corroborated."
+    "remaining_child_count": null,
+    "next_lead": "Continue May 2026 from May 6 onward; add source-backed public reports even when thinly sourced, but keep attributed language and coarse child-safe locations."
   },
   "month_buckets": [
     {
@@ -159,6 +159,33 @@
       ],
       "lead_notes": [
         "Giresun/Görele former-mayor child harassment conviction record promoted with IHA, DHA, and Bianet sources; it is tracked as an April legal follow-up rather than as a missing March child-abuse-count incident."
+      ]
+    },
+    {
+      "month": "2026-05",
+      "status": "in_progress",
+      "target_child_abuse_count": null,
+      "target_incident_count": null,
+      "processed_child_count": 11,
+      "remaining_child_count": null,
+      "count_basis": "No monthly aggregate source has been published yet for May 2026. This bucket tracks source-backed May 1+ public reports and legal updates processed individually.",
+      "count_source_url": null,
+      "processed_count": 8,
+      "remaining_count": null,
+      "processed_record_ids": [
+        "turkiye-yirmi-dort-il-cevrimici-cocuk-mustehcenligi-operasyonu-2026",
+        "gaziantep-on-uc-yas-kiz-cocugu-aile-ici-istismar-olum-sorusturmasi-2026",
+        "hatay-iskenderun-mesem-pastane-elektrik-akimi-cocuk-isci-olumu-2026",
+        "mersin-bozyazi-iki-cocuk-zehirlenme-supheli-olum-sorusturmasi-2026",
+        "igdir-karakoyunlu-cocuklarin-silahla-oyunu-olum-sorusturmasi-2026",
+        "kirsehir-merkez-ozel-gereksinimli-cocuk-market-siddet-iddiasi-2026",
+        "adiyaman-engelli-kiz-cocugu-istismar-davasi-dusme-karari-2026",
+        "burdur-aglasun-aileye-av-tufegi-saldirisi-cocuk-yaralanmasi-2026"
+      ],
+      "lead_notes": [
+        "May 2026 batch includes one-source and thinly sourced leads when a stable public source exists; wording remains attributed and status stays reported/investigation/unknown/dismissed as appropriate.",
+        "Fatmanur Çelik/Hifa İkra existing record was updated with May 4-5 Bianet trial-follow-up sources instead of adding a duplicate marker.",
+        "Records omit child names/initials, exact private homes, family-identifying details, schools/workplace addresses, hospitals, funeral/forensic details, media/image details, and other non-essential private-location details."
       ]
     }
   ]

@@ -164,7 +164,7 @@
       "title": "Di doza Fatmanur Çelîk û Hîfa Îkra de binpêkirinên parastinê hatin kirin",
       "summary": "Li gor nûçeya Bianetê dema ew zarok bû Midûrê Weqfa Xizmeta Qur'anê A.Ş. Fatmanur Çelîk a ji aliyê sûcdar ve hatiye îstîsmarkirin û pê re zewicî û keça wê ya 8 salî Hifa Îkra Şenguler a ku bi salan ji aliyê heman sûcdar ve hatiye îstîsmarkirin, di Adara 2026’an de mirî hatibûn dîtin.",
       "institution": "Weqfa Xizmeta Quranê pelê / mekanîzmayên parastina zarokan ve girêdayî ye",
-      "legal_status": "Çavkaniyan di çarçoveya dosyaya îstîsmarê ya ku kiryar bêyî ku bê girtin hat darizandin û lêpirsîna piştî mirinê/ îfadeyên raya giştî radigihînin.",
+      "legal_status": "Çavkanî doza îstismarê ya ku tê de fail bê girtin tê darizandin û lêpirsîna piştî mirinê/daxuyaniyên gelemperî vedibêjin. Li gor nûçeya Bianetê ya 5ê Gulanê 2026an, di rûniştinê de daxwazên tevlîbûnê hatin redkirin, daxwaza redkirina dadger şandin dadgeheke din û rûniştina pêş 14ê Cotmeha 2026an hate danîn.",
       "locations": {
         "fatmanur-hifa-istanbul": {
           "label": "Stenbol",
@@ -180,6 +180,9 @@
         },
         {
           "note": "Bianetê diyar kir ku ji ber wezîfeyên Fatmanur Çelîk û Hîfa Îkra lêpirsînek cuda hatiye destpêkirin û bûyer di rojeva raya giştî de hatiye şopandin."
+        },
+        {
+          "note": "Bianet ragihand ku di rûniştina Dadgeha Cezayê ya Giran a 2yemîn a Anadolu ya Stenbolê de daxwazên tevlîbûnê hatin redkirin, daxwaza redkirina dadger şandin dadgeheke din û rûniştina pêş 14ê Cotmeha 2026an hate danîn."
         }
       ],
       "sources": [
@@ -191,6 +194,12 @@
         },
         {
           "title": "Di derbarê Gulben Ergen de piştî nivîsên Fatmanur Çelîk û Hifa Îkra lêpirsîn hat vekirin"
+        },
+        {
+          "title": "Banga doza Fatma Nur Çelîk: ne edaleta mêr, edaleta rast"
+        },
+        {
+          "title": "Rûniştina pêş a doza Fatma Nur Çelîk di 14ê Cotmehê de ye"
         }
       ]
     },
@@ -1765,6 +1774,237 @@
           "title": "Şîdeta mêr Sibat 2026"
         }
       ]
+    },
+    "turkiye-yirmi-dort-il-cevrimici-cocuk-mustehcenligi-operasyonu-2026": {
+      "title": "Operasyona 24 parêzgehan a li dijî naveroka îstismara zayendî ya zarokan û tacîza serhêl",
+      "summary": "Li gor nûçeya Ajansa Anadoluyê ya 4ê Gulanê 2026an ku li ser daxuyaniya Wezareta Navxweyî ye, di 5 rojên dawî de li 24 parêzgehan operasyonên sîber li dijî îdiayên naveroka îstismara zayendî ya zarokan û tacîza serhêl, behîsa neqanûnî û sextekariya nitelîklî hatin kirin. Çavkanî dibêjin 212 gumanbar hatin girtin, 127 kes hatin binçavkirin û ji bo 35 kesan kontrola dadî hat sepandin. Ji ber ku hejmara zarokên mexdûr, cihên zarokan an belavbûna parêzgehan a îdiaya naveroka îstismarê nehat eşkere kirin, tomar li asta Ankara/koordînasyona neteweyî hate nexşekirin.",
+      "institution": "Wezareta Navxweyî / Daîreya Têkoşîna Sûcên Sîber a EGM",
+      "legal_status": "Hat ragihandin ku di lêpirsînê de 212 gumanbar hatin girtin, 127 kes hatin binçavkirin, ji bo 35 kesan kontrola dadî hate sepandin û karên din dewam dikin; hejmara zarokên mexdûr nehat eşkere kirin.",
+      "locations": {
+        "turkiye-24-il-cyber-child-abuse-material-operation-ankara": {
+          "label": "Ankara / daxuyaniya operasyona neteweyî",
+          "location_basis": "Çavkanî dibêjin operasyon li 24 parêzgehan bû, lê belavbûna parêzgehan a îdiaya naveroka îstismara zarokan nayê dayîn; cihên zarokan an navnîşanên gumanbaran nehatin zêdekirin û daxuyaniya neteweyî li Ankara hate nexşekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "AA û TRT Haber bi atfa Wezareta Navxweyî ragihandin ku di operasyonên sîber ên 24 parêzgehan de 212 gumanbar hatin girtin, 127 kes hatin binçavkirin û lêpirsîn dewam dike."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Operasyona 24 parêzgehan li dijî sûcên serhêl, behîsa neqanûnî û sextekariya nitelîklî"
+        },
+        {
+          "title": "Têkoşîna li dijî sûcên sîber: 127 gumanbar hatin binçavkirin"
+        }
+      ]
+    },
+    "gaziantep-on-uc-yas-kiz-cocugu-aile-ici-istismar-olum-sorusturmasi-2026": {
+      "title": "Li Gaziantepê piştî mirina keçeke 13 salî lêpirsîna îstismara zayendî ya nav malbatê",
+      "summary": "Li gor Haberler.com û Odatvê ku ji Sabahê veguhestin, piştî mirina keçeke 13 salî li Gaziantepê, bi îdiayên îstismara zayendî ya nav malbatê û hanedana xwekuştinê çar endamên malbatê hatin binçavkirin; ji bo du mezinên malbatê kontrola dadî hate sepandin. Ev tomar pêvajoya dadî ya ku çavkanî diyar dikin dişopîne û navê zarokê, hûrguliyên têkiliyên malbatê, rêbaz, nexweşxane, mal an cihê taybetî zêde nake.",
+      "institution": "Lêpirsîna îstismara nav malbatê û mirina zarokê",
+      "legal_status": "Çavkanî dibêjin çar gumanbar bi sûcên îstismara zayendî û hanedana xwekuştinê hatin binçavkirin, ji bo du kesan kontrola dadî hate sepandin û lêpirsîn dewam dike.",
+      "locations": {
+        "gaziantep-family-abuse-child-death-investigation": {
+          "label": "Gaziantep",
+          "location_basis": "Çavkanî parêzgeha Gaziantepê û çarçoveya lêpirsîna nav malbatê didin; navê zarokê, hûrguliyên malbatê, mal, nexweşxane, rêbaza mirinê û cihên taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Çavkanîyên herêmî ragihandin ku piştî mirina zarokê di lêpirsînê de îdiayên îstismara zayendî ya nav malbatê derketin holê û çar gumanbar hatin binçavkirin."
+        },
+        {
+          "note": "Haberler.com û Odatv, bi atfa Sabahê, çar binçavkirin, kontrola dadî ji bo du kesan û dewamkirina lêpirsînê ragihandin."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Lêpirsîna îstismara zayendî piştî mirina zarokeke 13 salî"
+        },
+        {
+          "title": "Li Gaziantepê lêpirsîna îstismarê piştî mirina zarokeke 13 salî"
+        },
+        {
+          "title": "Li Gaziantepê lêpirsîna îstismara nav malbatê piştî mirina zarokeke 13 salî"
+        }
+      ]
+    },
+    "hatay-iskenderun-mesem-pastane-elektrik-akimi-cocuk-isci-olumu-2026": {
+      "title": "Li Hatay/Îskenderûnê mirina xwendekarê MESEMê di bûyera elektrîkê ya staja pastaneyê de",
+      "summary": "Li gor nûçeya Habertürkê ya bi çavkaniya ÎHAyê, zarokek ku di çarçoveya MESEMê de li pastaneyek li navçeya Îskenderûna Hatayê staj dikir, di 1ê Gulanê 2026an de li cihê kar bi elektrîkê ket û li nexweşxaneyê jiyana xwe ji dest da; di nûçeyên destpêkê de hate gotin ku xwediyê pastaneyê hate binçavkirin. Haberler.com di 5ê Gulanê de ragihand ku xwendekarek din a heman cihê kar gotiye ku roja berê li heman xala elektrîkê lêdaye, zarok bi karê ku ne erka wî bû ji elektrîkçiyê re alîkar kirine û kesê ku karê elektrîkê dikir bi sûca kuştina bi taksîr hate binçavkirin. Tomar navê zarokê, goristan, nexweşxane, navnîşana vekirî ya cihê kar û hûrguliyên dîtbarî nagire.",
+      "institution": "Îskenderûn MESEM / cihê staja pastaneyê",
+      "legal_status": "Çavkanî dibêjin xwediyê cihê kar hate binçavkirin, paşê kesê ku karê elektrîkê dikir bi sûca kuştina bi taksîr hate binçavkirin û îdiayên kêmasiya ewlehiyê tên lêpirsîn.",
+      "locations": {
+        "hatay-iskenderun-mesem-pastry-electrocution-child-death": {
+          "label": "Îskenderûn / Hatay",
+          "location_basis": "Çavkanî navçeya Îskenderûn, MESEM û çarçoveya staja pastaneyê didin; navê zarokê, navnîşana vekirî ya cihê kar, nexweşxane, goristan û cihên taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Çavkanî ragihandin ku xwendekarê MESEMê di dema staja pastaneyê de ji elektrîkê giran birîndar bû û li nexweşxaneyê jiyana xwe ji dest da."
+        },
+        {
+          "note": "Habertürk/ÎHA ragihand ku piştî bûyerê xwediyê pastaneyê hate binçavkirin."
+        },
+        {
+          "note": "Haberler.com vegotina stajyera din weşand ku roja berê li heman cihê elektrîkê lêdaye û zarok ji bo karekî elektrîkê yê derveyî erka xwe hate şandin; her wiha binçavkirina kesê karê elektrîkê dikir jî hate ragihandin."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Xwendekarê MESEMê li Hatayê di staja pastaneyê de bi elektrîkê jiyana xwe ji dest da"
+        },
+        {
+          "title": "Îdiayên îhmalkariyê û binçavkirin piştî mirina xwendekarê MESEMê"
+        },
+        {
+          "title": "MMO Bursa ji MESEMê re rexne kir: divê zarok ji jiyanê neyên qutkirin"
+        },
+        {
+          "title": "Agahiyên malbatê û lêpirsînê piştî mirina xwendekarê MESEMê li cihê kar"
+        },
+        {
+          "title": "Îdiaya îhmalkariyê ya stajyereke din di mirina xwendekarê MESEMê de"
+        }
+      ]
+    },
+    "mersin-bozyazi-iki-cocuk-zehirlenme-supheli-olum-sorusturmasi-2026": {
+      "title": "Mirina du zarokan bi şika jehrbûnê li Mersin/Bozyaziyê",
+      "summary": "Nûçeyên bi çavkaniya AA, ÎHA û DHAyê ragihandin ku li navçeya Bozyazî ya Mersînê du zarokên heman malbatê piştî şikayeta dilxerabûn û vereşînê hatin rakirin nexweşxaneyê û jiyana xwe ji dest dan; dê û bav jî li bin dermankirinê ne û li malê lêkolîn hate kirin. Nûvekirina Haber7/DHA ya 5ê Gulanê dibêje ji bo diyarkirina sedema mirinê otopsî û lêpirsîn dewam dikin. Tomar navên zarok û endamên malbatê, tax/kolan/mala rast, goristan, nexweşxane û hûrguliyên merasîmê nagire.",
+      "institution": "Mirina gumanbar a zarokan / lêkolîna jehrbûnê",
+      "legal_status": "Çavkanî dibêjin dozgerî, jandarma û yekîneyên tenduristiyê ji bo sedema mirinê lêpirsîn û otopsiyê didomînin; îhmal an qest di çavkaniyên gelemperî de nehat zelalkirin.",
+      "locations": {
+        "mersin-bozyazi-two-children-poisoning-suspicious-death": {
+          "label": "Bozyazî / Mersîn",
+          "location_basis": "Çavkanî navçeya Bozyazî û çarçoveya nexweşbûna li malê didin; navên zarok û malbatê, tax/kola/mala rast, nexweşxane, goristan, merasîm û cihên taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Nûçeyên bi çavkaniya ÎHA û AAyê ragihandin ku du zarok piştî dilxerabûn û vereşînê hatin rakirin nexweşxaneyê, jiyana xwe ji dest dan û endamên din ên malbatê li bin dermankirinê ne."
+        },
+        {
+          "note": "Haber7/DHA şika jehrbûnê, otopsî, lêkolîna malê û dewamkirina lêpirsînê ya ji bo sedema mirinê ragihand."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Li Mersînê piştî rakirina malbatê nexweşxaneyê du zarok nehatin rizgarkirin"
+        },
+        {
+          "title": "Li Mersînê du zarok piştî nexweşbûna li malê jiyana xwe ji dest dan"
+        },
+        {
+          "title": "Lêpirsîna jehrbûnê piştî mirina du xwişk û birayan li Mersînê"
+        }
+      ]
+    },
+    "igdir-karakoyunlu-cocuklarin-silahla-oyunu-olum-sorusturmasi-2026": {
+      "title": "Li Îdir/Karakoyunluyê zarok bi çekê gihiştin û zarokek mir",
+      "summary": "Li gor nûçeyên Habertürk û Gerçek Gündemê yên bi çavkaniya AAyê, li navçeya Karakoyunlu ya Îdirê çekeke ku zarokekî 13 salî ji malê anîbû teqiya, zarokekî 12 salî giran birîndar bû û paşê li nexweşxaneyê jiyana xwe ji dest da. Çavkanî dibêjin bav û zarok hatin binçavkirin û jandarma lêpirsîn dest pê kir. Tomar destpêkên navên zarokan, navê gund, nexweşxane û hûrguliyên cihê taybetî zêde nake.",
+      "institution": "Gihiştina çekê li malê / lêpirsîna mirina gumanbar a zarokê",
+      "legal_status": "Çavkanî dibêjin bav û zarokê 13 salî hatin binçavkirin û lêpirsîna jandarmayê dewam dike; xwedaniya çekê û zincîra berpirsiyariyê di çavkaniyên gelemperî de nehat zelalkirin.",
+      "locations": {
+        "igdir-karakoyunlu-firearm-access-child-death": {
+          "label": "Karakoyunlu / Îdir",
+          "location_basis": "Çavkanî navçeya Karakoyunlu û çarçoveya gund didin; destpêkên navên zarokan, navê gund, hûrguliyên mal/çek, nexweşxane û cihê taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Nûçeyên herêmî yên bi çavkaniya AAyê ragihandin ku çekek ji malê hatî anîn di dema lîstika zarokan de teqiya û zarokekî 12 salî li nexweşxaneyê jiyana xwe ji dest da."
+        },
+        {
+          "note": "Habertürk û Gerçek Gündem ragihandin ku bav û zarokê 13 salî hatin binçavkirin û jandarma lêpirsîn dest pê kir."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Li Îdirê zarok bi çekê gihiştin û zarokek jiyana xwe ji dest da"
+        },
+        {
+          "title": "Li Îdirê lîstika zarokan bi çekê bi mirinê qediya"
+        }
+      ]
+    },
+    "kirsehir-merkez-ozel-gereksinimli-cocuk-market-siddet-iddiasi-2026": {
+      "title": "Li Kırşehirê îdiaya şîdetê li dijî zarokekî xwedî pêdiviya taybet li marketê",
+      "summary": "Li gor nûçeya Yaşadıkçayê ya 2yê Gulanê 2026an, li şaxeke marketa zincîrî ya li Kırşehir Merkezê îdiaya heqaret û şîdeta fizîkî li dijî zarokekî xwedî pêdiviya taybet û malbata wî derket raya giştî. Di nûçeyê de hate gotin ku malbata mexdûr gilî kiriye û lêpirsîn tê hêvîkirin. Tomar wek îdiayeke gelemperî ya yek çavkanî tê parastin; navê zarokê, hûrguliyên pêdiviya taybet, navnîşana vekirî ya marketê û agahiyên malbatê nayên zêdekirin.",
+      "institution": "Îdiaya şîdetê li dijî zarokekî xwedî pêdiviya taybet li cihê gelemperî",
+      "legal_status": "Çavkanî dibêje malbat gilî kiriye û lêpirsîn tê hêvîkirin; binçavkirin, îdianame an biryara dadgehê di çavkaniyên gelemperî de nehat zelalkirin.",
+      "locations": {
+        "kirsehir-merkez-special-needs-child-market-violence-claim": {
+          "label": "Kırşehir Merkez",
+          "location_basis": "Çavkanî çarçoveya marketê li Kırşehir Merkezê dide; navê zarokê, hûrguliyên pêdiviya taybet, navnîşana vekirî ya marketê, agahiyên malbatê û cihê taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Yaşadıkça îdiaya heqaret û şîdeta fizîkî li dijî zarokekî xwedî pêdiviya taybet û malbata wî, bi agahiya gilîkirina malbatê, weşand."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Li Kırşehirê îdiaya şîdetê li dijî zarokekî xwedî pêdiviya taybet"
+        }
+      ]
+    },
+    "adiyaman-engelli-kiz-cocugu-istismar-davasi-dusme-karari-2026": {
+      "title": "Di doza îstismara keçeke astengdar a li Adıyamanê de biryara ketinê",
+      "summary": "Li gor nûçeyên Tum1Haber û Besni Güncel ên bi çavkaniya PERREyê, doza îdiaya îstismara keçeke astengdar a 17 salî li Adıyamanê piştî bozma îstinafê di 5ê Gulanê 2026an de careke din hate dîtin. Parêzerê mexdûr got ku dadgehê bi sedema vekişîna ji gilîyê biryara ketinê da, sûca îsnadkirî ji îstismara zayendî ya nitelîklî veguherand têkiliya zayendî bi kesê ne mezin re û ew ê rêyên qanûnî bişopînin. Tomar nasnameya zarokê an hûrguliyên taybet ên dosyayê zêde nake.",
+      "institution": "Dadgeha Adıyamanê / doza îstismara zarokan",
+      "legal_status": "Hat ragihandin ku dadgeha herêmî bi sedema vekişîna ji gilîyê biryara ketinê da; parêzerên aliyê mexdûr gotin ku ew ê rêyên qanûnî bişopînin.",
+      "locations": {
+        "adiyaman-child-abuse-case-dismissal-courthouse": {
+          "label": "Adıyaman",
+          "location_basis": "Çavkanî çarçoveya Dadgeha Adıyamanê û parêzgehê didin; nasnameya zarokê, cihê jiyanê, agahiyên malbatê û hûrguliyên cihê dosyaya taybet nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Nûçeyên bi çavkaniya PERREyê ragihandin ku piştî bozma îstinafê dadgeha herêmî bi sedema vekişîna ji gilîyê biryara ketinê da û parêzerên mexdûr dê îtiraz bikin."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Di doza îstismarê ya Adıyamanê de biryara ketinê"
+        },
+        {
+          "title": "Di doza îstismarê ya Adıyamanê de biryara nakok"
+        }
+      ]
+    },
+    "burdur-aglasun-aileye-av-tufegi-saldirisi-cocuk-yaralanmasi-2026": {
+      "title": "Li Burdur/Ağlasunê di êrîşa bi tifinga nêçîrê ya li malbatê de zarok birîndar bû",
+      "summary": "Li gor nûçeyên Sözcü/ANKA û En Son Dakika yên bi çavkaniya AAyê, li navçeya Ağlasun a Burdurê di navbera du kesên bi dijminahiya berê de bûyerek derket û zilamek bi tifinga nêçîrê li malbatek ku zarok jî tê de bû teqand; ji malbatê sê kes, di nav de zarokek, birîndar bûn. Çavkanî dibêjin gumanbar xwe radest kir, hate girtin û ji aliyê hakimtiyê ve hate binçavkirin. Tomar destpêkên navên zarok û malbatê, navê gund, saziya tenduristiyê û hûrguliyên cihê taybetî zêde nake.",
+      "institution": "Êrîşa çekdarî li malbatê / lêpirsîna birîndarbûna zarokê",
+      "legal_status": "Çavkanî dibêjin gumanbar bi tifinga nêçîrê xwe radest kir, hate girtin û ji aliyê dadgehê ve hate binçavkirin; lêpirsîn dewam dike.",
+      "locations": {
+        "burdur-aglasun-family-shotgun-attack-child-injury": {
+          "label": "Ağlasun / Burdur",
+          "location_basis": "Çavkanî navçeya Ağlasun û çarçoveya êrîşa çekdarî ya li malbatê didin; destpêkên navên zarok û malbatê, navê gund, saziya tenduristiyê û cihê taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Nûçeya bi çavkaniya AAyê ragihand ku li Ağlasunê bi tifinga nêçîrê li malbatek hate teqandin û sê kes, di nav de zarokek, birîndar bûn."
+        },
+        {
+          "note": "Sözcü/ANKA ragihand ku gumanbar xwe radestî jandarmayê kir û ji aliyê hakimtiyê ve hate binçavkirin."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Li Burdur/Ağlasunê êrîşa bi tifinga nêçîrê li malbatê û binçavkirin"
+        },
+        {
+          "title": "Li Burdurê di êrîşa bi tifinga nêçîrê de sê kes birîndar bûn"
+        }
+      ]
     }
-  }
+  },
+  "updated_at": "2026-05-05"
 }

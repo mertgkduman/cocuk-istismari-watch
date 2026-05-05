@@ -163,7 +163,7 @@
       "title": "Protection violations in the case of Fatmanur Çelik and Hifa İkra",
       "summary": "According to Bianet, when he was a child, the director of the Quran Service Foundation A.Ş. Fatmanur Çelik, who was abused by and married to the perpetrator, and her eight-year-old daughter Hifa İkra Şengüler, who was abused by the same perpetrator for years, were found dead in March 2026. Istanbul Bar Association Children's Rights Center announced that there were systematic violations throughout the process and that the protection mechanisms did not work effectively.",
       "institution": "Quran Service Foundation linked file / child protection mechanisms",
-      "legal_status": "Sources convey the context of the abuse case, in which the perpetrator was tried without arrest, and the post-mortem investigation/public statements.",
+      "legal_status": "Sources describe the abuse case in which the perpetrator is being tried without detention and the post-death investigation/public statements. According to Bianet's May 5, 2026 report, intervention requests were rejected at the hearing, the request to recuse the judge was sent to another court, and the next hearing was set for October 14, 2026.",
       "locations": {
         "fatmanur-hifa-istanbul": {
           "label": "Istanbul",
@@ -179,6 +179,9 @@
         },
         {
           "note": "Bianet stated that a separate investigation was launched due to the posts of Fatmanur Çelik and Hifa İkra and that the incident was followed up on the public agenda."
+        },
+        {
+          "note": "Bianet reported that at the Istanbul Anadolu 2nd High Criminal Court hearing, intervention requests were rejected, the request to recuse the judge was sent to another court, and the next hearing was set for October 14, 2026."
         }
       ],
       "sources": [
@@ -190,6 +193,12 @@
         },
         {
           "title": "Investigation against Gülben Ergen after Fatmanur Çelik and Hifa İkra posts"
+        },
+        {
+          "title": "Call for the Fatma Nur Çelik case: not male justice, real justice"
+        },
+        {
+          "title": "The next hearing in the Fatma Nur Çelik case is on October 14"
         }
       ]
     },
@@ -1764,6 +1773,237 @@
           "title": "Male violence February 2026"
         }
       ]
+    },
+    "turkiye-yirmi-dort-il-cevrimici-cocuk-mustehcenligi-operasyonu-2026": {
+      "title": "24-province online child sexual-abuse-material and harassment operation",
+      "summary": "According to Anadolu Agency's May 4, 2026 report based on the Interior Ministry statement, cyber operations were conducted in 24 provinces over the previous five days for alleged online child sexual-abuse material and harassment, illegal betting, and qualified fraud. Sources reported that 212 suspects were detained, 127 were arrested, and judicial control was applied to 35 people. Because no child-victim count, child locations, or province-level split for the child-abuse-material suspicion was published, the record is mapped at Ankara/national coordination level.",
+      "institution": "Interior Ministry / EGM Cybercrime Department",
+      "legal_status": "The investigation reportedly detained 212 suspects, arrested 127, applied judicial control to 35, and continued other procedures; no child-victim count was publicly disclosed.",
+      "locations": {
+        "turkiye-24-il-cyber-child-abuse-material-operation-ankara": {
+          "label": "Ankara / national operation announcement",
+          "location_basis": "Sources say the operation covered 24 provinces but do not disclose the province distribution for alleged child-abuse material; no child or suspect-address locations were added, and the national announcement is mapped in Ankara."
+        }
+      },
+      "timeline": [
+        {
+          "note": "AA and TRT Haber, citing the Interior Ministry, reported that cyber operations in 24 provinces detained 212 suspects, arrested 127, and remained under investigation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "24-province online crimes, illegal betting and qualified fraud operation"
+        },
+        {
+          "title": "Cybercrime operation: 127 suspects arrested"
+        }
+      ]
+    },
+    "gaziantep-on-uc-yas-kiz-cocugu-aile-ici-istismar-olum-sorusturmasi-2026": {
+      "title": "Family sexual-abuse investigation after the death of a 13-year-old girl in Gaziantep",
+      "summary": "According to Haberler.com and Odatv reports citing Sabah, after the death of a 13-year-old girl in Gaziantep, four family members were arrested on allegations of intra-family sexual abuse and incitement to suicide; two older family members were placed under judicial control. The record follows the public judicial process described by sources and does not add the child's name, detailed family relationships, method, hospital, home, or private location.",
+      "institution": "Intra-family abuse and child-death investigation",
+      "legal_status": "Sources report that four suspects were arrested on charges of sexual abuse and incitement to suicide, two people were placed under judicial control, and the investigation continues.",
+      "locations": {
+        "gaziantep-family-abuse-child-death-investigation": {
+          "label": "Gaziantep",
+          "location_basis": "Sources give Gaziantep province and an intra-family investigation context; child name, family-relationship details, home, hospital, death method, and private locations were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Local sources reported that intra-family sexual-abuse allegations emerged in the investigation after the child's death and that four suspects were arrested."
+        },
+        {
+          "note": "Haberler.com and Odatv, citing Sabah, reported four arrests, judicial control for two people, and an ongoing investigation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Sexual-abuse investigation after the death of a 13-year-old child"
+        },
+        {
+          "title": "Abuse investigation after the death of a 13-year-old child in Gaziantep"
+        },
+        {
+          "title": "Family-abuse investigation after the death of a 13-year-old child in Gaziantep"
+        }
+      ]
+    },
+    "hatay-iskenderun-mesem-pastane-elektrik-akimi-cocuk-isci-olumu-2026": {
+      "title": "MESEM student died after an electrical incident at a pastry-shop internship in Hatay/Iskenderun",
+      "summary": "According to Habertürk's IHA-sourced report, a child interning at a pastry shop under MESEM in Hatay's Iskenderun district was electrocuted at the workplace on May 1, 2026 and later died in hospital; early reports said the pastry-shop owner was detained. Haberler.com's May 5 report said another student at the same workplace stated that she had been shocked at the same point the previous day, that the child was made to help an electrician despite this not being his task, and that the person doing the electrical work was arrested on a negligent homicide charge. The record does not use the child's name, cemetery, hospital, open workplace address, or visual details.",
+      "institution": "Iskenderun MESEM / pastry-shop internship workplace",
+      "legal_status": "Sources report that the workplace owner was detained, that the person doing the electrical work was later arrested on a negligent homicide charge, and that alleged safety failures are under investigation.",
+      "locations": {
+        "hatay-iskenderun-mesem-pastry-electrocution-child-death": {
+          "label": "Iskenderun / Hatay",
+          "location_basis": "Sources give Iskenderun district, MESEM, and pastry-shop internship context; child name, open workplace address, hospital, cemetery, and private locations were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Sources reported that the MESEM student was severely injured by electric current during a pastry-shop internship and later died in hospital."
+        },
+        {
+          "note": "Habertürk/IHA reported that the pastry-shop owner was understood to have been detained after the incident."
+        },
+        {
+          "note": "Haberler.com published another intern's account that an electrical shock had occurred at the same point the previous day and that the child was directed to an electrical task outside his duty; it also reported an arrest of the person doing the electrical work."
+        }
+      ],
+      "sources": [
+        {
+          "title": "MESEM student died after electric shock at a pastry-shop internship in Hatay"
+        },
+        {
+          "title": "Alleged negligence and arrest after MESEM student's death"
+        },
+        {
+          "title": "MMO Bursa criticizes MESEM: children should not be torn from life"
+        },
+        {
+          "title": "Family and investigation details after MESEM student's workplace death"
+        },
+        {
+          "title": "Another intern's negligence allegation in the MESEM student's death"
+        }
+      ]
+    },
+    "mersin-bozyazi-iki-cocuk-zehirlenme-supheli-olum-sorusturmasi-2026": {
+      "title": "Suspected poisoning deaths of two children in Mersin/Bozyazi",
+      "summary": "AA-, IHA-, and DHA-sourced reports said two children from the same family in Mersin's Bozyazi district died after being taken to hospital with nausea and vomiting, while their parents were hospitalized and the home was examined. Haber7/DHA's May 5 update said autopsy and investigation steps continued to determine the cause of death. The record does not use the children or family members' names, exact neighborhood/street/home, cemetery, hospital, or ceremony details.",
+      "institution": "Suspicious child deaths / poisoning inquiry",
+      "legal_status": "Sources report that prosecutors, gendarmerie, and health authorities are continuing investigation and autopsy steps to determine the cause of death; negligence or intent has not been clarified publicly.",
+      "locations": {
+        "mersin-bozyazi-two-children-poisoning-suspicious-death": {
+          "label": "Bozyazi / Mersin",
+          "location_basis": "Sources give Bozyazi district and illness at a home context; child and family names, exact neighborhood/street/home, hospital, cemetery, ceremony, and private locations were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "IHA- and AA-sourced reports said two children were hospitalized after nausea and vomiting, died, and other family members were hospitalized."
+        },
+        {
+          "note": "Haber7/DHA reported suspected poisoning, autopsy steps, home examination, and an ongoing inquiry into the cause of death."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Two children died after a family was taken to hospital in Mersin"
+        },
+        {
+          "title": "Two children died after becoming ill at home in Mersin"
+        },
+        {
+          "title": "Poisoning inquiry after two siblings' deaths in Mersin"
+        }
+      ]
+    },
+    "igdir-karakoyunlu-cocuklarin-silahla-oyunu-olum-sorusturmasi-2026": {
+      "title": "A child died after children accessed a firearm in Igdir/Karakoyunlu",
+      "summary": "According to AA-sourced reports by Habertürk and Gerçek Gündem, a 12-year-old child in Igdir's Karakoyunlu district was seriously injured and later died after a gun brought from home by a 13-year-old child fired. Sources reported that the father and the child were detained and that gendarmerie opened an investigation. The record does not add the children's initials, village name, hospital, or private location details.",
+      "institution": "Home firearm access / suspicious child-death investigation",
+      "legal_status": "Sources report that the father and 13-year-old child were detained and that a gendarmerie investigation continues; ownership of the firearm and the responsibility chain have not been clarified publicly.",
+      "locations": {
+        "igdir-karakoyunlu-firearm-access-child-death": {
+          "label": "Karakoyunlu / Igdir",
+          "location_basis": "Sources give Karakoyunlu district and village context; children's initials, village name, home/firearm details, hospital, and private location were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "AA-sourced local reports said a firearm brought from home fired while children were playing and that a 12-year-old child died in hospital."
+        },
+        {
+          "note": "Habertürk and Gerçek Gündem reported that the father and 13-year-old child were detained and that gendarmerie opened an investigation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "A child died after children accessed a firearm in Igdir"
+        },
+        {
+          "title": "Children's firearm play ended in death in Igdir"
+        }
+      ]
+    },
+    "kirsehir-merkez-ozel-gereksinimli-cocuk-market-siddet-iddiasi-2026": {
+      "title": "Violence allegation against a child with special needs at a market in Kirsehir",
+      "summary": "According to Yaşadıkça's May 2, 2026 report, an allegation of verbal abuse and physical violence against a child with special needs and the child's family was made public after an incident at a chain-market branch in Kirsehir Merkez. The report said the affected family filed a complaint and an investigation was expected. The record is held as a single-source public allegation and does not add the child's name, disability details, open market address, or family information.",
+      "institution": "Violence allegation against a child with special needs in a public place",
+      "legal_status": "The source says the family filed a complaint and an investigation is expected; detention, indictment, or court decision has not been clarified in public sources.",
+      "locations": {
+        "kirsehir-merkez-special-needs-child-market-violence-claim": {
+          "label": "Kirsehir Merkez",
+          "location_basis": "The source gives a market context in Kirsehir Merkez; child name, disability details, open market address, family information, and private location were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Yaşadıkça published the allegation of verbal abuse and physical violence against a child with special needs and the child's family, along with the information that the family filed a complaint."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Violence allegation against a child with special needs in Kirsehir"
+        }
+      ]
+    },
+    "adiyaman-engelli-kiz-cocugu-istismar-davasi-dusme-karari-2026": {
+      "title": "Dismissal decision in Adiyaman abuse case involving a disabled girl",
+      "summary": "According to PERRE-sourced reports by Tum1Haber and Besni Güncel, the case concerning an allegation that a 17-year-old disabled girl was abused in Adiyaman was heard again on May 5, 2026 after an appellate reversal. The victim's lawyer said the court dismissed the case based on withdrawal of complaint, changed the alleged offense from qualified sexual abuse to sexual intercourse with a minor, and that they would pursue legal remedies. The record does not add the child's identity or private case-file details.",
+      "institution": "Adiyaman courthouse / child-abuse case",
+      "legal_status": "The local court reportedly dismissed the case based on withdrawal of complaint; victim-side lawyers said they would pursue legal remedies.",
+      "locations": {
+        "adiyaman-child-abuse-case-dismissal-courthouse": {
+          "label": "Adiyaman",
+          "location_basis": "Sources give Adiyaman courthouse and province context; the child's identity, residence, family information, and private case-file location details were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "PERRE-sourced reports said the local court dismissed the case after an appellate reversal based on withdrawal of complaint, and that victim-side lawyers would appeal."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Dismissal decision in an abuse case in Adiyaman"
+        },
+        {
+          "title": "Controversial decision in Adiyaman abuse case"
+        }
+      ]
+    },
+    "burdur-aglasun-aileye-av-tufegi-saldirisi-cocuk-yaralanmasi-2026": {
+      "title": "Child injured in shotgun attack on a family in Burdur/Aglasun",
+      "summary": "According to Sözcü/ANKA and AA-sourced En Son Dakika reports, in Burdur's Aglasun district a man fired a shotgun at a family that included a child during a dispute between two people with prior hostility; three family members, including one child, were injured. Sources reported that the suspect surrendered, was detained, and was arrested by a judgeship. The record does not add the child or family initials, village name, health institution, or private location details.",
+      "institution": "Armed attack on family / child-injury investigation",
+      "legal_status": "Sources report that the suspect surrendered with the shotgun, was detained, and was arrested by the court; the investigation continues.",
+      "locations": {
+        "burdur-aglasun-family-shotgun-attack-child-injury": {
+          "label": "Aglasun / Burdur",
+          "location_basis": "Sources give Aglasun district and an armed attack on a family context; child and family initials, village name, health institution, and private location were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "AA-sourced reporting said a family was shot at with a shotgun in Aglasun and that three people, including one child, were injured."
+        },
+        {
+          "note": "Sözcü/ANKA reported that the suspect surrendered to gendarmerie and was arrested by a judgeship."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Shotgun attack on a family and arrest in Burdur/Aglasun"
+        },
+        {
+          "title": "Three people injured in a shotgun attack in Burdur"
+        }
+      ]
     }
-  }
+  },
+  "updated_at": "2026-05-05"
 }
