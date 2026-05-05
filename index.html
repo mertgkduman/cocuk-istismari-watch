@@ -22,7 +22,11 @@
       <button class="ghost-btn mobile-filter-btn" id="mobile-filter-btn" type="button" data-i18n="nav.filters">Filtre</button>
       <button class="ghost-btn desktop-nav" id="methodology-btn" type="button" data-i18n="nav.methodology">Yöntem</button>
       <button class="ghost-btn desktop-nav" id="sources-btn" type="button" data-i18n="nav.sources">Kaynaklar</button>
-      <button class="ghost-btn" id="lang-btn" type="button" aria-label="Switch language">EN</button>
+      <div class="language-switch" id="language-switch" role="group" aria-label="Dil seçimi">
+        <button class="ghost-btn lang-option active" type="button" data-lang-option="tr" aria-pressed="true">TR</button>
+        <button class="ghost-btn lang-option" type="button" data-lang-option="en" aria-pressed="false">EN</button>
+        <button class="ghost-btn lang-option" type="button" data-lang-option="ku" aria-pressed="false">KU</button>
+      </div>
       <button class="primary-btn" id="open-submit-btn" type="button" data-i18n="nav.submit">+ Bildir</button>
     </nav>
   </header>

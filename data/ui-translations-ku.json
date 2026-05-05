@@ -1,0 +1,193 @@
+{
+  "generated_at": "2026-05-05",
+  "language": "ku",
+  "language_name": "Kurdish (Kurmanji / Northern Kurdish)",
+  "source_language": "tr",
+  "copy": {
+    "meta": {
+      "title": "Şopandina Îstismara Zarokan",
+      "description": "Nexşeyeke vekirî ku dozên îstismara zarokan ên li Tirkiyeyê bi çavkaniyên gelemperî dişopîne."
+    },
+    "brand": {
+      "first": "Şopandina",
+      "rest": "Îstismara Zarokan"
+    },
+    "language": {
+      "label": "Hilbijartina ziman",
+      "options": {
+        "tr": "Tirkî",
+        "en": "English",
+        "ku": "Kurmancî"
+      }
+    },
+    "nav": {
+      "filters": "Parzûn",
+      "listAll": "Lîstele",
+      "methodology": "Rêbaz",
+      "sources": "Çavkanî",
+      "submit": "+ Ragihîne"
+    },
+    "common": {
+      "cancel": "Betal bike",
+      "close": "Close",
+      "notSpecified": "Ne diyar kirin",
+      "source": "Çavkanî"
+    },
+    "stats": {
+      "label": "Dîtina giştî",
+      "total": "Hemû tomar",
+      "active": "Pêvajoya çalak",
+      "institutional": "Doza sazûmanî",
+      "convictions": "Mehkûmiyet"
+    },
+    "filters": {
+      "panel": "Parzûn",
+      "panelTitle": "Tomaran teng bikin",
+      "search": "Lêgerîn",
+      "searchPlaceholder": "Doz, sazî, parêzgeh, çavkanî...",
+      "dateRange": "Navbera dîrokê",
+      "province": "Parêzgeh",
+      "layers": "Qat",
+      "abuseType": "Cureyê îstismarê",
+      "status": "Rewşa qanûnî",
+      "sourceType": "Cureyê çavkaniyê",
+      "dateRanges": {
+        "all": "Hemû tarîxên",
+        "last_30_days": "30 rojên dawî",
+        "last_3_months": "3 mehên dawî",
+        "last_6_months": "6 mehên dawî",
+        "last_12_months": "12 mehên dawî"
+      },
+      "allProvinces": "Hemû parêzgeh"
+    },
+    "map": {
+      "results": "encam"
+    },
+    "empty": {
+      "title": "Ji nexşeyê tomarek hilbijêrin",
+      "text": "Nexşeya xwerû tomarên vê dawiyê yên çavkaniyê, dadweriyên çalak, û dozên bi çarçoweya sazûmaniyê nîşan dide. Tevhev statîstîkên fermî wekî çarçove têne dayîn, ne wekî xal têne nexşandin.",
+      "context": "Çavkaniyên çarçoveyê",
+      "aggregateTitle": "Rewşa statîstîkî ya fermî",
+      "aggregateNote": "Daneyên TURKSTAT û Wezareta Dadê li ser asta welat çarçoveyek pêşkêş dikin. Nexşe tenê tomarên giştî yên kesane yên bi URL-ya çavkaniyê vedihewîne."
+    },
+    "list": {
+      "label": "Lîsteya tomaran",
+      "title": "Tomarên parzûnkirî",
+      "countLabel": "tomar",
+      "empty": "Di van parzûnan de tomar tune."
+    },
+    "recordType": {
+      "abuse_case": "Tomara îstismarê"
+    },
+    "abuseType": {
+      "sexual_abuse": "Îstismara zayendî",
+      "physical_abuse": "Îstismara fizîkî",
+      "neglect": "Xemsarî",
+      "institutional_abuse": "Îstismara sazûmanî",
+      "multiple_or_unclear": "Çend cure / nezelal"
+    },
+    "status": {
+      "reported": "Ji raya giştî re hate ragihandin",
+      "investigation": "Lêpirsîn",
+      "indictment": "Îdianame",
+      "trial": "Dadgeh",
+      "conviction": "Mehkûmiyet",
+      "acquittal": "Beraet",
+      "dismissed_or_closed": "Girtî / betal",
+      "unknown": "Nediyar",
+      "needs_review": "Li benda vekolînê"
+    },
+    "layer": {
+      "recent_verified": "Tomara dawî ya bi çavkanî",
+      "active_legal_process": "Pêvajoya qanûnî ya çalak",
+      "institutional_case": "Çarçoveya sazûmanî",
+      "conviction": "Mehkûmiyet",
+      "acquittal_or_closed": "Beraet / girtî",
+      "unknown_status": "Rewş nediyar e"
+    },
+    "quickLayer": {
+      "recent_verified": "Dawî",
+      "active_legal_process": "Çalak",
+      "institutional_case": "Sazî",
+      "conviction": "Biryara dadgehê"
+    },
+    "sourceType": {
+      "official": "Fermî",
+      "court": "Dadgeh / hiqûq",
+      "rights_org": "Rêxistina mafan",
+      "news": "Nûçe",
+      "report": "Rapor",
+      "social_media": "Medyaya civakî",
+      "other": "Din"
+    },
+    "detail": {
+      "summary": "Kurte",
+      "abuseType": "Cure",
+      "legalStatus": "Rewşa qanûnî",
+      "affectedChildren": "Zarokên bandordar",
+      "institution": "Sazî / çarçove",
+      "reportedDate": "Dîroka ragihandina gelemperî",
+      "eventDate": "Dîroka bûyerê",
+      "indictmentDate": "Îdianame",
+      "trialDate": "Danişîn",
+      "decisionDate": "Dîroka biryarê",
+      "lastVerified": "Piştrastkirina dawî",
+      "locations": "Cih",
+      "timeline": "Rêza demê",
+      "sources": "Çavkanî",
+      "sourceType": "Cureyê çavkaniyê",
+      "geocode": "Rastiya cihê nexşeyê"
+    },
+    "geocodePrecision": {
+      "exact": "koordinata rast",
+      "venue_approx": "cihê gelemperî nêzîk",
+      "district_centroid": "navenda navçeyê",
+      "province_centroid": "navenda parêzgehê",
+      "unknown": "nediyar"
+    },
+    "submit": {
+      "label": "Rêza vekolînê",
+      "title": "Dozek an çavkaniyek ragihînin",
+      "abuseType": "Cureyê îstismarê",
+      "province": "Parêzgeh",
+      "caseTitle": "Sernav",
+      "caseTitlePlaceholder": "Mînak: Li parêzgehekê di doza îstismara zarokan de îdianame hate qebûlkirin",
+      "summary": "Kurtenivîs",
+      "summaryPlaceholder": "Çavkanî çi dibêje? Rewşa lêpirsîn, îdianame, dadgeh an biryarê çi ye?",
+      "location": "Navê cihê",
+      "locationPlaceholder": "Navçe, dadgeh, saziya gelemperî an cihê giştî...",
+      "date": "Dîroka ragihandina gelemperî",
+      "sourceUrl": "URL-ya çavkaniyê",
+      "sourceTitle": "Sernavê çavkaniyê",
+      "sourceType": "Cureyê çavkaniyê",
+      "contact": "Têkilî",
+      "contactPlaceholder": "E-peyama bijarte",
+      "note": "Ragihandin piştî vekolîna edîtorî têne weşandin. Heta ku gelemperî û pêwîst nebe, nasnameya zarok, navnîşana taybet, agahiyên dibistanê an hûrguliyên malbatê nexin.",
+      "send": "Ji bo vekolînê bişîne",
+      "successTitle": "Ragihandin hat wergirtin",
+      "successLocal": "Ji ber ku Supabase nehatiye mîhengkirin, ragihandin di vê gerokê de di rêza demo de hate tomarkirin.",
+      "successRemote": "Ragihandin di rêza vekolîna Supabase de hate tomarkirin.",
+      "missing": "Cure, sernav, kurte, parêzgeh û URL-ya çavkaniyê pêwîst in.",
+      "badUrl": "Divê URL-ya çavkaniyê bi http an https dest pê bike.",
+      "badCoords": "Koordînat pêwîst in; lat/lng divê bi hev re û wek hejmar bên nivîsandin."
+    },
+    "methodology": {
+      "label": "Rêbaz",
+      "title": "Prensîbên tomarkirin û ewlehiyê",
+      "p1": "Şopandina Îstismara Zarokan dozên îstismara zarokan ên li Tirkiyeyê ji raya giştî re hatine ragihandin û URL-ya çavkaniyê heye li nexşeyê nîşan dide. Tomar li ser nûçe, daxuyaniyên fermî, pêvajoya dadgehê an raporên rêxistinên mafan têne avakirin.",
+      "p2": "Zimanê tomaran îdia, lêpirsîn, îdianame, dadgeh û biryarê ji hev cuda dike. Di dosyayên berdewam de atfa çavkaniyê tê parastin; heya ku biryara dadgehê tune be, bûyer wek encameke qetî nayê nivîsandin.",
+      "p3": "Ewlehiya zarokan bingeh e: nexşe navnîşana taybet, dibistan, têkiliyên malbatê an hûrguliyên nasnameyê ji ya ku çavkanî gelemperî û pêwîst dike zêdetir nake. Amarên fermî/hevpar di panela çarçoveyê de dimînin."
+    },
+    "sources": {
+      "label": "Çavkanî",
+      "title": "Hewza destpêkê ya çavkaniyan"
+    },
+    "sourceLinks": {
+      "tuik": "TÜİK Zarok li Tirkiyeyê 2024",
+      "justiceStats": "Wezareta Dadê Amarên Dadê 2025",
+      "victimServices": "Piştgiriya Dadwerî û Xizmetên Qurbanan",
+      "bianetCase": "Şopandina dozên îstismara zarokan a Bianetê",
+      "ucim": "UCİM"
+    }
+  }
+}

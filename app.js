@@ -4,12 +4,23 @@ const SUPABASE_ANON_KEY = "";
 const CONFIG = {
   incidentPaths: ["data/incidents.json"],
   fallbackSeedPath: "data/seed-cases.json",
-  translationPaths: { en: "data/incident-translations-en.json" },
+  translationPaths: {
+    en: "data/incident-translations-en.json",
+    ku: "data/incident-translations-ku.json",
+  },
+  uiTranslationPaths: { ku: "data/ui-translations-ku.json" },
   defaultCenter: [39.05, 35.05],
   defaultZoom: 6,
   timeZone: "Europe/Istanbul",
   localSubmissionKey: "cocuk_istismari_watch_pending_submissions",
+  localLanguageKey: "cocuk_istismari_watch_language",
 };
+
+const SUPPORTED_LANGUAGES = [
+  { key: "tr", label: "TR", htmlLang: "tr" },
+  { key: "en", label: "EN", htmlLang: "en" },
+  { key: "ku", label: "KU", htmlLang: "ku" },
+];
 
 const PROVINCES = [
   { key: "ADANA", name: "Adana", lat: 37.0, lng: 35.32 },
@@ -129,6 +140,7 @@ const COPY = {
       description: "Türkiye'de kamuya yansımış ve kaynaklı çocuk istismarı vakalarını izleyen açık harita.",
     },
     brand: { first: "Çocuk", rest: "İstismarı Takip" },
+    language: { label: "Dil seçimi", options: { tr: "Türkçe", en: "İngilizce", ku: "Kurmancî" } },
     nav: { filters: "Filtre", listAll: "Listele", methodology: "Yöntem", sources: "Kaynaklar", submit: "+ Bildir" },
     common: { cancel: "Vazgeç", close: "Kapat", notSpecified: "Belirtilmedi", source: "Kaynak" },
     stats: { label: "Genel görünüm", total: "Toplam kayıt", active: "Aktif süreç", institutional: "Kurumsal vaka", convictions: "Mahkûmiyet" },
@@ -276,6 +288,7 @@ const COPY = {
       description: "An open map tracking public, source-backed child-abuse cases in Türkiye.",
     },
     brand: { first: "Child Abuse", rest: "Watch" },
+    language: { label: "Language", options: { tr: "Turkish", en: "English", ku: "Kurmanji" } },
     nav: { filters: "Filter", listAll: "List", methodology: "Method", sources: "Sources", submit: "+ Report" },
     common: { cancel: "Cancel", close: "Close", notSpecified: "Not specified", source: "Source" },
     stats: { label: "Overview", total: "Total records", active: "Active process", institutional: "Institutional", convictions: "Convictions" },
@@ -441,8 +454,11 @@ const state = {
 document.addEventListener("DOMContentLoaded", init);
 
 async function init() {
+  state.lang = initialLanguage();
+  document.documentElement.lang = currentLanguage().htmlLang;
   initMap();
   initSupabase();
+  await loadUiTranslations();
   bindStaticEvents();
   await loadRecords();
   populateControls();
@@ -492,6 +508,18 @@ async function loadRecords() {
 
   await loadRecordTranslations();
   applyRecordTranslations();
+}
+
+async function loadUiTranslations() {
+  const entries = Object.entries(CONFIG.uiTranslationPaths || {});
+  await Promise.all(entries.map(async ([lang, path]) => {
+    try {
+      const payload = await fetchJson(path);
+      COPY[lang] = deepMerge(COPY[lang] || {}, payload.copy || payload);
+    } catch (error) {
+      showLoadNotice(`${path} okunamadı; arayüz çevirisi atlandı.`);
+    }
+  }));
 }
 
 async function loadRecordTranslations() {
@@ -635,7 +663,9 @@ function bindStaticEvents() {
   document.getElementById("methodology-btn").addEventListener("click", () => openModal("methodology-modal"));
   document.getElementById("sources-btn").addEventListener("click", () => openModal("sources-modal"));
   document.getElementById("open-submit-btn").addEventListener("click", () => openModal("submit-modal"));
-  document.getElementById("lang-btn").addEventListener("click", cycleLanguage);
+  document.querySelectorAll("[data-lang-option]").forEach((button) => {
+    button.addEventListener("click", () => setLanguage(button.dataset.langOption));
+  });
   document.getElementById("list-records-btn").addEventListener("click", () => {
     state.listOpen ? closeRecordList() : renderRecordList();
   });
@@ -721,9 +751,11 @@ function renderCheckboxGroup(containerId, values, selectedSet, labelKey, colors 
   `).join("");
 }
 
-function cycleLanguage() {
-  state.lang = state.lang === "tr" ? "en" : "tr";
-  document.documentElement.lang = state.lang;
+function setLanguage(lang) {
+  if (!SUPPORTED_LANGUAGES.some((item) => item.key === lang) || state.lang === lang) return;
+  state.lang = lang;
+  document.documentElement.lang = currentLanguage().htmlLang;
+  localStorage.setItem(CONFIG.localLanguageKey, state.lang);
   state.records.forEach((record) => {
     record.search_blob = buildSearchBlob(record);
   });
@@ -736,14 +768,20 @@ function applyTranslations() {
   document.title = t("meta.title");
   document.querySelector("meta[name='description']")?.setAttribute("content", t("meta.description"));
   document.querySelector(".brand")?.setAttribute("aria-label", t("meta.title"));
+  const languageSwitch = document.getElementById("language-switch");
+  languageSwitch?.setAttribute("aria-label", t("language.label"));
+  document.querySelectorAll("[data-lang-option]").forEach((button) => {
+    const isActive = button.dataset.langOption === state.lang;
+    button.classList.toggle("active", isActive);
+    button.setAttribute("aria-pressed", String(isActive));
+    button.setAttribute("aria-label", t(`language.options.${button.dataset.langOption}`));
+  });
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     element.textContent = t(element.dataset.i18n);
   });
   document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
     element.placeholder = t(element.dataset.i18nPlaceholder);
   });
-  document.getElementById("lang-btn").textContent = state.lang === "tr" ? "EN" : "TR";
-  document.getElementById("lang-btn").setAttribute("aria-label", state.lang === "tr" ? "Switch language" : "Dili değiştir");
 }
 
 function applyFilters() {
@@ -1281,7 +1319,9 @@ function formatCount(value) {
 }
 
 function localeForLang() {
-  return state.lang === "tr" ? "tr-TR" : "en";
+  if (state.lang === "tr") return "tr-TR";
+  if (state.lang === "ku") return "ku-TR";
+  return "en";
 }
 
 function slugify(value) {
@@ -1295,9 +1335,38 @@ function cryptoRandomId() {
 
 function t(path) {
   const parts = path.split(".");
-  let value = COPY[state.lang];
+  return copyValue(COPY[state.lang], parts) ?? copyValue(COPY.tr, parts) ?? path;
+}
+
+function copyValue(source, parts) {
+  let value = source;
   for (const part of parts) value = value?.[part];
-  return value || path;
+  return value;
+}
+
+function currentLanguage() {
+  return SUPPORTED_LANGUAGES.find((item) => item.key === state.lang) || SUPPORTED_LANGUAGES[0];
+}
+
+function initialLanguage() {
+  const stored = localStorage.getItem(CONFIG.localLanguageKey);
+  return SUPPORTED_LANGUAGES.some((item) => item.key === stored) ? stored : "tr";
+}
+
+function deepMerge(target, source) {
+  if (!isPlainObject(source)) return target;
+  for (const [key, value] of Object.entries(source)) {
+    if (isPlainObject(value)) {
+      target[key] = deepMerge(isPlainObject(target[key]) ? target[key] : {}, value);
+    } else {
+      target[key] = value;
+    }
+  }
+  return target;
+}
+
+function isPlainObject(value) {
+  return Boolean(value) && typeof value === "object" && !Array.isArray(value);
 }
 
 function recordText(record, field) {
