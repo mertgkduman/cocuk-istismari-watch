@@ -1872,9 +1872,9 @@
     },
     "mersin-bozyazi-iki-cocuk-zehirlenme-supheli-olum-sorusturmasi-2026": {
       "title": "Suspected poisoning deaths of two children in Mersin/Bozyazi",
-      "summary": "AA-, IHA-, and DHA-sourced reports said two children from the same family in Mersin's Bozyazi district died after being taken to hospital with nausea and vomiting, while their parents were hospitalized and the home was examined. Haber7/DHA's May 5 update said autopsy and investigation steps continued to determine the cause of death. The record does not use the children or family members' names, exact neighborhood/street/home, cemetery, hospital, or ceremony details.",
+      "summary": "AA-, IHA-, and DHA-sourced reports said two children from the same family in Mersin's Bozyazi district died after being taken to hospital with nausea and vomiting, while their parents were hospitalized and the home was examined. According to May 6 reports by T24/DHA and TGRT Haber/IHA, AFAD teams found phosphorous nerve gas at a level that could affect human health in the room where the children stayed, the home was quarantined, and toxicological/histopathological examination continued. The record does not use the children or family members' names, exact neighborhood/street/home, cemetery, hospital, or ceremony details.",
       "institution": "Suspicious child deaths / poisoning inquiry",
-      "legal_status": "Sources report that prosecutors, gendarmerie, and health authorities are continuing investigation and autopsy steps to determine the cause of death; negligence or intent has not been clarified publicly.",
+      "legal_status": "Sources report that prosecutors, gendarmerie, AFAD, and health authorities are continuing investigation, autopsy, and chemical examination steps to determine the cause of death; phosphorous nerve gas was reportedly found in the home, but negligence or intent has not been clarified publicly.",
       "locations": {
         "mersin-bozyazi-two-children-poisoning-suspicious-death": {
           "label": "Bozyazi / Mersin",
@@ -1887,6 +1887,9 @@
         },
         {
           "note": "Haber7/DHA reported suspected poisoning, autopsy steps, home examination, and an ongoing inquiry into the cause of death."
+        },
+        {
+          "note": "T24/DHA and TGRT Haber/IHA reported that AFAD found phosphorous nerve gas in the room where the children stayed, that the home was quarantined, and that the investigation continued."
         }
       ],
       "sources": [
@@ -1898,6 +1901,12 @@
         },
         {
           "title": "Poisoning inquiry after two siblings' deaths in Mersin"
+        },
+        {
+          "title": "After two children died from poisoning, the home where phosphorous nerve gas was found was quarantined"
+        },
+        {
+          "title": "First report in the deaths of two siblings in Mersin: phosphorous nerve gas found in the room"
         }
       ]
     },
@@ -1973,6 +1982,9 @@
         },
         {
           "title": "Controversial decision in Adiyaman abuse case"
+        },
+        {
+          "title": "Controversial decision in an abuse case in Adiyaman"
         }
       ]
     },
@@ -2003,7 +2015,116 @@
           "title": "Three people injured in a shotgun attack in Burdur"
         }
       ]
+    },
+    "samsun-carsamba-on-yedi-yas-kiz-cocugu-akran-siddeti-tutuklama-2026": {
+      "title": "Peer-violence investigation involving a 17-year-old girl in Samsun/Carsamba",
+      "summary": "According to May 6, 2026 reports by Habertürk/IHA and Bafra Haber/IHA, a 17-year-old girl in Samsun's Carsamba district was allegedly beaten by peers in a schoolyard, and the investigation was expanded after video footage was given to police. Sources reported that five people, one adult and four children, were arrested in connection with the incident and that the Provincial Directorate of Family and Social Services provided support to the child and her family. The record does not use the child's or suspects' initials, school name, footage details, or private location information.",
+      "institution": "Schoolyard / peer-violence investigation",
+      "legal_status": "The Carsamba Chief Public Prosecutor's Office investigation reportedly expanded after the footage was submitted to police; five people were arrested.",
+      "locations": {
+        "samsun-carsamba-peer-violence-child-injury-investigation": {
+          "label": "Carsamba / Samsun",
+          "location_basis": "Sources give Carsamba district and schoolyard context; for child safety, school name, children's initials, footage details, and private location information were not added to the map."
+        }
+      },
+      "timeline": [
+        {
+          "note": "According to sources, the incident happened outside class time in a schoolyard; the girl was allegedly beaten and the violence was recorded."
+        },
+        {
+          "note": "Sources said the child submitted the assault footage to police and the investigation was expanded afterward."
+        },
+        {
+          "note": "Habertürk/IHA and Bafra Haber/IHA reported that five people, one adult and four children, were arrested and psychosocial support was provided."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Arrests rise to five in Samsun girls' peer-bullying case"
+        },
+        {
+          "title": "Arrests rise to five in Samsun girls' peer-bullying case"
+        }
+      ]
+    },
+    "bursa-inegol-kaynar-su-kovasi-iki-yas-cocuk-agir-yaralanma-2026": {
+      "title": "Serious injury of a 2-year-old child who fell into a bucket of boiling water in Bursa/Inegol",
+      "summary": "According to IHA's May 2, 2026 report and Yeniçağ's May 3 follow-up, a 2-year-old child playing at home in Bursa's Inegol district fell into a bucket of boiling water, was seriously injured, and suffered severe burns. Sources said an investigation was opened. The record is kept for the home-safety/possible-neglect question raised by the public reports; the child and family member initials, open address, health institution, and visual details were not used.",
+      "institution": "Home child injury / safety and neglect inquiry",
+      "legal_status": "Sources report that police opened an investigation into the incident; negligence or intent has not been clarified in public sources.",
+      "locations": {
+        "bursa-inegol-hot-water-bucket-child-injury": {
+          "label": "Inegol / Bursa",
+          "location_basis": "Sources give Inegol district and home-injury context; child and family initials, neighborhood/street, home, health institution, and private location information were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "IHA reported that the child fell into a bucket of boiling water, was seriously injured, was transferred after initial treatment, and that an investigation was opened."
+        },
+        {
+          "note": "Yeniçağ/IHA reported that the child had life-threatening injuries and that police teams opened a wide-ranging investigation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "2-year-old child fell into a bucket of boiling water"
+        },
+        {
+          "title": "2-year-old child fell into a bucket of boiling water"
+        }
+      ]
+    },
+    "bursa-inegol-balkon-mermeri-bes-yas-cocuk-agir-yaralanma-2026": {
+      "title": "Serious injury of a 5-year-old child after balcony marble fell in Bursa/Inegol",
+      "summary": "According to May 6, 2026 reports by Habertürk/IHA and Yeni Şafak/IHA, a 5-year-old child playing on a balcony in Bursa's Inegol district was seriously injured when a marble piece from the balcony protection wall fell on the child's head. Sources said police opened an inquiry. The record is kept for building-safety/possible-neglect questions; the child's initial, open address, health institution, and visual details were not added to the map.",
+      "institution": "Home/building safety and child-injury inquiry",
+      "legal_status": "Sources report that police opened an inquiry into the incident; negligence or responsibility has not been clarified in public sources.",
+      "locations": {
+        "bursa-inegol-balcony-marble-child-injury": {
+          "label": "Inegol / Bursa",
+          "location_basis": "Sources give Inegol district and building/balcony safety context; child initial, neighborhood/street, apartment, health institution, and private location information were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Habertürk/IHA and Yeni Şafak/IHA reported that a loose marble piece fell on a 5-year-old child's head while the child was playing on a balcony, causing serious injury, and that police opened an inquiry."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Child seriously injured after marble fell on head on balcony"
+        },
+        {
+          "title": "Child seriously injured after marble fell on head on balcony"
+        }
+      ]
+    },
+    "bursa-inegol-ranzadan-dusen-iki-yas-cocuk-kafatasi-kirigi-2026": {
+      "title": "Serious injury of a 2-year-old child who fell from a bunk bed in Bursa/Inegol",
+      "summary": "According to May 7, 2026 reports by Yeni Şafak/DHA and Haberler/DHA, a 2-year-old child in Bursa's Inegol district fell while playing on a bunk bed, was diagnosed with a skull fracture, and was transferred to another hospital because of life-threatening injuries. Sources said gendarmerie opened an inquiry. The record is kept for home child-safety/possible-neglect questions; the child and family member initials, open address, health institution, and visual details were not used.",
+      "institution": "Home child injury / safety and neglect inquiry",
+      "legal_status": "Sources report that gendarmerie opened an inquiry into the incident; negligence or intent has not been clarified in public sources.",
+      "locations": {
+        "bursa-inegol-bunk-bed-child-head-injury": {
+          "label": "Inegol / Bursa",
+          "location_basis": "Sources give Inegol district and home-injury context; child and family initials, neighborhood, home, health institution, and private location information were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Yeni Şafak/DHA and Haberler/DHA reported that a 2-year-old child fell from a bunk bed, was transferred with a skull fracture and life-threatening injuries, and that gendarmerie opened an inquiry."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Two-year-old child injured after falling from bunk bed: life-threatening condition"
+        },
+        {
+          "title": "Skull fracture after 2-year-old child fell from a bunk bed in Bursa"
+        }
+      ]
     }
   },
-  "updated_at": "2026-05-05"
+  "updated_at": "2026-05-08"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-08",
   "description": "Reviewed public records for Çocuk İstismarı Takip. Public records must keep at least one stable public source URL and avoid adding non-public child-identifying details.",
   "records": [
     {
@@ -3698,13 +3698,13 @@
       "abuse_type": "multiple_or_unclear",
       "status": "investigation",
       "title": "Mersin/Bozyazı'da iki çocuğun zehirlenme şüphesiyle ölümü",
-      "summary": "AA, İHA ve DHA kaynaklı haberlerde, Mersin'in Bozyazı ilçesinde aynı aileden iki çocuğun bulantı ve kusma şikayetiyle hastaneye kaldırıldıktan sonra hayatını kaybettiği, anne ve babanın tedavi altına alındığı ve evde inceleme yapıldığı aktarıldı. Haber7/DHA'nın 5 Mayıs güncellemesine göre çocukların ölüm nedeninin belirlenmesi için otopsi ve soruşturma süreci devam ediyor. Kayıt, çocuğun ve aile bireylerinin adlarını, kesin mahalle/sokak/ev, mezarlık, hastane ve tören ayrıntılarını kullanmaz.",
+      "summary": "AA, İHA ve DHA kaynaklı haberlerde, Mersin'in Bozyazı ilçesinde aynı aileden iki çocuğun bulantı ve kusma şikayetiyle hastaneye kaldırıldıktan sonra hayatını kaybettiği, anne ve babanın tedavi altına alındığı ve evde inceleme yapıldığı aktarıldı. 6 Mayıs tarihli T24/DHA ve TGRT Haber/İHA haberlerine göre, AFAD ekipleri çocukların kaldığı odada insan sağlığını etkileyebilecek düzeyde fosfor sinir gazı tespit etti, ev karantinaya alındı ve toksikolojik/histopatolojik inceleme süreci sürdü. Kayıt, çocuğun ve aile bireylerinin adlarını, kesin mahalle/sokak/ev, mezarlık, hastane ve tören ayrıntılarını kullanmaz.",
       "institution": "Şüpheli çocuk ölümü / zehirlenme incelemesi",
-      "legal_status": "Kaynaklar savcılık, jandarma ve sağlık birimlerinin ölüm nedenini belirlemek üzere soruşturma ve otopsi sürecini sürdürdüğünü bildiriyor; ihmal veya kast kamu kaynaklarında netleşmedi.",
+      "legal_status": "Kaynaklar savcılık, jandarma, AFAD ve sağlık birimlerinin ölüm nedenini belirlemek üzere soruşturma, otopsi ve kimyasal inceleme sürecini sürdürdüğünü bildiriyor; evde fosfor sinir gazı tespit edildiği, ancak ihmal veya kastın kamu kaynaklarında netleşmediği aktarıldı.",
       "affected_child_count": 2,
       "reported_date": "2026-05-04",
       "event_date": "2026-05-04",
-      "last_verified_at": "2026-05-05",
+      "last_verified_at": "2026-05-08",
       "locations": [
         {
           "id": "mersin-bozyazi-two-children-poisoning-suspicious-death",
@@ -3728,6 +3728,11 @@
           "date": "2026-05-05",
           "status": "investigation",
           "note": "Haber7/DHA, zehirlenme şüphesiyle otopsi ve ev incelemesi yapıldığını, ölüm nedeninin belirlenmesi için soruşturmanın sürdüğünü aktardı."
+        },
+        {
+          "date": "2026-05-06",
+          "status": "investigation",
+          "note": "T24/DHA ve TGRT Haber/İHA, AFAD incelemesinde çocukların kaldığı odada fosfor sinir gazı tespit edildiğini, evin karantinaya alındığını ve soruşturmanın sürdüğünü bildirdi."
         }
       ],
       "sources": [
@@ -3751,6 +3756,20 @@
           "publisher": "Haber7 / DHA",
           "type": "news",
           "published_at": "2026-05-05"
+        },
+        {
+          "title": "İki çocukları zehirlenerek ölmüştü: fosfor sinir gazı tespit edilen ev karantinaya alındı",
+          "url": "https://t24.com.tr/gundem/iki-cocuklari-zehirlenerek-olmustu-polis-memuru-ve-esi-taburcu-oldu-fosfor-sinir-gazi-tespit-edilen-ev-karantinaya-alindi%2C1319798",
+          "publisher": "T24 / DHA",
+          "type": "news",
+          "published_at": "2026-05-06"
+        },
+        {
+          "title": "Mersin'de 2 kardeşin can verdiği olayda ilk rapor: odada fosfor sinir gazı tespit edildi",
+          "url": "https://www.tgrthaber.com/gundem/mersinde-2-kardesin-can-verdigi-olayda-ilk-rapor-odada-fosfor-sinir-gazi-tespit-edild-3333739",
+          "publisher": "TGRT Haber / İHA",
+          "type": "news",
+          "published_at": "2026-05-06"
         }
       ]
     },
@@ -3863,7 +3882,7 @@
       "affected_child_count": 1,
       "reported_date": "2026-05-05",
       "decision_date": "2026-05-05",
-      "last_verified_at": "2026-05-05",
+      "last_verified_at": "2026-05-08",
       "locations": [
         {
           "id": "adiyaman-child-abuse-case-dismissal-courthouse",
@@ -3898,6 +3917,13 @@
           "publisher": "Besni Güncel / PERRE",
           "type": "news",
           "published_at": "2026-05-05"
+        },
+        {
+          "title": "Adıyaman’da istismar davasında tepki çeken karar",
+          "url": "https://medyascope.tv/2026/05/06/adiyaman-istismar-davasinda-tepki-ceken-karar/",
+          "publisher": "Medyascope",
+          "type": "news",
+          "published_at": "2026-05-06"
         }
       ]
     },
@@ -3953,6 +3979,221 @@
           "publisher": "En Son Dakika / Anadolu Ajansı",
           "type": "news",
           "published_at": "2026-04-30"
+        }
+      ]
+    },
+    {
+      "id": "samsun-carsamba-on-yedi-yas-kiz-cocugu-akran-siddeti-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "investigation",
+      "title": "Samsun/Çarşamba'da 17 yaşındaki kız çocuğuna akran şiddeti soruşturması",
+      "summary": "Habertürk/İHA ve Bafra Haber/İHA'nın 6 Mayıs 2026 tarihli haberlerine göre, Samsun'un Çarşamba ilçesinde 17 yaşındaki bir kız çocuğunun okul bahçesinde akranları tarafından darbedildiği ve görüntülerin polise verilmesi sonrası soruşturmanın genişletildiği bildirildi. Kaynaklar olayla bağlantılı biri yetişkin, dördü çocuk beş kişinin tutuklandığını ve Aile ve Sosyal Hizmetler İl Müdürlüğü ekiplerinin çocuğa ve ailesine destek sağladığını aktardı. Kayıtta çocuğun ve şüphelilerin baş harfleri, okul adı, görüntü ayrıntıları ve özel konum bilgileri kullanılmadı.",
+      "institution": "Okul bahçesi / akran şiddeti soruşturması",
+      "legal_status": "Çarşamba Cumhuriyet Başsavcılığı soruşturmasının görüntülerin polise teslim edilmesi sonrası genişletildiği; beş kişinin tutuklandığı bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-06",
+      "event_date": "2026-04-30",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "samsun-carsamba-peer-violence-child-injury-investigation",
+          "label": "Çarşamba / Samsun",
+          "province_key": "SAMSUN",
+          "province": "Samsun",
+          "district": "Çarşamba",
+          "lat": 41.2,
+          "lng": 36.73,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Çarşamba ilçesi ve okul bahçesi bağlamını verir; çocuk güvenliği için okul adı, çocukların baş harfleri, görüntü ayrıntıları ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-30",
+          "status": "reported",
+          "note": "Kaynaklara göre olay ders dışı zamanda bir okul bahçesinde meydana geldi; kız çocuğunun darbedildiği ve şiddet anlarının kaydedildiği iddia edildi."
+        },
+        {
+          "date": "2026-05-05",
+          "status": "investigation",
+          "note": "Kaynaklar çocuğun darp görüntülerini polise teslim ettiğini ve bunun ardından soruşturmanın genişletildiğini aktardı."
+        },
+        {
+          "date": "2026-05-06",
+          "status": "investigation",
+          "note": "Habertürk/İHA ve Bafra Haber/İHA, soruşturma kapsamında biri yetişkin, dördü çocuk beş kişinin tutuklandığını ve psikososyal destek sağlandığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Samsun'da kızların akran zorbalığında tutuklu sayısı 5 oldu",
+          "url": "https://www.haberturk.com/yerel-haberler/samsun-haberleri/samsunda-kizlarin-akran-zorbaliginda-tutuklu-sayisi-5-oldu-117768769",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-06"
+        },
+        {
+          "title": "Samsun’da kızların akran zorbalığında tutuklu sayısı 5 oldu",
+          "url": "https://www.bafrahaber.com/samsun-da-kizlarin-akran-zorbaliginda-tutuklu-sayisi-5-oldu--246191.html",
+          "publisher": "Bafra Haber / İHA",
+          "type": "news",
+          "published_at": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "bursa-inegol-kaynar-su-kovasi-iki-yas-cocuk-agir-yaralanma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Bursa/İnegöl'de kaynar su dolu kovaya düşen 2 yaşındaki çocuğun ağır yaralanması",
+      "summary": "İHA'nın 2 Mayıs 2026 tarihli haberine ve Yeniçağ'ın 3 Mayıs tarihli aktarımına göre, Bursa'nın İnegöl ilçesinde evde oyun oynayan 2 yaşındaki bir çocuk kaynar su dolu kovaya düşerek ağır yaralandı ve vücudunda ciddi yanıklar oluştu. Kaynaklar olayla ilgili soruşturma başlatıldığını bildirdi. Kayıt, olayın kamu kaynaklarındaki ev içi güvenlik/ihmal şüphesi bakımından tutulur; çocuğun ve aile bireyinin baş harfleri, açık adres, sağlık kurumu ve görsel ayrıntılar kullanılmadı.",
+      "institution": "Ev içi çocuk yaralanması / güvenlik ve ihmal incelemesi",
+      "legal_status": "Kaynaklar emniyet ekiplerinin olayla ilgili soruşturma başlattığını bildiriyor; ihmal veya kast kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-02",
+      "event_date": "2026-05-02",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "bursa-inegol-hot-water-bucket-child-injury",
+          "label": "İnegöl / Bursa",
+          "province_key": "BURSA",
+          "province": "Bursa",
+          "district": "İnegöl",
+          "lat": 40.08,
+          "lng": 29.51,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar İnegöl ilçesinde ev içi yaralanma bağlamını verir; çocuk ve aile baş harfleri, mahalle/sokak, ev, sağlık kurumu ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-02",
+          "status": "investigation",
+          "note": "İHA, çocuğun kaynar su dolu kovaya düşerek ağır yaralandığını, ilk müdahalenin ardından sevk edildiğini ve olayla ilgili soruşturma başlatıldığını aktardı."
+        },
+        {
+          "date": "2026-05-03",
+          "status": "investigation",
+          "note": "Yeniçağ/İHA, çocuğun hayati tehlikesi bulunduğunu ve emniyet ekiplerinin geniş çaplı soruşturma başlattığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "2 yaşındaki çocuk kaynar su dolu kovaya düştü",
+          "url": "https://www.iha.com.tr/bursa-haberleri/2-yasindaki-cocuk-kaynar-su-dolu-kovaya-dustu-416991184",
+          "publisher": "İhlas Haber Ajansı",
+          "type": "news",
+          "published_at": "2026-05-02"
+        },
+        {
+          "title": "2 yaşındaki çocuk kaynar su dolu kovaya düştü",
+          "url": "https://www.yenicaggazetesi.com/2-yasindaki-cocuk-kaynar-su-dolu-kovaya-dustu-1025542h.htm",
+          "publisher": "Yeniçağ / İHA",
+          "type": "news",
+          "published_at": "2026-05-03"
+        }
+      ]
+    },
+    {
+      "id": "bursa-inegol-balkon-mermeri-bes-yas-cocuk-agir-yaralanma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Bursa/İnegöl'de balkondaki mermerin düşmesiyle 5 yaşındaki çocuğun ağır yaralanması",
+      "summary": "Habertürk/İHA ve Yeni Şafak/İHA'nın 6 Mayıs 2026 tarihli haberlerine göre, Bursa'nın İnegöl ilçesinde balkonda oynayan 5 yaşındaki bir çocuğun başına balkon koruma duvarından çıkan mermer düştü ve çocuk ağır yaralandı. Kaynaklar polis ekiplerinin olayla ilgili inceleme başlattığını aktardı. Kayıt, yapı güvenliği/ihmal şüphesi bakımından tutulur; çocuğun baş harfi, açık adres, sağlık kurumu ve görsel ayrıntılar haritaya eklenmedi.",
+      "institution": "Ev/bina güvenliği ve çocuk yaralanması incelemesi",
+      "legal_status": "Kaynaklar polis ekiplerinin olayla ilgili inceleme başlattığını bildiriyor; ihmal veya sorumluluk kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-06",
+      "event_date": "2026-05-06",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "bursa-inegol-balcony-marble-child-injury",
+          "label": "İnegöl / Bursa",
+          "province_key": "BURSA",
+          "province": "Bursa",
+          "district": "İnegöl",
+          "lat": 40.08,
+          "lng": 29.51,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar İnegöl ilçesinde bina/balkon güvenliği bağlamını verir; çocuk baş harfi, mahalle/sokak, apartman, sağlık kurumu ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-06",
+          "status": "investigation",
+          "note": "Habertürk/İHA ve Yeni Şafak/İHA, balkonda oynayan 5 yaşındaki çocuğun başına yerinden çıkan mermerin düşmesiyle ağır yaralandığını ve polis incelemesi başlatıldığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Balkonda başına mermer düşen çocuk ağır yaralandı",
+          "url": "https://www.haberturk.com/yerel-haberler/bursa-haberleri/balkonda-basina-mermer-dusen-cocuk-agir-yaralandi-117769276",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-06"
+        },
+        {
+          "title": "Balkonda başına mermer düşen çocuk ağır yaralandı",
+          "url": "https://www.yenisafak.com/gundem/balkonda-basina-mermer-dusen-cocuk-agir-yaralandi-4821685",
+          "publisher": "Yeni Şafak / İHA",
+          "type": "news",
+          "published_at": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "bursa-inegol-ranzadan-dusen-iki-yas-cocuk-kafatasi-kirigi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Bursa/İnegöl'de ranzadan düşen 2 yaşındaki çocuğun ağır yaralanması",
+      "summary": "Yeni Şafak/DHA ve Haberler/DHA'nın 7 Mayıs 2026 tarihli haberlerine göre, Bursa'nın İnegöl ilçesinde ranzada oynarken düşen 2 yaşındaki bir çocuk kafatasında kırık tespiti ve hayati tehlike nedeniyle başka bir hastaneye sevk edildi. Kaynaklar jandarma ekiplerinin olayla ilgili inceleme başlattığını bildirdi. Kayıt, ev içi çocuk güvenliği/ihmal şüphesi bakımından tutulur; çocuğun ve aile bireyinin baş harfleri, açık adres, sağlık kurumu ve görsel ayrıntılar kullanılmadı.",
+      "institution": "Ev içi çocuk yaralanması / güvenlik ve ihmal incelemesi",
+      "legal_status": "Kaynaklar jandarma ekiplerinin olayla ilgili inceleme başlattığını bildiriyor; ihmal veya kast kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-07",
+      "event_date": "2026-05-06",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "bursa-inegol-bunk-bed-child-head-injury",
+          "label": "İnegöl / Bursa",
+          "province_key": "BURSA",
+          "province": "Bursa",
+          "district": "İnegöl",
+          "lat": 40.08,
+          "lng": 29.51,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar İnegöl ilçesinde ev içi yaralanma bağlamını verir; çocuk ve aile baş harfleri, mahalle, ev, sağlık kurumu ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-07",
+          "status": "investigation",
+          "note": "Yeni Şafak/DHA ve Haberler/DHA, 2 yaşındaki çocuğun ranzadan düşerek kafatasında kırıkla sevk edildiğini, hayati tehlikesinin bulunduğunu ve jandarma incelemesi başlatıldığını aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Ranzadan düşen iki yaşındaki çocuk yaralandı: Hayati tehlikesi bulunuyor",
+          "url": "https://www.yenisafak.com/gundem/ranzadan-dusen-iki-yasindaki-cocuk-yaralandi-hayati-tehlikesi-bulunuyor-4821758",
+          "publisher": "Yeni Şafak / DHA",
+          "type": "news",
+          "published_at": "2026-05-07"
+        },
+        {
+          "title": "Bursa'da ranzadan düşen 2 yaşındaki çocuğun kafatası kırıldı",
+          "url": "https://www.haberler.com/guncel/inegol-de-ranzadan-dusen-2-yasindaki-cocuk-yaralandi-19823615-haberi/",
+          "publisher": "Haberler.com / DHA",
+          "type": "news",
+          "published_at": "2026-05-07"
         }
       ]
     }

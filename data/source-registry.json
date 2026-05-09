@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-05",
+  "updated_at": "2026-05-08",
   "purpose": "Regular update checklist and archive of source URLs used in Çocuk İstismarı Takip public data. When a source is used for a public record, keep the exact URL, title, publisher, date, source type, and related data file here.",
   "archive_policy": [
     "Prefer stable article, report, official statement, court-process, or rights-organization URLs over category pages.",
@@ -209,7 +209,18 @@
         "https://www.sozcu.com.tr/kucuk-cocuk-baasinin-islahiyla-arkadasini-oldurdu-p315900",
         "https://www.ensondakika.com.tr/guncelleme-burdur-da-cikan-kavgada-av-tufegiyle-vurulan-3-kisi-yaralandi/633142/",
         "https://bianet.org/haber/fatma-nur-celik-davasina-cagri-erkek-adalet-degil-gercek-adalet-319294",
-        "https://bianet.org/haber/fatma-nur-celik-davasinin-bir-sonraki-durusmasi-14-ekim-de-319315"
+        "https://bianet.org/haber/fatma-nur-celik-davasinin-bir-sonraki-durusmasi-14-ekim-de-319315",
+        "https://www.haberturk.com/yerel-haberler/samsun-haberleri/samsunda-kizlarin-akran-zorbaliginda-tutuklu-sayisi-5-oldu-117768769",
+        "https://www.bafrahaber.com/samsun-da-kizlarin-akran-zorbaliginda-tutuklu-sayisi-5-oldu--246191.html",
+        "https://www.iha.com.tr/bursa-haberleri/2-yasindaki-cocuk-kaynar-su-dolu-kovaya-dustu-416991184",
+        "https://www.yenicaggazetesi.com/2-yasindaki-cocuk-kaynar-su-dolu-kovaya-dustu-1025542h.htm",
+        "https://www.haberturk.com/yerel-haberler/bursa-haberleri/balkonda-basina-mermer-dusen-cocuk-agir-yaralandi-117769276",
+        "https://www.yenisafak.com/gundem/balkonda-basina-mermer-dusen-cocuk-agir-yaralandi-4821685",
+        "https://www.yenisafak.com/gundem/ranzadan-dusen-iki-yasindaki-cocuk-yaralandi-hayati-tehlikesi-bulunuyor-4821758",
+        "https://www.haberler.com/guncel/inegol-de-ranzadan-dusen-2-yasindaki-cocuk-yaralandi-19823615-haberi/",
+        "https://t24.com.tr/gundem/iki-cocuklari-zehirlenerek-olmustu-polis-memuru-ve-esi-taburcu-oldu-fosfor-sinir-gazi-tespit-edilen-ev-karantinaya-alindi%2C1319798",
+        "https://www.tgrthaber.com/gundem/mersinde-2-kardesin-can-verdigi-olayda-ilk-rapor-odada-fosfor-sinir-gazi-tespit-edild-3333739",
+        "https://medyascope.tv/2026/05/06/adiyaman-istismar-davasinda-tepki-ceken-karar/"
       ]
     },
     {

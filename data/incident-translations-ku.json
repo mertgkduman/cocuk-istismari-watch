@@ -1873,9 +1873,9 @@
     },
     "mersin-bozyazi-iki-cocuk-zehirlenme-supheli-olum-sorusturmasi-2026": {
       "title": "Mirina du zarokan bi şika jehrbûnê li Mersin/Bozyaziyê",
-      "summary": "Nûçeyên bi çavkaniya AA, ÎHA û DHAyê ragihandin ku li navçeya Bozyazî ya Mersînê du zarokên heman malbatê piştî şikayeta dilxerabûn û vereşînê hatin rakirin nexweşxaneyê û jiyana xwe ji dest dan; dê û bav jî li bin dermankirinê ne û li malê lêkolîn hate kirin. Nûvekirina Haber7/DHA ya 5ê Gulanê dibêje ji bo diyarkirina sedema mirinê otopsî û lêpirsîn dewam dikin. Tomar navên zarok û endamên malbatê, tax/kolan/mala rast, goristan, nexweşxane û hûrguliyên merasîmê nagire.",
+      "summary": "Nûçeyên bi çavkaniya AA, ÎHA û DHAyê ragihandin ku li navçeya Bozyazî ya Mersînê du zarokên heman malbatê piştî şikayeta dilxerabûn û vereşînê hatin rakirin nexweşxaneyê û jiyana xwe ji dest dan; dê û bav jî li bin dermankirinê man û li malê lêkolîn hate kirin. Li gor nûçeyên T24/DHA û TGRT Haber/ÎHA yên 6ê Gulanê, ekipên AFADê di odeya ku zarok lê man de fosfor sinir gazî ya ku dikare tenduristiya mirovan bandor bike tespît kir, mal karantînayê hate girtin û lêkolîna toksîkolojîk/hîstopatolojîk dewam kir. Tomar navên zarok û endamên malbatê, tax/kolan/mala rast, goristan, nexweşxane û hûrguliyên merasîmê nagire.",
       "institution": "Mirina gumanbar a zarokan / lêkolîna jehrbûnê",
-      "legal_status": "Çavkanî dibêjin dozgerî, jandarma û yekîneyên tenduristiyê ji bo sedema mirinê lêpirsîn û otopsiyê didomînin; îhmal an qest di çavkaniyên gelemperî de nehat zelalkirin.",
+      "legal_status": "Çavkanî dibêjin dozgerî, jandarma, AFAD û yekîneyên tenduristiyê ji bo sedema mirinê lêpirsîn, otopsî û lêkolîna kîmyewî didomînin; hate ragihandin ku li malê fosfor sinir gazî hate tespît kirin, lê îhmal an qest di çavkaniyên gelemperî de nehat zelalkirin.",
       "locations": {
         "mersin-bozyazi-two-children-poisoning-suspicious-death": {
           "label": "Bozyazî / Mersîn",
@@ -1888,6 +1888,9 @@
         },
         {
           "note": "Haber7/DHA şika jehrbûnê, otopsî, lêkolîna malê û dewamkirina lêpirsînê ya ji bo sedema mirinê ragihand."
+        },
+        {
+          "note": "T24/DHA û TGRT Haber/ÎHA ragihandin ku AFAD di odeya ku zarok lê man fosfor sinir gazî tespît kir, mal hate karantînayê kirin û lêpirsîn dewam kir."
         }
       ],
       "sources": [
@@ -1899,6 +1902,12 @@
         },
         {
           "title": "Lêpirsîna jehrbûnê piştî mirina du xwişk û birayan li Mersînê"
+        },
+        {
+          "title": "Piştî mirina du zarokan ji jehrbûnê, mala ku fosfor sinir gazî lê hate tespît kirin karantînayê hate girtin"
+        },
+        {
+          "title": "Di mirina du xwişk û birayan a Mersînê de rapora yekem: li odeyê fosfor sinir gazî hate dîtin"
         }
       ]
     },
@@ -1974,6 +1983,9 @@
         },
         {
           "title": "Di doza îstismarê ya Adıyamanê de biryara nakok"
+        },
+        {
+          "title": "Di doza îstismarê ya Adıyamanê de biryara bertek çêkir"
         }
       ]
     },
@@ -2004,7 +2016,116 @@
           "title": "Li Burdurê di êrîşa bi tifinga nêçîrê de sê kes birîndar bûn"
         }
       ]
+    },
+    "samsun-carsamba-on-yedi-yas-kiz-cocugu-akran-siddeti-tutuklama-2026": {
+      "title": "Li Samsun/Çarşambayê lêpirsîna şîdeta hevalan li dijî keçeke 17 salî",
+      "summary": "Li gor nûçeyên Habertürk/ÎHA û Bafra Haber/ÎHA yên 6ê Gulanê 2026an, li navçeya Çarşamba ya Samsunê keçeke 17 salî li hewşa dibistanê ji aliyê hevalên xwe ve hatiye darp kirin û piştî ku wêneyên bûyerê radestî polîsan hatin kirin lêpirsîn hate firehkirin. Çavkanî dibêjin di girêdayî bûyerê de yek mezin û çar zarok, bi giştî pênc kes hatin binçavkirin û Midûriyeta Malbat û Xizmetên Civakî ya Parêzgehê ji zarok û malbata wê re piştgirî da. Di tomarkirinê de destpêkên navên zarok û gumanbaran, navê dibistanê, hûrguliyên görüntiyan û cihê taybetî nehatin bikaranîn.",
+      "institution": "Hewşa dibistanê / lêpirsîna şîdeta hevalan",
+      "legal_status": "Hat ragihandin ku lêpirsîna Serdozgeriya Komarê ya Çarşambayê piştî radestkirina görüntiyan ji polîsan re hate firehkirin; pênc kes hatin binçavkirin.",
+      "locations": {
+        "samsun-carsamba-peer-violence-child-injury-investigation": {
+          "label": "Çarşamba / Samsun",
+          "location_basis": "Çavkanî navçeya Çarşamba û çarçoveya hewşa dibistanê didin; ji bo ewlehiya zarokê navê dibistanê, destpêkên navên zarokan, hûrguliyên görüntiyan û cihê taybetî li nexşeyê nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Li gor çavkaniyan bûyer li derveyî demên dersê li hewşa dibistanê qewimî; hate îdia kirin ku keç hate darp kirin û şîdet hate tomarkirin."
+        },
+        {
+          "note": "Çavkanî gotin zarok görüntiyên darpê radestî polîsan kir û piştî wê lêpirsîn hate firehkirin."
+        },
+        {
+          "note": "Habertürk/ÎHA û Bafra Haber/ÎHA ragihandin ku yek mezin û çar zarok, bi giştî pênc kes hatin binçavkirin û piştgiriya psîkososyal hate dayîn."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Li Samsunê di doza zorbalîya hevalên keçan de hejmara binçavkirinan bû pênc"
+        },
+        {
+          "title": "Li Samsunê di doza zorbalîya hevalên keçan de hejmara binçavkirinan bû pênc"
+        }
+      ]
+    },
+    "bursa-inegol-kaynar-su-kovasi-iki-yas-cocuk-agir-yaralanma-2026": {
+      "title": "Li Bursa/Înegolê birîndarbûna giran a zarokekî 2 salî ku ket koveya ava kelandî",
+      "summary": "Li gor nûçeya ÎHAyê ya 2yê Gulanê 2026an û nûçeya Yeniçağê ya 3yê Gulanê, li navçeya Înegolê ya Bursayê zarokekî 2 salî ku li malê dilîst ket koveya ava kelandî, giran birîndar bû û şewitînên cidî li bedenê çêbûn. Çavkanî dibêjin lêpirsîn hate destpêkirin. Tomar ji bo pirsa ewlehiya malê/îhmala gengaz ya ku çavkaniyên gelemperî derxistin tê parastin; destpêkên navên zarok û endamê malbatê, navnîşana vekirî, saziya tenduristiyê û hûrguliyên dîtbarî nehatin bikaranîn.",
+      "institution": "Birîndarbûna zarok li malê / lêkolîna ewlehî û îhmalê",
+      "legal_status": "Çavkanî dibêjin polîsan li ser bûyerê lêpirsîn dest pê kir; îhmal an qest di çavkaniyên gelemperî de nehat zelalkirin.",
+      "locations": {
+        "bursa-inegol-hot-water-bucket-child-injury": {
+          "label": "Înegol / Bursa",
+          "location_basis": "Çavkanî navçeya Înegol û çarçoveya birîndarbûna li malê didin; destpêkên navên zarok û malbatê, tax/kolan, mal, saziya tenduristiyê û cihê taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "ÎHA ragihand ku zarok ket koveya ava kelandî, giran birîndar bû, piştî destwerdana yekem hate veguhestin û lêpirsîn hate destpêkirin."
+        },
+        {
+          "note": "Yeniçağ/ÎHA ragihand ku xetereya jiyanê ya zarok heye û ekipên emniyetê lêpirsîneke fireh dest pê kirin."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zarokê 2 salî ket koveya ava kelandî"
+        },
+        {
+          "title": "Zarokê 2 salî ket koveya ava kelandî"
+        }
+      ]
+    },
+    "bursa-inegol-balkon-mermeri-bes-yas-cocuk-agir-yaralanma-2026": {
+      "title": "Li Bursa/Înegolê bi ketina mermera balkonê zarokekî 5 salî giran birîndar bû",
+      "summary": "Li gor nûçeyên Habertürk/ÎHA û Yeni Şafak/ÎHA yên 6ê Gulanê 2026an, li navçeya Înegolê ya Bursayê zarokekî 5 salî ku li balkonê dilîst, bi ketina parçeyek mermerê ya ji dîwarê parastina balkonê li ser serê wî giran birîndar bû. Çavkanî dibêjin polîs li ser bûyerê lêkolîn dest pê kir. Tomar ji bo pirsên ewlehiya avahî/îhmala gengaz tê parastin; destpêka navê zarokê, navnîşana vekirî, saziya tenduristiyê û hûrguliyên dîtbarî li nexşeyê nehatin zêdekirin.",
+      "institution": "Ewlehiya mal/avahî û lêkolîna birîndarbûna zarokê",
+      "legal_status": "Çavkanî dibêjin polîs li ser bûyerê lêkolîn dest pê kir; îhmal an berpirsiyarî di çavkaniyên gelemperî de nehat zelalkirin.",
+      "locations": {
+        "bursa-inegol-balcony-marble-child-injury": {
+          "label": "Înegol / Bursa",
+          "location_basis": "Çavkanî navçeya Înegol û çarçoveya ewlehiya avahî/balkonê didin; destpêka navê zarokê, tax/kolan, apartman, saziya tenduristiyê û cihê taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Habertürk/ÎHA û Yeni Şafak/ÎHA ragihandin ku mermera ji cihê xwe derketî li ser serê zarokekî 5 salî ku li balkonê dilîst ket, giran birîndar kir û polîs lêkolîn dest pê kir."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zarok li balkonê bi ketina mermerê li ser serê xwe giran birîndar bû"
+        },
+        {
+          "title": "Zarok li balkonê bi ketina mermerê li ser serê xwe giran birîndar bû"
+        }
+      ]
+    },
+    "bursa-inegol-ranzadan-dusen-iki-yas-cocuk-kafatasi-kirigi-2026": {
+      "title": "Li Bursa/Înegolê zarokekî 2 salî ji ranza ket û giran birîndar bû",
+      "summary": "Li gor nûçeyên Yeni Şafak/DHA û Haberler/DHA yên 7ê Gulanê 2026an, li navçeya Înegolê ya Bursayê zarokekî 2 salî ku li ser ranza dilîst ket, şikestina qafê serî hat tespîtkirin û ji ber xetereya jiyanê ji nexweşxaneyekê re hate veguhestin. Çavkanî dibêjin jandarma li ser bûyerê lêkolîn dest pê kir. Tomar ji bo pirsa ewlehiya zarokê li malê/îhmala gengaz tê parastin; destpêkên navên zarok û endamê malbatê, navnîşana vekirî, saziya tenduristiyê û hûrguliyên dîtbarî nehatin bikaranîn.",
+      "institution": "Birîndarbûna zarok li malê / lêkolîna ewlehî û îhmalê",
+      "legal_status": "Çavkanî dibêjin jandarma li ser bûyerê lêkolîn dest pê kir; îhmal an qest di çavkaniyên gelemperî de nehat zelalkirin.",
+      "locations": {
+        "bursa-inegol-bunk-bed-child-head-injury": {
+          "label": "Înegol / Bursa",
+          "location_basis": "Çavkanî navçeya Înegol û çarçoveya birîndarbûna li malê didin; destpêkên navên zarok û malbatê, tax, mal, saziya tenduristiyê û cihê taybetî nehatin zêdekirin."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Yeni Şafak/DHA û Haberler/DHA ragihandin ku zarokekî 2 salî ji ranza ket, bi şikestina qafê serî û xetereya jiyanê hate veguhestin û jandarma lêkolîn dest pê kir."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Zarokê 2 salî ji ranza ket û birîndar bû: xetereya jiyanê heye"
+        },
+        {
+          "title": "Li Bursayê zarokê 2 salî ji ranza ket û qafa serê wî şikest"
+        }
+      ]
     }
   },
-  "updated_at": "2026-05-05"
+  "updated_at": "2026-05-08"
 }
