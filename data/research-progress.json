@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08",
+  "updated_at": "2026-05-09",
   "workflow": [
     "Use a durable month bucket before adding records, so context can be cleared between incidents.",
     "For each month, record the aggregate count source first, then process one lead at a time.",
@@ -11,11 +11,11 @@
     "month": "2026-05",
     "source_url": null,
     "target_child_abuse_count": null,
-    "processed_count": 12,
-    "processed_child_count": 15,
+    "processed_count": 23,
+    "processed_child_count": 26,
     "remaining_count": null,
     "remaining_child_count": null,
-    "next_lead": "Continue May 2026 from May 8 onward; include source-backed public child-safety reports even when thinly sourced, with attributed language and coarse child-safe locations."
+    "next_lead": "Continue May 2026 from May 9 onward; include source-backed public child-safety reports even when thinly sourced, with attributed language and coarse child-safe locations."
   },
   "month_buckets": [
     {
@@ -166,11 +166,11 @@
       "status": "in_progress",
       "target_child_abuse_count": null,
       "target_incident_count": null,
-      "processed_child_count": 15,
+      "processed_child_count": 26,
       "remaining_child_count": null,
       "count_basis": "No monthly aggregate source has been published yet for May 2026. This bucket tracks source-backed May 1+ public reports and legal updates processed individually.",
       "count_source_url": null,
-      "processed_count": 12,
+      "processed_count": 23,
       "remaining_count": null,
       "processed_record_ids": [
         "turkiye-yirmi-dort-il-cevrimici-cocuk-mustehcenligi-operasyonu-2026",
@@ -184,13 +184,26 @@
         "samsun-carsamba-on-yedi-yas-kiz-cocugu-akran-siddeti-tutuklama-2026",
         "bursa-inegol-kaynar-su-kovasi-iki-yas-cocuk-agir-yaralanma-2026",
         "bursa-inegol-balkon-mermeri-bes-yas-cocuk-agir-yaralanma-2026",
-        "bursa-inegol-ranzadan-dusen-iki-yas-cocuk-kafatasi-kirigi-2026"
+        "bursa-inegol-ranzadan-dusen-iki-yas-cocuk-kafatasi-kirigi-2026",
+        "denizli-civril-bakkal-kiz-ogrenciler-istismar-tutuklama-2026",
+        "mersin-anamur-on-iki-yas-cocuk-olumu-ilk-durusma-2026",
+        "van-cocuk-cinsel-istismar-davasi-tutukluluk-ertelenme-2026",
+        "ankara-cankaya-ortaokul-cinsel-istismar-davasi-beraat-2026",
+        "mersin-toroslar-on-alti-yas-kiz-cocugu-olumu-karar-2026",
+        "diyarbakir-baglar-sekiz-yas-cocuk-cinayeti-gerekceli-karar-2026",
+        "bilecik-golpazari-cocuk-mustehcenligi-hukumlusu-yakalanma-2026",
+        "canakkale-cocuk-cinsel-istismari-kesinlesmis-ceza-yakalama-2026",
+        "bursa-inegol-merdivenden-dusen-bir-yas-bebek-kafatasi-kirigi-2026",
+        "konya-selcuklu-ev-ilaclama-iki-yas-cocuk-zehirlenme-sikayet-2026",
+        "izmir-foca-gocmen-botu-dokuz-yas-cocuk-olumu-kacakcilik-tutuklama-2026"
       ],
       "lead_notes": [
         "May 2026 batch includes one-source and thinly sourced leads when a stable public source exists; wording remains attributed and status stays reported/investigation/unknown/dismissed as appropriate.",
         "Fatmanur Çelik/Hifa İkra existing record was updated with May 4-5 Bianet trial-follow-up sources instead of adding a duplicate marker.",
         "Records omit child names/initials, exact private homes, family-identifying details, schools/workplace addresses, hospitals, funeral/forensic details, media/image details, and other non-essential private-location details.",
-        "May 8 update added Samsun peer-violence/tutuklama and three Bursa child-injury safety/investigation records. Existing Mersin Bozyazı poisoning record was updated with May 6 fosfor sinir gazı/karantina findings; existing Adıyaman record received Medyascope corroboration."
+        "May 8 update added Samsun peer-violence/tutuklama and three Bursa child-injury safety/investigation records. Existing Mersin Bozyazı poisoning record was updated with May 6 fosfor sinir gazı/karantina findings; existing Adıyaman record received Medyascope corroboration.",
+        "May 8 continuation added Denizli/Çivril grocery-store abuse allegation, Mersin/Anamur child-death trial, Van child sexual-abuse trial, Ankara/Çankaya school abuse acquittal, Mersin/Toroslar child-killing verdict, Diyarbakır/Bağlar reasoned judgment in a child-killing case, and Bilecik/Çanakkale child sexual-abuse-material or abuse conviction-enforcement records. Thin legal-enforcement records are kept with affected_child_count null where public sources do not identify affected child counts or locations.",
+        "May 9 update merged additional Habertürk/Denizli24 sources into the existing Denizli/Çivril school-area sexual-abuse record and added Bursa/İnegöl stair-fall injury, Konya/Selçuklu pesticide-poisoning complaint, and İzmir/Foça migrant-smuggling child-death records. Thin or one-agency leads remain attributed and use coarse child-safe locations."
       ]
     }
   ]

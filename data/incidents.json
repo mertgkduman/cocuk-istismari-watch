@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-08",
+  "updated_at": "2026-05-09",
   "description": "Reviewed public records for Çocuk İstismarı Takip. Public records must keep at least one stable public source URL and avoid adding non-public child-identifying details.",
   "records": [
     {
@@ -4194,6 +4194,641 @@
           "publisher": "Haberler.com / DHA",
           "type": "news",
           "published_at": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "denizli-civril-bakkal-kiz-ogrenciler-istismar-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "investigation",
+      "title": "Denizli/Çivril'de kız öğrencilere yönelik bakkal istismarı iddiası",
+      "summary": "Denizli Ekspres, Sözcü ve Denizli Muhabir'in 1 Mayıs 2026 tarihli haberlerine göre, Denizli'nin Çivril ilçesinde okul çıkışı bir bakkala giden kız öğrencinin iş yeri sahibi tarafından cinsel istismara uğradığı iddiasıyla soruşturma başlatıldı. Haberlerde, çocuğun rehber öğretmene anlatımı ve aile şikayetleri sonrasında aynı okuldan iki öğrencinin daha benzer şikayette bulunduğu, şüphelinin ilk serbest bırakılmasının ardından savcılık itirazıyla tutuklandığı aktarıldı. Kayıt, iddiaları kaynaklara atfederek tutar; çocukların kimlikleri, okul, işyeri adresi, kamera/görüntü ayrıntıları ve özel konum bilgileri kullanılmadı.",
+      "institution": "Okul çevresi / küçük esnaf işyeri güvenliği",
+      "legal_status": "Kaynaklar şüphelinin savcılık itirazı sonrasında 'çocuğun cinsel istismarı' suçundan tutuklandığını bildiriyor; yargılama sonucu kamu kaynaklarında henüz yer almıyor.",
+      "affected_child_count": 3,
+      "reported_date": "2026-05-01",
+      "event_date": "2026-05-01",
+      "last_verified_at": "2026-05-09",
+      "locations": [
+        {
+          "id": "denizli-civril-grocery-schoolgirls-abuse-claim",
+          "label": "Çivril / Denizli",
+          "province_key": "DENIZLI",
+          "province": "Denizli",
+          "district": "Çivril",
+          "lat": 38.3,
+          "lng": 29.74,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Çivril ilçesi ve okul çıkışı/bakkal bağlamını verir; çocuk kimlikleri, okul adı, işyeri adresi, kamera ayrıntıları ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-01",
+          "status": "investigation",
+          "note": "Yerel ve ulusal kaynaklar, bir kız öğrencinin rehber öğretmene anlatımı ve aile şikayetleri sonrasında soruşturma yürütüldüğünü, iki öğrencinin daha benzer şikayette bulunduğunu aktardı."
+        },
+        {
+          "date": "2026-05-01",
+          "status": "investigation",
+          "note": "Kaynaklar, şüphelinin ilk serbest bırakılmasının ardından savcılık itirazı üzerine yeniden yakalanarak tutuklandığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Denizli'de istismar iddiası: Şüpheli ilk serbest bırakıldı, itiraz üzerine tutuklandı",
+          "url": "https://www.denizliekspres.com.tr/denizli-de-istismar-iddiasi-supheli-ilk-serbest-birakildi-itiraz-uzerine-tutuklandi/52029/",
+          "publisher": "Denizli Ekspres",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Denizli'de mide bulandıran olay: Tacizci bakkal kamera kayıtlarıyla yakalandı",
+          "url": "https://www.sozcu.com.tr/amp/denizli-de-mide-bulandiran-olay-tacizci-bakkal-kamera-kayitlariyla-yakalandi-p315860",
+          "publisher": "Sözcü",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Küçük kızları taciz eden bakkalı kameralar ele verdi",
+          "url": "https://www.denizlimuhabir.com/kucuk-kizlari-taciz-eden-bakkali-kameralar-ele-verdi/67732",
+          "publisher": "Denizli Muhabir",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Kız çocuklarına cinsel taciz... Bakkal değil sapık!",
+          "url": "https://www.haberturk.com/son-dakika-kiz-cocuklarina-cinsel-taciz-bakkal-degil-sapik-denizli-haberleri-3881503",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Denizli’de öğrencileri taciz eden bakkal tutuklandı",
+          "url": "https://www.denizli24haber.com/denizli/denizlide-ogrencileri-taciz-eden-bakkal-tutuklandi/74570",
+          "publisher": "Denizli24haber / İHA",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Denizli'de mide bulandıran olay: Tacizci bakkal kamera kayıtlarıyla yakalandı",
+          "url": "https://www.sozcu.com.tr/denizli-de-mide-bulandiran-olay-tacizci-bakkal-kamera-kayitlariyla-yakalandi-p315860",
+          "publisher": "Sözcü",
+          "type": "news",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "id": "mersin-anamur-on-iki-yas-cocuk-olumu-ilk-durusma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "trial",
+      "title": "Mersin/Anamur'da 12 yaşındaki çocuğun ölümüyle ilgili ilk duruşma",
+      "summary": "Habertürk/İHA ve A Haber/DHA'nın 1 Mayıs 2026 tarihli haberlerine göre, Anamur'da Temmuz 2025'te bir iş hanında ölü bulunan 12 yaşındaki çocukla ilgili davanın ilk duruşması görüldü. Kaynaklar, tutuklu sanığın çocuğu kovaladığı iddiasını, tanıkların tehdit ve fiziksel temas anlatımlarını, mahkemenin tutukluluğun devamına ve olay yerinde keşif yapılmasına karar verdiğini aktardı. Kayıt, Mayıs 2026'daki yargılama gelişmesi olarak tutulur; çocuğun adı, işyeri/pasaj adı, sokak, aile beyanı ayrıntıları, otopsi ve görüntü ayrıntıları kullanılmadı.",
+      "institution": "Çocuk ölümü davası / Anamur Ağır Ceza Mahkemesi",
+      "legal_status": "İlk duruşmada sanığın tutukluluk halinin devamına, olay yerinde keşif yapılmasına ve duruşmanın ertelenmesine karar verildiği bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-01",
+      "event_date": "2025-07-29",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "mersin-anamur-child-death-trial",
+          "label": "Anamur / Mersin",
+          "province_key": "MERSIN",
+          "province": "Mersin",
+          "district": "Anamur",
+          "lat": 36.08,
+          "lng": 32.84,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Anamur ilçesi ve yargılama bağlamını verir; çocuk adı, işyeri/pasaj adı, cadde/sokak, işyeri, aile ve görüntü ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-07-29",
+          "status": "investigation",
+          "note": "Kaynaklar, 12 yaşındaki çocuğun Anamur'da bir iş hanında ölü bulunduğunu ve tutuklu sanık hakkında dava açıldığını aktardı."
+        },
+        {
+          "date": "2026-05-01",
+          "status": "trial",
+          "note": "Habertürk/İHA ve A Haber/DHA, ilk duruşmada tanıkların dinlendiğini, tutukluluk halinin devamına ve keşif yapılmasına karar verildiğini bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Pasajda ölü bulunan çocuğun ilk duruşması görüldü: Olay yerinde çifte keşif yapıldı",
+          "url": "https://www.haberturk.com/yerel-haberler/mersin-haberleri/pasajda-olu-bulunan-eyup-canin-ilk-durusmasi-goruldu-olay-yerinde-cifte-kesif-yapildi-117695725",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Mersin'de 12 yaşındaki çocuğun sır ölümü davasında ilk duruşma",
+          "url": "https://www.ahaber.com.tr/yasam/2026/05/01/mersinde-12-yasindaki-eyup-canin-sir-olumu-taniktan-kan-donduran-ifade-terbiyesizlik-yaptin-bedelini-odeyeceksin",
+          "publisher": "A Haber / DHA",
+          "type": "news",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "id": "van-cocuk-cinsel-istismar-davasi-tutukluluk-ertelenme-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "trial",
+      "title": "Van'da çocukken maruz bırakıldığı cinsel istismar davasında duruşma",
+      "summary": "Mezopotamya Ajansı, Artı Gerçek, JINNEWS ve Yeni Yaşam'ın 6-7 Mayıs 2026 tarihli haberlerine göre, Van'da 14 yaşındayken aile içi cinsel istismara maruz bırakıldığı bildirilen çocuğa ilişkin davada failin bir yılı aşkın süre sonra tutuklandığı ve 7 Mayıs'taki duruşmada tutukluluğun devamına karar verilerek dosyanın ertelendiği aktarıldı. Kaynaklar, iddianamenin Van 7. Ağır Ceza Mahkemesi tarafından kabul edildiğini ve duruşmanın kapalı görüldüğünü bildirdi. Kayıt, kaynakların aktardığı yargılama sürecini tutar; çocuğun kimliği, aile bağları, doğum/sağlık ayrıntıları, ev/adres ve özel konum bilgileri kullanılmadı.",
+      "institution": "Van 7. Ağır Ceza Mahkemesi",
+      "legal_status": "Kaynaklar sanığın 'ikinci derece kan hısımlığı bulunan kişiye karşı nitelikli cinsel istismar' suçundan tutuklu yargılandığını, 7 Mayıs duruşmasında tutukluluğun devamına ve davanın ertelenmesine karar verildiğini bildiriyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-06",
+      "event_date": "2023",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "van-child-abuse-trial-province",
+          "label": "Van",
+          "province_key": "VAN",
+          "province": "Van",
+          "district": "",
+          "lat": 38.5,
+          "lng": 43.37,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Van ve yargılama/polis süreci bağlamını verir; çocuğun ilçesi, evi, aile bağlantıları, sağlık/doğum ayrıntıları ve özel adres bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-06",
+          "status": "trial",
+          "note": "Mezopotamya Ajansı, Artı Gerçek, JINNEWS ve Yeni Yaşam, failin bir yılı aşkın süre sonra çocuk istismarı davası kapsamında tutuklandığını ve duruşmanın 7 Mayıs'ta görüleceğini aktardı."
+        },
+        {
+          "date": "2026-05-07",
+          "status": "trial",
+          "note": "Mezopotamya Ajansı, duruşmanın kapalı görüldüğünü, sanığın tutukluluk halinin devamına karar verildiğini ve davanın ertelendiğini bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Tecavüz faili bir yıl sonra tutuklandı: Dava yarın",
+          "url": "https://mezopotamyaajansi40.com/GENCLIK/content/view/311311",
+          "publisher": "Mezopotamya Ajansı",
+          "type": "news",
+          "published_at": "2026-05-06"
+        },
+        {
+          "title": "Tecavüz faili bir yıl sonra tutuklandı: Duruşma yarın",
+          "url": "https://artigercek.com/kadin/tecavuz-faili-bir-yil-sonra-tutuklandi-durusma-yarin-345964h",
+          "publisher": "Artı Gerçek / Mezopotamya Ajansı",
+          "type": "news",
+          "published_at": "2026-05-06"
+        },
+        {
+          "title": "Çocuğa tecavüz davası ertelendi",
+          "url": "https://mezopotamyaajansi.com/GENCLIK/content/view/311418",
+          "publisher": "Mezopotamya Ajansı",
+          "type": "news",
+          "published_at": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "ankara-cankaya-ortaokul-cinsel-istismar-davasi-beraat-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "institutional_abuse",
+      "status": "acquittal",
+      "title": "Ankara/Çankaya'da okul kaynaklı cinsel istismar davasında beraat",
+      "summary": "Yeni Yaşam ve İlke TV'nin 7 Mayıs 2026 tarihli haberlerine göre, Ankara Çankaya'daki bir ortaokulda 13 yaşındaki kız çocuğuna yönelik taciz ve cinsel istismar iddiasıyla 17 öğrenci hakkında açılan davada Ankara 1. Çocuk Ağır Ceza Mahkemesi beraat kararı verdi. Haberlerde, ailenin avukatının adli tıp raporunun yok sayıldığı ve kararın istinafa taşındığı yönündeki açıklamaları aktarıldı. Kayıt, mahkeme kararını ve itiraz sürecini kaynaklara atfederek tutar; çocuğun kimliği, okul adı, sınıf, tuvalet/olay yeri ayrıntıları ve özel konum bilgileri kullanılmadı.",
+      "institution": "Ortaokul / Ankara 1. Çocuk Ağır Ceza Mahkemesi",
+      "legal_status": "Kaynaklar mahkemenin beraat kararı verdiğini ve ailenin avukatının kararı istinafa taşıdığını bildiriyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-07",
+      "event_date": "2023",
+      "decision_date": "2026-05-07",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "ankara-cankaya-school-abuse-acquittal",
+          "label": "Çankaya / Ankara",
+          "province_key": "ANKARA",
+          "province": "Ankara",
+          "district": "Çankaya",
+          "lat": 39.92,
+          "lng": 32.85,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Çankaya ilçesi, okul ve Ankara 1. Çocuk Ağır Ceza Mahkemesi bağlamını verir; çocuk kimliği, okul adı, sınıf, olay yeri ayrıntıları ve özel konum bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2023",
+          "status": "investigation",
+          "note": "Kaynaklar, çocuğun 2023'te sözlü/fiziksel taciz ve cinsel istismar iddiasını ailesine aktarması üzerine soruşturma yürütüldüğünü bildirdi."
+        },
+        {
+          "date": "2026-05-07",
+          "status": "acquittal",
+          "note": "Yeni Yaşam ve İlke TV, Ankara 1. Çocuk Ağır Ceza Mahkemesi'nin suça sürüklenen çocuklar hakkında beraat kararı verdiğini ve kararın istinafa taşındığını aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Cinsel istismar davasında ATK raporuna rağmen beraat kararı",
+          "url": "https://yeniyasamgazetesi9.com/cinsel-istismar-davasinda-atk-raporuna-ragmen-beraat-karari/",
+          "publisher": "Yeni Yaşam",
+          "type": "news",
+          "published_at": "2026-05-07"
+        },
+        {
+          "title": "17 erkek öğrenci hakkındaki istismar davasında beraat kararı",
+          "url": "https://ilketv.com.tr/17-erkek-ogrenci-hakkindaki-istismar-davasinda-beraat-karari/",
+          "publisher": "İlke TV / ANKA",
+          "type": "news",
+          "published_at": "2026-05-07"
+        }
+      ]
+    },
+    {
+      "id": "mersin-toroslar-on-alti-yas-kiz-cocugu-olumu-karar-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "conviction",
+      "title": "Mersin/Toroslar'da 16 yaşındaki kız çocuğunun öldürülmesi davasında karar",
+      "summary": "Habertürk/DHA ve Habertürk/AA'nın 8 Mayıs 2026 tarihli haberlerine göre, Mersin'in Toroslar ilçesinde 2025'te 16 yaşındaki kız çocuğunun otomobilde ateşli silahla öldürülmesine ilişkin davada karar çıktı. Kaynaklar, bir sanığa 'çocuğu olası kastla öldürme' suçundan müebbet hapis ve ruhsatsız silah suçundan hapis cezası verildiğini, iki sanığa delil yok etme/gizleme/değiştirme suçundan kısa süreli hapis cezası verilip tahliye edildiklerini bildirdi. Kayıt, karar duruşmasını kaynaklara atfeder; çocuğun adı, aile beyanları, mahalle/cadde, araç, hastane, olay anlatımı, adli tıp ve görsel ayrıntılar kullanılmadı.",
+      "institution": "Mersin 5. Ağır Ceza Mahkemesi",
+      "legal_status": "8 Mayıs 2026 karar duruşmasında bir sanığa müebbet hapis ve ruhsatsız silah suçundan hapis cezası verildiği; iki sanığın delil yok etme/gizleme/değiştirme suçundan cezalandırılıp tahliye edildiği bildirildi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-08",
+      "event_date": "2025-08-31",
+      "decision_date": "2026-05-08",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "mersin-toroslar-girl-child-killing-verdict",
+          "label": "Toroslar / Mersin",
+          "province_key": "MERSIN",
+          "province": "Mersin",
+          "district": "Toroslar",
+          "lat": 36.86,
+          "lng": 34.6,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Toroslar ilçesi ve Mersin 5. Ağır Ceza Mahkemesi bağlamını verir; çocuk adı, mahalle/cadde, araç, hastane, aile ve olay yeri ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2025-08-31",
+          "status": "investigation",
+          "note": "Kaynaklar, Toroslar ilçesinde 16 yaşındaki kız çocuğunun ateşli silahla ağır yaralanıp hastanede hayatını kaybettiğini aktardı."
+        },
+        {
+          "date": "2026-05-08",
+          "status": "conviction",
+          "note": "Habertürk/DHA ve Habertürk/AA, karar duruşmasında bir sanığın çocuğu olası kastla öldürme suçundan müebbet hapis cezasına çarptırıldığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Hiranur davasında karar çıktı! 1 müebbet, 2 tahliye!",
+          "url": "https://www.haberturk.com/son-dakika-haberleri-hiranur-aygar-davasinda-karar-cikti-1-muebbet-2-tahliye-3883173",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-05-08"
+        },
+        {
+          "title": "Mersin'de 16 yaşındaki çocuğun öldürülmesine ilişkin davada karar çıktı",
+          "url": "https://www.haberturk.com/yerel-haberler/mersin-haberleri/mersinde-16-yasindaki-hiranurun-oldurulmesine-iliskin-davada-karar-cikti-41321359",
+          "publisher": "Habertürk / AA",
+          "type": "news",
+          "published_at": "2026-05-08"
+        }
+      ]
+    },
+    {
+      "id": "diyarbakir-baglar-sekiz-yas-cocuk-cinayeti-gerekceli-karar-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "physical_abuse",
+      "status": "conviction",
+      "title": "Diyarbakır/Bağlar'da 8 yaşındaki çocuğun öldürülmesi dosyasında gerekçeli karar",
+      "summary": "A Haber, TR724 ve Aydınlık'ın 1 Mayıs 2026 tarihli haberlerine göre, Diyarbakır'ın Bağlar ilçesinde öldürülen 8 yaşındaki çocukla ilgili yeniden yargılama sonucunda verilen 17 yıl hapis cezasının gerekçeli kararı açıklandı. Kaynaklar, mahkemenin sanığın savunmasını teknik delillerle çelişkili bulduğunu ve 'nitelikli olarak çocuğu kasten öldürmeye yardım' suçundan verilen cezanın gerekçelendirildiğini aktardı. Kayıt, Mayıs 2026'daki yargı gerekçesi olarak tutulur; çocuğun adı, köy/mahalle, ev, dere, aile ayrıntıları, ceset/forensik ayrıntılar ve medya görselleri kullanılmadı.",
+      "institution": "Diyarbakır 8. Ağır Ceza Mahkemesi",
+      "legal_status": "Kaynaklar, yeniden yargılamada verilen 17 yıl hapis cezasına ilişkin gerekçeli kararın açıklandığını ve dosyadaki diğer kesinleşmiş ağır cezaların da yargı süreci bağlamında anıldığını bildiriyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-01",
+      "event_date": "2024-08-21",
+      "decision_date": "2026-05-01",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "diyarbakir-baglar-child-killing-reasoned-decision",
+          "label": "Bağlar / Diyarbakır",
+          "province_key": "DIYARBAKIR",
+          "province": "Diyarbakır",
+          "district": "Bağlar",
+          "lat": 37.91,
+          "lng": 40.19,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Bağlar ilçesi ve mahkeme dosyası bağlamını verir; çocuk adı, köy/mahalle, ev, dere, aile bağlantıları, adli tıp ve medya ayrıntıları haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2024-08-21",
+          "status": "investigation",
+          "note": "Kaynaklar, 8 yaşındaki çocuğun kaybolması ve sonrasında öldürülmüş halde bulunmasına ilişkin önceki soruşturma ve yargılama sürecini özetledi."
+        },
+        {
+          "date": "2026-05-01",
+          "status": "conviction",
+          "note": "A Haber, TR724 ve Aydınlık, yeniden yargılama sonrasında verilen 17 yıl hapis cezasının gerekçeli kararının açıklandığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Narin Güran davasında gerekçeli karar: Salim Güran ve Nevzat Bahtiyar cinayet öncesi bir arada",
+          "url": "https://www.ahaber.com.tr/gundem/2026/05/01/narin-guran-davasinda-gerekceli-karar-salim-guran-ve-nevzat-bahtiyar-cinayet-oncesi-bir-arada",
+          "publisher": "A Haber",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Narin Güran cinayeti | Mahkeme gerekçesini açıkladı",
+          "url": "https://www.tr724.com/narin-guran-cinayeti-mahkeme-gerekcesini-acikladi-nevzat-bahtiyarin-savunmasi-teknik-delillerle-celisiyor/",
+          "publisher": "TR724",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Narin Güran davası: Gerekçeli karar açıklandı",
+          "url": "https://www.aydinlik.com.tr/haber/narin-guran-davasi-gerekceli-karar-aciklandi-575482",
+          "publisher": "Aydınlık",
+          "type": "news",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "id": "bilecik-golpazari-cocuk-mustehcenligi-hukumlusu-yakalanma-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "conviction",
+      "title": "Bilecik/Gölpazarı'nda çocuk müstehcenliği hükümlüsünün yakalanması",
+      "summary": "Kamu Haber'in 6 Mayıs 2026 tarihli haberine göre, Bilecik İl Jandarma Komutanlığı aranan şahısların yakalanmasına yönelik çalışmada Gölpazarı ilçesine bağlı bir köyde, 'çocukların kullanıldığı müstehcen yayınları ülkeye sokmak, çoğaltmak, satmak, nakletmek, ihraç etmek' suçundan hakkında 2 yıl 1 ay 5 gün kesinleşmiş hapis cezası bulunan bir kişiyi yakaladı. Kayıt, kesinleşmiş cezanın infazına yönelik kamu kaydını tutar; mağdur çocuk sayısı, çocukların konumları, köy, kişi adı ve özel adres bilgileri kullanılmadı.",
+      "institution": "Bilecik İl Jandarma Komutanlığı / Gölpazarı infaz işlemi",
+      "legal_status": "Kaynak, kesinleşmiş hapis cezası bulunan kişinin yakalanarak Gölpazarı Açık Cezaevi'ne teslim edildiğini bildiriyor.",
+      "affected_child_count": null,
+      "reported_date": "2026-05-06",
+      "decision_date": "2026-05-06",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "bilecik-golpazari-child-obscenity-conviction-arrest",
+          "label": "Gölpazarı / Bilecik",
+          "province_key": "BILECIK",
+          "province": "Bilecik",
+          "district": "Gölpazarı",
+          "lat": 40.28,
+          "lng": 30.32,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynak Gölpazarı ilçesine bağlı köyde yakalama/infaz işlemini bildirir; mağdur çocuk konumları, köy, kişi adı ve özel adres bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-06",
+          "status": "conviction",
+          "note": "Kamu Haber, kesinleşmiş çocuk müstehcenliği suçundan hapis cezası bulunan kişinin Gölpazarı'nda yakalanıp açık cezaevine teslim edildiğini aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Çocuk istismarı suçundan aranan şahıs yakalandı",
+          "url": "https://www.kamu3.com/cocuk-istismari-sucundan-aranan-sahis-yakalandi/1285472/",
+          "publisher": "Kamu Haber",
+          "type": "news",
+          "published_at": "2026-05-06"
+        }
+      ]
+    },
+    {
+      "id": "canakkale-cocuk-cinsel-istismari-kesinlesmis-ceza-yakalama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "sexual_abuse",
+      "status": "conviction",
+      "title": "Çanakkale'de çocuk cinsel istismarı hükümlüsünün yakalanması",
+      "summary": "Habertürk/İHA ve Bursa Hakimiyet/İHA'nın 5 Mayıs 2026 tarihli haberlerine göre, Çanakkale İl Jandarma Komutanlığı'nın 27 Nisan-3 Mayıs tarihleri arasındaki aranan şahıs çalışmasında, 'cebir, tehdit veya hile kullanarak kişiyi hürriyetinden yoksun kılma' ve 'on iki yaşını tamamlamış çocuğun cinsel istismarı' suçlarından 28 yıl 6 ay 15 gün kesinleşmiş hapis cezası bulunan bir kişi yakalandı. Kayıt, kamu kaynaklarında geçen kesinleşmiş ceza/yakalama bilgisini tutar; olay tarihi, çocuk kimliği, mağdur sayısı, ilçeler ve özel konumlar açıklanmadığı için eklenmedi.",
+      "institution": "Çanakkale İl Jandarma Komutanlığı / kesinleşmiş ceza infaz işlemi",
+      "legal_status": "Kaynaklar, kesinleşmiş hapis cezası bulunan kişinin aranan şahıs çalışması kapsamında yakalandığını ve 101 şüpheliden 18'inin tutuklandığını bildiriyor.",
+      "affected_child_count": null,
+      "reported_date": "2026-05-05",
+      "decision_date": "2026-05-05",
+      "last_verified_at": "2026-05-08",
+      "locations": [
+        {
+          "id": "canakkale-child-sexual-abuse-conviction-arrest",
+          "label": "Çanakkale",
+          "province_key": "CANAKKALE",
+          "province": "Çanakkale",
+          "district": "",
+          "lat": 40.15,
+          "lng": 26.41,
+          "geocode_precision": "province_centroid",
+          "location_basis": "Kaynaklar Çanakkale İl Jandarma Komutanlığı'nın il genelindeki aranan şahıs çalışmasını bildirir; olay yeri, çocuk konumu, ilçe ve özel adres bilgileri açıklanmadığı için il merkezi kullanıldı."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-05",
+          "status": "conviction",
+          "note": "Habertürk/İHA ve Bursa Hakimiyet/İHA, çocuk cinsel istismarı ve hürriyetten yoksun bırakma suçlarından kesinleşmiş cezası bulunan bir kişinin aranan şahıs çalışmasında yakalandığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Çanakkale'de çeşitli suçlardan aranan 18 şüpheli tutuklandı",
+          "url": "https://www.haberturk.com/yerel-haberler/canakkale-haberleri/canakkalede-cesitli-suclardan-aranan-18-supheli-tutuklandi-117753253",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-05"
+        },
+        {
+          "title": "Çanakkale'de çeşitli suçlardan aranan 18 şüpheli tutuklandı",
+          "url": "https://www.bursahakimiyet.com.tr/gundem/canakkale-de-cesitli-suclardan-aranan-18-supheli-tutuklandi-1621880",
+          "publisher": "Bursa Hakimiyet / İHA",
+          "type": "news",
+          "published_at": "2026-05-05"
+        }
+      ]
+    },
+    {
+      "id": "bursa-inegol-merdivenden-dusen-bir-yas-bebek-kafatasi-kirigi-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Bursa/İnegöl'de merdivenden düşen 1 yaşındaki bebeğin yaralanması",
+      "summary": "Habertürk/İHA ve İHA'nın 2 Mayıs 2026 tarihli haberlerine göre, Bursa'nın İnegöl ilçesinde yeni yürümeye başlayan 1 yaşındaki bir bebek ev kapısının açık kalması sonrası merdivene yönelip düşerek yaralandı; kaynaklar kafatasında kırık tespit edildiğini ve başka bir hastaneye sevk edildiğini aktardı. Haberlerde olayla ilgili soruşturma başlatıldığı bildirildi. Kayıt, ev içi çocuk güvenliği/ihmal şüphesi bakımından tutulur; çocuğun baş harfi, açık adres, sağlık kurumu, aile bilgileri ve görsel ayrıntılar haritaya eklenmedi.",
+      "institution": "Ev içi çocuk yaralanması / güvenlik ve ihmal incelemesi",
+      "legal_status": "Kaynaklar olayla ilgili soruşturma başlatıldığını bildiriyor; ihmal veya kast kamu kaynaklarında netleşmedi.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-02",
+      "event_date": "2026-05-02",
+      "last_verified_at": "2026-05-09",
+      "locations": [
+        {
+          "id": "bursa-inegol-stairs-infant-head-injury",
+          "label": "İnegöl / Bursa",
+          "province_key": "BURSA",
+          "province": "Bursa",
+          "district": "İnegöl",
+          "lat": 40.08,
+          "lng": 29.51,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar İnegöl ilçesinde ev içi merdiven yaralanması bağlamını verir; mahalle, sokak, ev, sağlık kurumu, çocuk baş harfi ve aile bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-02",
+          "status": "investigation",
+          "note": "Habertürk/İHA ve İHA, 1 yaşındaki bebeğin merdivenden düşerek kafatasında kırıkla sevk edildiğini ve olayla ilgili soruşturma başlatıldığını aktardı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Merdivenlerden yuvarlanan 1 yaşındaki bebek yaralandı",
+          "url": "https://www.haberturk.com/yerel-haberler/bursa-haberleri/merdivenlerden-yuvarlanan-1-yasindaki-bebek-yaralandi-117715666",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-02"
+        },
+        {
+          "title": "Merdivenlerden yuvarlanan 1 yaşındaki bebek yaralandı",
+          "url": "https://www.iha.com.tr/bursa-haberleri/merdivenlerden-yuvarlanan-1-yasindaki-bebek-yaralandi-417210223",
+          "publisher": "İhlas Haber Ajansı",
+          "type": "news",
+          "published_at": "2026-05-02"
+        }
+      ]
+    },
+    {
+      "id": "konya-selcuklu-ev-ilaclama-iki-yas-cocuk-zehirlenme-sikayet-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "neglect",
+      "status": "investigation",
+      "title": "Konya/Selçuklu'da ev ilaçlaması sonrası 2 yaşındaki çocuğun zehirlenmesi",
+      "summary": "Habertürk/İHA, Haberler.com/İHA ve GZT'nin 1 Mayıs 2026 tarihli haberlerine göre, Konya'nın Selçuklu ilçesinde bir aile, tahta kurusu nedeniyle anlaştığı ilaçlama firması sonrası eve döndükten sonra 2 yaşındaki çocuğun ve annesinin zehirlenme belirtileri gösterdiğini, çocuğun yoğun bakıma alındığını ve aile babasının savcılığa şikayette bulunduğunu aktardı. Kaynaklar, ailenin evlerde kullanımı yasak olduğunu söylediği alüminyum fosfit/organofosfat iddiasını ve olay yeri incelemesinde tablet kalıntıları bulunduğu beyanını aktarıyor. Kayıt, şirket adı, çocuğun adı, açık ev adresi, sağlık kurumu ve özel aile ayrıntılarını kullanmaz.",
+      "institution": "Özel ilaçlama hizmeti / ev içi kimyasal güvenlik ve ihmal iddiası",
+      "legal_status": "Kaynaklar aile babasının savcılığa şikayette bulunduğunu ve olay yeri inceleme sürecinin yürütüldüğünü aktarıyor; kamu kaynaklarında tutuklama, iddianame veya hüküm bilgisi yok.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-01",
+      "event_date": "2026-04-07",
+      "last_verified_at": "2026-05-09",
+      "locations": [
+        {
+          "id": "konya-selcuklu-pesticide-child-poisoning",
+          "label": "Selçuklu / Konya",
+          "province_key": "KONYA",
+          "province": "Konya",
+          "district": "Selçuklu",
+          "lat": 37.93,
+          "lng": 32.49,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Selçuklu ilçesinde ev ilaçlaması bağlamını verir; mahalle, sokak, ev, şirket adı, sağlık kurumu, çocuk adı ve özel aile bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-04-07",
+          "status": "investigation",
+          "note": "Kaynaklar, ilaçlama işlemi sonrası eve dönen ailede çocuğun ve annenin zehirlenme belirtileri gösterdiğini, çocuğun yoğun bakımda tedavi gördüğünü ve aile babasının şikayetçi olduğunu aktardı."
+        },
+        {
+          "date": "2026-05-01",
+          "status": "investigation",
+          "note": "Habertürk/İHA, Haberler.com/İHA ve GZT, şikayet ve kimyasal kalıntı iddialarını kamuya yansıttı."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Evini ilaçlatan ailenin 2 yaşındaki çocuğu ölümden döndü",
+          "url": "https://www.haberturk.com/evini-ilaclatan-ailenin-2-yasindaki-cocugu-olumden-dondu-haberler-3881527",
+          "publisher": "Habertürk / İHA",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Evini ilaçlatan ailenin 2 yaşındaki kızları ölümden döndü",
+          "url": "https://www.haberler.com/3-sayfa/evini-ilaclatan-ailenin-2-yasindaki-kizlari-19794899-haberi/",
+          "publisher": "Haberler.com / İHA",
+          "type": "news",
+          "published_at": "2026-05-01"
+        },
+        {
+          "title": "Konya'da ev ilaçlamasında yasaklı madde kullanıldı: Zehirlenen 2 yaşındaki bebek yoğun bakıma alındı",
+          "url": "https://www.gzt.com/gundem/konyada-ev-ilaclamasinda-yasakli-madde-kullanildi-zehirlenen-2-yasindaki-bebek-yogun-bakima-alindi-gundem-haberleri-4219684",
+          "publisher": "GZT",
+          "type": "news",
+          "published_at": "2026-05-01"
+        }
+      ]
+    },
+    {
+      "id": "izmir-foca-gocmen-botu-dokuz-yas-cocuk-olumu-kacakcilik-tutuklama-2026",
+      "record_type": "abuse_case",
+      "abuse_type": "multiple_or_unclear",
+      "status": "investigation",
+      "title": "İzmir/Foça açıklarında göçmen botunda 9 yaşındaki çocuğun ölümü",
+      "summary": "Habertürk/DHA ve Gazete Pencere'nin 8 Mayıs 2026 tarihli haberlerine göre, 6 Mayıs gecesi İzmir'in Foça ilçesi açıklarında batma tehlikesi geçiren yarı batık lastik bottaki 43 düzensiz göçmen kurtarıldı; 9 yaşındaki bir çocuğun ise cansız bedenine ulaşıldı. Kaynaklar, organizatör olduğu şüphesiyle yakalanan bir kişinin işlemlerinin ardından tutuklandığını aktardı. Kayıt, göçmen kaçakçılığı ve çocuk yaşam hakkı/ihmal riski bağlamında tutulur; çocuğun kimliği, uyruğu, botun kesin rotası, görüntüler ve özel kurtarma ayrıntıları haritaya eklenmedi.",
+      "institution": "Göçmen kaçakçılığı soruşturması / denizde çocuk ölümü",
+      "legal_status": "Kaynaklar organizatör olduğu şüphesiyle yakalanan bir kişinin göçmen kaçakçılığı soruşturması kapsamında tutuklandığını bildiriyor; kamu kaynaklarında iddianame veya hüküm bilgisi bulunmuyor.",
+      "affected_child_count": 1,
+      "reported_date": "2026-05-08",
+      "event_date": "2026-05-06",
+      "last_verified_at": "2026-05-09",
+      "locations": [
+        {
+          "id": "izmir-foca-migrant-boat-child-death",
+          "label": "Foça açıkları / İzmir",
+          "province_key": "IZMIR",
+          "province": "İzmir",
+          "district": "Foça",
+          "lat": 38.67,
+          "lng": 26.76,
+          "geocode_precision": "district_centroid",
+          "location_basis": "Kaynaklar Foça açıklarında deniz olayı bağlamını verir; çocuğun kimliği, uyruğu, kesin rota/koordinat, kurtarma görüntüleri ve özel göçmen bilgileri haritaya eklenmedi."
+        }
+      ],
+      "timeline": [
+        {
+          "date": "2026-05-06",
+          "status": "investigation",
+          "note": "Kaynaklar Sahil Güvenlik ekiplerinin yarı batık bottan 43 kişiyi kurtardığını, 9 yaşındaki çocuğun hayatını kaybettiğini aktardı."
+        },
+        {
+          "date": "2026-05-08",
+          "status": "investigation",
+          "note": "Habertürk/DHA ve Gazete Pencere, organizatör şüphelisi olarak yakalanan bir kişinin tutuklandığını bildirdi."
+        }
+      ],
+      "sources": [
+        {
+          "title": "İzmir'de göçmen botu yarı batık halde bulundu: 1 çocuk öldü",
+          "url": "https://www.haberturk.com/izmir-de-gocmen-botu-yari-batik-halde-bulundu-1-cocuk-oldu-3883082",
+          "publisher": "Habertürk / DHA",
+          "type": "news",
+          "published_at": "2026-05-08"
+        },
+        {
+          "title": "İzmir’deki göçmen botundan 9 yaşındaki çocuğun cansız bedeni çıktı",
+          "url": "https://www.gazetepencere.com/gundem/izmirdeki-gocmen-botundan-9-yasindaki-cocugun-cansiz-bedeni-cikti-699967h",
+          "publisher": "Gazete Pencere",
+          "type": "news",
+          "published_at": "2026-05-08"
         }
       ]
     }

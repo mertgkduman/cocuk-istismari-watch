@@ -2124,7 +2124,324 @@
           "title": "Skull fracture after 2-year-old child fell from a bunk bed in Bursa"
         }
       ]
+    },
+    "denizli-civril-bakkal-kiz-ogrenciler-istismar-tutuklama-2026": {
+      "title": "Grocery-store abuse allegation involving girl students in Denizli/Civril",
+      "summary": "According to May 1, 2026 reports by Denizli Ekspres, Sözcü, and Denizli Muhabir, an investigation was opened in Denizli's Civril district after a girl student who went to a grocery store after school alleged sexual abuse by the business owner. The reports say the child's disclosure to a guidance teacher and family complaints were followed by similar complaints from two other students at the same school, and that the suspect was arrested after the prosecutor objected to an initial release. The record attributes the allegations to sources; child identities, school, workplace address, camera/image details, and private location information were not used.",
+      "institution": "School-area / small-retail workplace safety",
+      "legal_status": "Sources report that the suspect was arrested on a child sexual-abuse charge after the prosecutor objected to an initial release; no trial outcome appears yet in public sources.",
+      "locations": {
+        "denizli-civril-grocery-schoolgirls-abuse-claim": {
+          "label": "Civril / Denizli",
+          "location_basis": "Sources give Civril district and after-school grocery-store context; child identities, school name, workplace address, camera details, and private location information were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Local and national sources reported that an investigation followed a girl student's disclosure to a guidance teacher and family complaints, and that two other students made similar complaints."
+        },
+        {
+          "note": "Sources reported that the suspect was initially released, then re-detained and arrested after the prosecutor objected."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Denizli abuse allegation: suspect first released, then arrested after objection"
+        },
+        {
+          "title": "Denizli case: grocery-store suspect arrested after camera records"
+        },
+        {
+          "title": "Cameras exposed grocery-store operator accused of harassing young girls"
+        },
+        {
+          "title": "Sexual harassment against girls: shopkeeper arrested"
+        },
+        {
+          "title": "Shopkeeper accused of harassing students in Denizli arrested"
+        },
+        {
+          "title": "Denizli case: shopkeeper caught through camera records"
+        }
+      ]
+    },
+    "mersin-anamur-on-iki-yas-cocuk-olumu-ilk-durusma-2026": {
+      "title": "First hearing in the death of a 12-year-old child in Mersin/Anamur",
+      "summary": "According to May 1, 2026 reports by Habertürk/IHA and A Haber/DHA, the first hearing was held in the case concerning a 12-year-old child found dead in a business arcade in Anamur in July 2025. Sources reported the allegation that the detained defendant chased the child, witness accounts of threats and physical contact, and the court's decision to continue detention and conduct a scene inspection. The record is kept as a May 2026 legal development; the child's name, workplace/arcade name, street, family-statement details, autopsy details, and image details were not used.",
+      "institution": "Child-death case / Anamur Heavy Penal Court",
+      "legal_status": "At the first hearing, sources report that the court ordered continued detention, scene inspection, and adjournment.",
+      "locations": {
+        "mersin-anamur-child-death-trial": {
+          "label": "Anamur / Mersin",
+          "location_basis": "Sources give Anamur district and trial context; child name, workplace/arcade name, avenue/street, workplace, family, and image details were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Sources reported that a 12-year-old child was found dead in a business arcade in Anamur and that a case was opened against a detained defendant."
+        },
+        {
+          "note": "Habertürk/IHA and A Haber/DHA reported that witnesses were heard at the first hearing and the court ordered continued detention and a scene inspection."
+        }
+      ],
+      "sources": [
+        {
+          "title": "First hearing held for child found dead in arcade: two scene inspections"
+        },
+        {
+          "title": "First hearing in the suspicious death of a 12-year-old child in Mersin"
+        }
+      ]
+    },
+    "van-cocuk-cinsel-istismar-davasi-tutukluluk-ertelenme-2026": {
+      "title": "Hearing in Van child sexual-abuse case involving abuse while the survivor was a child",
+      "summary": "According to May 6-7, 2026 reports by Mezopotamya Agency, Artı Gerçek, JINNEWS, and Yeni Yaşam, a defendant in Van was arrested more than a year later in a case concerning a child who was reportedly subjected to intra-family sexual abuse at age 14, and at the May 7 hearing the court ordered continued detention and adjourned the case. Sources said the indictment was accepted by Van 7th Heavy Penal Court and the hearing was closed. The record keeps the source-reported legal process; the child's identity, family relationships, birth/health details, home/address, and private location information were not used.",
+      "institution": "Van 7th Heavy Penal Court",
+      "legal_status": "Sources report that the defendant is being tried in detention for aggravated sexual abuse against a second-degree blood relative and that the May 7 hearing ended with continued detention and adjournment.",
+      "locations": {
+        "van-child-abuse-trial-province": {
+          "label": "Van",
+          "location_basis": "Sources give Van and legal/police-process context; the child's district, home, family links, health/birth details, and private address information were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Mezopotamya Agency, Artı Gerçek, JINNEWS, and Yeni Yaşam reported that the defendant was arrested more than a year later within the child-abuse case and that a hearing would be held on May 7."
+        },
+        {
+          "note": "Mezopotamya Agency reported that the hearing was closed, the defendant's detention was continued, and the case was adjourned."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Rape suspect arrested after one year: case tomorrow"
+        },
+        {
+          "title": "Rape suspect arrested after one year: hearing tomorrow"
+        },
+        {
+          "title": "Child rape case adjourned"
+        }
+      ]
+    },
+    "ankara-cankaya-ortaokul-cinsel-istismar-davasi-beraat-2026": {
+      "title": "Acquittal in school-linked sexual-abuse case in Ankara/Cankaya",
+      "summary": "According to May 7, 2026 reports by Yeni Yaşam and İlke TV, Ankara 1st Juvenile Heavy Penal Court acquitted 17 students tried over allegations of harassment and sexual abuse of a 13-year-old girl at a middle school in Ankara's Cankaya district. The reports carried the family lawyer's statement that a forensic medicine report was disregarded and that the decision was appealed. The record attributes the court decision and appeal process to sources; the child's identity, school name, classroom, restroom/event-location details, and private location information were not used.",
+      "institution": "Middle school / Ankara 1st Juvenile Heavy Penal Court",
+      "legal_status": "Sources report that the court issued an acquittal and that the family lawyer appealed the decision.",
+      "locations": {
+        "ankara-cankaya-school-abuse-acquittal": {
+          "label": "Cankaya / Ankara",
+          "location_basis": "Sources give Cankaya district, school context, and Ankara 1st Juvenile Heavy Penal Court; child identity, school name, classroom, event-location details, and private location information were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Sources reported that an investigation followed the child's 2023 disclosure to her family of alleged verbal/physical harassment and sexual abuse."
+        },
+        {
+          "note": "Yeni Yaşam and İlke TV reported that Ankara 1st Juvenile Heavy Penal Court acquitted the children pushed into crime and that the decision was appealed."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Acquittal in sexual-abuse case despite forensic medicine report"
+        },
+        {
+          "title": "Acquittal in abuse case against 17 male students"
+        }
+      ]
+    },
+    "mersin-toroslar-on-alti-yas-kiz-cocugu-olumu-karar-2026": {
+      "title": "Verdict in case over killing of a 16-year-old girl in Mersin/Toroslar",
+      "summary": "According to May 8, 2026 reports by Habertürk/DHA and Habertürk/AA, a verdict was issued in the case concerning the 2025 firearm killing of a 16-year-old girl in a car in Mersin's Toroslar district. Sources reported that one defendant received a life sentence for killing a child with probable intent and a prison sentence for an unlicensed weapon, while two defendants received short prison sentences for destroying/concealing/altering evidence and were released. The record attributes the verdict hearing to sources; the child's name, family statements, neighborhood/avenue, vehicle, hospital, incident narrative, forensic details, and visual details were not used.",
+      "institution": "Mersin 5th Heavy Penal Court",
+      "legal_status": "At the May 8, 2026 verdict hearing, sources report that one defendant received life imprisonment and an unlicensed-weapon sentence; two defendants were sentenced for evidence destruction/concealment/alteration and released.",
+      "locations": {
+        "mersin-toroslar-girl-child-killing-verdict": {
+          "label": "Toroslar / Mersin",
+          "location_basis": "Sources give Toroslar district and Mersin 5th Heavy Penal Court context; child name, neighborhood/avenue, vehicle, hospital, family, and scene details were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Sources reported that a 16-year-old girl was seriously injured by a firearm in Toroslar district and died at hospital."
+        },
+        {
+          "note": "Habertürk/DHA and Habertürk/AA reported that one defendant was sentenced to life imprisonment for killing a child with probable intent."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Verdict in Hiranur case: one life sentence, two releases"
+        },
+        {
+          "title": "Verdict issued in case over killing of a 16-year-old child in Mersin"
+        }
+      ]
+    },
+    "diyarbakir-baglar-sekiz-yas-cocuk-cinayeti-gerekceli-karar-2026": {
+      "title": "Reasoned judgment in case over killing of an 8-year-old child in Diyarbakir/Baglar",
+      "summary": "According to May 1, 2026 reports by A Haber, TR724, and Aydınlık, the reasoned judgment was released for the 17-year prison sentence issued after retrial in the case concerning an 8-year-old child killed in Diyarbakir's Baglar district. Sources reported that the court found the defendant's defense contradicted technical evidence and explained the sentence for aiding aggravated intentional killing of a child. The record is kept as a May 2026 legal reasoning update; the child's name, village/neighborhood, home, stream, family details, body/forensic details, and media images were not used.",
+      "institution": "Diyarbakir 8th Heavy Penal Court",
+      "legal_status": "Sources report that the reasoned judgment was released for the 17-year prison sentence after retrial, while other finalized aggravated life sentences were also mentioned in the legal-process context.",
+      "locations": {
+        "diyarbakir-baglar-child-killing-reasoned-decision": {
+          "label": "Baglar / Diyarbakir",
+          "location_basis": "Sources give Baglar district and court-file context; child name, village/neighborhood, home, stream, family links, forensic details, and media details were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Sources summarized the earlier investigation and trial process after the 8-year-old child disappeared and was later found killed."
+        },
+        {
+          "note": "A Haber, TR724, and Aydınlık reported that the reasoned judgment was released for the 17-year prison sentence after retrial."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Reasoned judgment in Narin Guran case: Salim Guran and Nevzat Bahtiyar together before killing"
+        },
+        {
+          "title": "Narin Guran killing | Court released its reasoned judgment"
+        },
+        {
+          "title": "Narin Guran case: reasoned judgment released"
+        }
+      ]
+    },
+    "bilecik-golpazari-cocuk-mustehcenligi-hukumlusu-yakalanma-2026": {
+      "title": "Arrest of child-obscenity convict in Bilecik/Golpazari",
+      "summary": "According to Kamu Haber's May 6, 2026 report, Bilecik Provincial Gendarmerie caught a person in a village in Golpazari district who had a final prison sentence of 2 years, 1 month, and 5 days for importing, reproducing, selling, transporting, or exporting obscene publications using children. The record keeps the public enforcement record for a final sentence; the number of affected children, child locations, village, person name, and private address information were not used.",
+      "institution": "Bilecik Provincial Gendarmerie / Golpazari enforcement process",
+      "legal_status": "The source reports that the person with a final prison sentence was caught and delivered to Golpazari Open Prison.",
+      "locations": {
+        "bilecik-golpazari-child-obscenity-conviction-arrest": {
+          "label": "Golpazari / Bilecik",
+          "location_basis": "The source reports arrest/enforcement in a village attached to Golpazari district; affected-child locations, village, person name, and private address information were not added."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Kamu Haber reported that a person with a final prison sentence for child-obscenity offenses was caught in Golpazari and delivered to open prison."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Person wanted for child abuse offense caught"
+        }
+      ]
+    },
+    "canakkale-cocuk-cinsel-istismari-kesinlesmis-ceza-yakalama-2026": {
+      "title": "Arrest of child sexual-abuse convict in Canakkale",
+      "summary": "According to May 5, 2026 reports by Habertürk/IHA and Bursa Hakimiyet/IHA, during Canakkale Provincial Gendarmerie's wanted-person operations from April 27 to May 3, a person with a final prison sentence of 28 years, 6 months, and 15 days for deprivation of liberty by force, threat, or deception and sexual abuse of a child over age 12 was caught. The record keeps the final-sentence/arrest information in public sources; incident date, child identity, victim count, districts, and private locations were not disclosed and were not added.",
+      "institution": "Canakkale Provincial Gendarmerie / final-sentence enforcement process",
+      "legal_status": "Sources report that the person with a final prison sentence was caught during a wanted-person operation and that 18 of 101 suspects were arrested.",
+      "locations": {
+        "canakkale-child-sexual-abuse-conviction-arrest": {
+          "label": "Canakkale",
+          "location_basis": "Sources report Canakkale Provincial Gendarmerie's province-wide wanted-person operation; incident site, child location, district, and private address information were not disclosed, so the province center was used."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Habertürk/IHA and Bursa Hakimiyet/IHA reported that a person with a final sentence for child sexual abuse and deprivation of liberty was caught in a wanted-person operation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "18 suspects wanted for various crimes arrested in Canakkale"
+        },
+        {
+          "title": "18 suspects wanted for various crimes arrested in Canakkale"
+        }
+      ]
+    },
+    "bursa-inegol-merdivenden-dusen-bir-yas-bebek-kafatasi-kirigi-2026": {
+      "title": "Injury of a 1-year-old baby who fell down stairs in Bursa/Inegol",
+      "summary": "According to May 2, 2026 reports by Habertürk/IHA and IHA, a 1-year-old baby who had recently started walking in Bursa's Inegol district was injured after moving toward stairs when a home door was left open; sources reported a skull fracture and transfer to another hospital. The reports said an investigation was opened. The record is kept for home child-safety/possible-neglect questions; the child's initial, open address, health institution, family information, and visual details were not added to the map.",
+      "institution": "Home child injury / safety and neglect inquiry",
+      "legal_status": "Sources report that an investigation was opened; negligence or intent has not been clarified in public sources.",
+      "locations": {
+        "bursa-inegol-stairs-infant-head-injury": {
+          "label": "Inegol / Bursa",
+          "location_basis": "Sources give Inegol district and home stair-injury context; neighborhood, street, home, health institution, child initial, and family information were not added to the map."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Habertürk/IHA and IHA reported that a 1-year-old baby was transferred with a skull fracture after falling down stairs, and that an investigation was opened."
+        }
+      ],
+      "sources": [
+        {
+          "title": "One-year-old baby injured after rolling down stairs"
+        },
+        {
+          "title": "One-year-old baby injured after rolling down stairs"
+        }
+      ]
+    },
+    "konya-selcuklu-ev-ilaclama-iki-yas-cocuk-zehirlenme-sikayet-2026": {
+      "title": "Poisoning of a 2-year-old child after home pest control in Konya/Selcuklu",
+      "summary": "According to May 1, 2026 reports by Habertürk/IHA, Haberler.com/IHA, and GZT, a family in Konya's Selcuklu district said that after returning home following pest-control service for bedbugs, a 2-year-old child and the child's mother showed poisoning symptoms, the child was taken to intensive care, and the father filed a complaint with prosecutors. Sources reported the family's allegation involving aluminum phosphide/organophosphate, which they said is banned for home use, and the statement that tablet residue was found during scene examination. The record does not use the company name, child's name, open home address, health institution, or private family details.",
+      "institution": "Private pest-control service / home chemical safety and neglect allegation",
+      "legal_status": "Sources report that the father filed a complaint with prosecutors and that scene examination was conducted; no public arrest, indictment, or verdict information was found.",
+      "locations": {
+        "konya-selcuklu-pesticide-child-poisoning": {
+          "label": "Selcuklu / Konya",
+          "location_basis": "Sources give Selcuklu district and home pest-control context; neighborhood, street, home, company name, health institution, child's name, and private family information were not added to the map."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Sources reported that after a home pest-control service, the child and mother showed poisoning symptoms, the child received intensive-care treatment, and the father filed a complaint."
+        },
+        {
+          "note": "Habertürk/IHA, Haberler.com/IHA, and GZT made the complaint and chemical-residue allegations public."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Two-year-old child nearly died after family had home treated for pests"
+        },
+        {
+          "title": "Family's 2-year-old daughter nearly died after home pest treatment"
+        },
+        {
+          "title": "Banned substance allegedly used in Konya home pest treatment; 2-year-old baby taken to intensive care"
+        }
+      ]
+    },
+    "izmir-foca-gocmen-botu-dokuz-yas-cocuk-olumu-kacakcilik-tutuklama-2026": {
+      "title": "Death of a 9-year-old child on a migrant boat off Izmir/Foca",
+      "summary": "According to May 8, 2026 reports by Habertürk/DHA and Gazete Pencere, on the night of May 6, Coast Guard teams rescued 43 irregular migrants from a partially sunken rubber boat off Izmir's Foca district; the body of a 9-year-old child was recovered. Sources reported that one person suspected of being an organizer was arrested after procedures. The record is kept in the context of migrant smuggling and child right-to-life/neglect risk; the child's identity, nationality, precise boat route, images, and private rescue details were not added to the map.",
+      "institution": "Migrant-smuggling investigation / child death at sea",
+      "legal_status": "Sources report that one person suspected of being an organizer was arrested in a migrant-smuggling investigation; no public indictment or verdict information was found.",
+      "locations": {
+        "izmir-foca-migrant-boat-child-death": {
+          "label": "Off Foca / Izmir",
+          "location_basis": "Sources give an offshore incident off Foca; the child's identity, nationality, precise route/coordinates, rescue images, and private migrant information were not added to the map."
+        }
+      },
+      "timeline": [
+        {
+          "note": "Sources reported that Coast Guard teams rescued 43 people from a partially sunken boat and that a 9-year-old child died."
+        },
+        {
+          "note": "Habertürk/DHA and Gazete Pencere reported that a person detained as a suspected organizer was arrested."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Migrant boat found partially sunken in Izmir: one child died"
+        },
+        {
+          "title": "Body of 9-year-old child recovered from migrant boat off Izmir"
+        }
+      ]
     }
   },
-  "updated_at": "2026-05-08"
+  "updated_at": "2026-05-09"
 }
